@@ -24,4 +24,9 @@ I'll try to collect several links with background reading.
 
 ### Monads, arrows, and applicative functors
 
+* Phil Wadler -- [Monads for functional programming](http://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf)
 
+* Conor McBride and Ross Paterson --
+  [Applicative programming with Effects](http://www.soi.city.ac.uk/~ross/papers/Applicative.html)
+  
+  
