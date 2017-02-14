@@ -3,6 +3,7 @@ title: Assigments
 layout: default
 ---
 
+<<<<<<< HEAD
 ### Main project
 
 The main project is a variation on the 2004 ICFP Programming Contest,
@@ -33,7 +34,7 @@ deadline.
 
 #### Assignment 1
 
-Please submit the following exercises before **Friday, Feb 24**.
+Please submit the following exercises before **Friday, Feb 17**.
 
 * 2.1.1 (20%)
 * 2.7.1 (15%)
@@ -45,3 +46,6 @@ Further assignments will be announced in due course.
 
 
 
+=======
+Assignments and lab exercises will show up here.
+>>>>>>> 7475dd1f4bebbd3b303ff9f21341012ffc48c6c3
