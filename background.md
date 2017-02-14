@@ -22,3 +22,6 @@ I'll try to collect several links with background reading.
 * Colin Runciman, Matthew Naylor, Fredrik Lindblad --
   [Smallcheck and lazy smallcheck: automatic exhaustive testing for small values](http://dx.doi.org/10.1145/1543134.1411292)
 
+### Monads, arrows, and applicative functors
+
+

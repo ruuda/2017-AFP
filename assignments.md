@@ -33,13 +33,13 @@ deadline.
 
 #### Assignment 1
 
-Please submit the following exercises before **Friday, Feb 17**.
+Please submit the following exercises before **Monday, Feb 20**.
 
-* 2.1.1 (20%)
-* 2.7.1 (15%)
-* 2.8.1 (25%)
-* 2.2.5 (15%)
-* 2.9.1 (25%) 
+* 2.1.1 (20%) - Cabal
+* 2.2.2 (20%) - Unfold
+* 2.2.5 (15%) - Count
+* 2.7.1 (20%) - Permutations
+* 2.9.1 (25%) - Proofs
 
 Further assignments will be announced in due course.
 
