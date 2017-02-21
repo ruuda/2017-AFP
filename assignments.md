@@ -43,3 +43,15 @@ Please submit the following exercises before **Monday, Feb 20**.
 
 Further assignments will be announced in due course.
 
+#### Assignment 2
+
+Please submit the following exercises before **Monday, Feb 27**.
+
+* 2.3 (35%) Monads
+* 3.3.3 (10%) Foldable
+* 3.3.4 (10%) Foldable
+* 3.3.5 (10%) Foldable
+* 2.2.8 (25%) Teletype IO
+* 2.2.9 (10%) Stacks
+
+
