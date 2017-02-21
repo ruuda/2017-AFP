@@ -1,0 +1,45 @@
+
+
+Proof of base case:
+-------------------
+length (flatten (Leaf x)) = size (Leaf x)
+length (flatten (Leaf x)) = 1                | size (Leaf a) = 1
+length [x]                = 1                | flatten (Leaf a) = [a]
+1 + length []             = 1                | length (x:xs) = 1+length xs
+1 + 0                     = 1                | length [] = 0
+1                         = 1                | 1 + 0 = 1
+
+Proof of inductive case:
+------------------------
+length (flatten (Node l r))             = size (Node l r) 
+length (flatten (Node l r))             = size l + size r   | size (Node l r) = size l + size r
+length (flatten l ++ flatten r)         = size l + size r   | flatten (Node l r) = flatten l ++ flatten r
+length (flatten l) + length (flatten r) = size l + size r   | length (xs ++ ys) = length xs + length ys
+size l             + size r             = size l + size r   | by induction
+
+
+Auxiliary proofs:
+
+Definition of ++:
+-----------------
+[]     ++ ys = ys
+(x:xs) ++ ys = x:(xs ++ ys)
+
+
+Proof of length summation, base case:
+-------------------------------------
+length ([] ++ ys) = length [] + length ys
+length ys         = 0         + length ys    | [] ++ ys = ys
+length ys         = length ys                | 0 + x = x
+
+Proof of length summation, inductive case:
+---------------------------------------------------
+length (xs ++ ys)      = length xs      + length ys 
+length x:(xs' ++ ys)   = length (x:xs') + length ys  | (x:xs)++ys = x:(xs++ys)
+1 + length (xs' ++ ys) = 1 + length xs' + length ys  | length (x:xs) = 1+length xs
+length (xs' ++ ys)     = length xs'     + length ys  | - 1
+length xs' + length ys = length xs'     + length ys  | by induction
+
+
+
+
