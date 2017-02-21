@@ -41,8 +41,6 @@ Please submit the following exercises before **Monday, Feb 20**.
 * 2.7.1 (20%) - Permutations
 * 2.9.1 (25%) - Proofs
 
-Further assignments will be announced in due course.
-
 #### Assignment 2
 
 Please submit the following exercises before **Monday, Feb 27**.
@@ -53,5 +51,10 @@ Please submit the following exercises before **Monday, Feb 27**.
 * 3.3.5 (10%) Foldable
 * 2.2.8 (25%) Teletype IO
 * 2.2.9 (10%) Stacks
+
+Further assignments will be announced in due course.
+
+
+
 
 
