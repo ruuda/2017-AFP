@@ -11,20 +11,23 @@ map
 used case instead of where with a next function.
 
 balanced
-used ase instead of where clause with next function.  Building the tree with an
+used case instead of where clause with next function.  Building the tree with an
 increasing integer instead of a decreasing integer. Missing error for negative
 integer case, this makes the computation loop forever.
+-5 points
 
 sized
 this implementation works but is less elegant than the solution version because
 it carries depth and label information explicitly in a tuple which decreases
 readability.
+-3 points
 
 *** Assignment count ***
 
 I split up the class in two methods, one base case method and one for adding a
 number for each argument. Clearly Wouter's method is smaller and simpler in
 essence.
+-3
 
 *** Assignment Permutation tree ***
 
@@ -40,20 +43,27 @@ The idea is
 Data type
 Polymorphic rose trees, and an Init for the beginning of the tree, could have
 been done in a list. No leaf constructor
+-5 points
 
 paths
-more cases to catch Init, Pleaf constructor, concatMap use instead of list monad
+more cases to catch Init, no Pleaf constructor, concatMap use instead of list monad
 bind (equal but less readable)
+-3 points
 
 prune
 Prune is really difficult to read compared to the one from the solution. I don't
 really know how i would explain what i did here. :(
+-5 points
 
 toTree
 Implementation of the toTree algorithm already removes branches that are `not
 smooth`. the `heads` function could have been taken form the assignment because
 it does the same, but it's much less clear.
+-5 points
 
 *** Assignment proofs ***
 
 Proofs are equal.
+
+100 - 29 points = 71 points
+final grade 7.1
