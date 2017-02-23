@@ -1,0 +1,34 @@
+Reflection
+==========
+
+Our final grade is a 9.8
+
+# Cabal
+
+Our solution is packaged with cabal and has also a `stack.yaml` in case someone wants to use stack
+instead. Therefore we give ourselves a 10.
+
+# Unfold
+
+Our implementation is similar to the reference one, with the only exception of the `sized` function.
+In the `sized` function we use the `State` monad to label the tree, instead of generating a list of
+ids and turn that into a tree. Our version of `sized` seems a little bit more complex than necessary.
+Therefore, we give ourselves a 9.5.
+
+# Count
+
+Our implementation is based on taking the length of a list, instead of directly using an integer.
+Again, this seems slightly more complex than necessary, so we give ourselves a 9.5.
+
+# Permutations
+
+We chose to represent the permutation tree as a forest of rose trees, like in the reference.
+The rest of our code is quite similar to the reference. A difference is that our `prunePermTree`
+function operates on forests (and is thus more complex) while the `prune` function of the reference
+operates on single trees. This results in our `smoothPerms` function being much simpler. Therefore,
+we give ourselves a 10.
+
+# Proofs
+
+Our proof is guaranteed to be correct because it is has been verified using Coq. It also has comments
+to guide the reader through the proof. Therefore, we give ourselves a 10.
