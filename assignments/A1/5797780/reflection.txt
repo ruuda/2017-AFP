@@ -1,0 +1,40 @@
+# Cabal (20%)
+
+It exists. It has tests and fields are filled. It uses Stack.
+
+1 / 1.
+
+# Unfold (20%)
+
+`iterate` and `map` defined properly (with tests) in point-free style.
+
+`balanced` and `sized` defined properly (with tests). Signedness of integers
+used (abused) to fake `Either Word Word`.
+
+1 / 1.
+
+# Count (15%)
+
+Simple correct implementation. Not the shortest possible though, the `count`
+function does not need to be in the class. Solution does not use language
+extensions.
+
+1 / 1.
+
+# Permutations (20%)
+
+Correct solution based on list "cursors", with a test that verifies against
+naive implementation. Tree modelled with explicit "stop" node to ensure that the
+empty list is not a special case.
+
+1 / 1.
+
+# Proof (25%)
+
+Proof is correct.
+
+1 / 1.
+
+# Final grade
+
+10 / 10.
