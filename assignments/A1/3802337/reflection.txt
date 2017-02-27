@@ -1,0 +1,44 @@
+# Cabal (20%)
+
+The Cabal file is present and has all required fields. Would recommend to write
+tests in future works. However, this is not required for this assignment.
+
+Points: 1.0/1.0
+
+# Unfold (20%)
+
+Functions `iterate`, `map` implementen correctly.
+Function `balanced` is missing the case of negative integers, thus could loop
+forever. (-0.1)
+Function `sized` implementation could have been simpler, re-implementation of
+`split` function is not needed (could have used one from the Prelude/Data.List).
+(-0.1)
+
+Points: 0.8/1.0
+
+# Count (15%)
+
+First approximation is equivalent to the given solution.
+Complete solution reaches the same effects, but is implemented in a different
+manner.
+
+Points: 1.0/1.0
+
+# Permutations (20%)
+
+Permutation tree has a 'root' node defined, which is not needed. (-0.1)
+Given solution is a bit more verbose than the reference solution, but is well
+documented and has the same effects.
+
+Points: 0.9/1.0
+
+# Proofs (25%)
+
+The lemma is proved correctly.
+The theorem is proved correctly.
+
+Points: 1.0/1.0
+
+# Final Grade
+
+9.4/10
