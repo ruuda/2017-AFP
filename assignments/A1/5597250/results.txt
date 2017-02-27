@@ -1,0 +1,48 @@
+2.2.2
+=====
+iterate seems to work.
+Your definition of map is missing!
+balanced seems correct and seems to work.
+sized: works, bonus points for abstraction
+(though (Bounded a, Enum a) => Int -> Tree a should be nicer)
+
+Style:
+	no comments or tests
+	indentation in balanced is weird, we didn't know this was possible!
+
+2.2.5
+=====
+You used the canonical solution by Wouter, so it works.
+
+Style:
+	no comments or tests :(
+
+2.7.1
+=====
+Everything works and is basically the same as the canonical solution.
+The End | Rose [...] form of your tree is nicer than checking the length of
+paths afterward, good!
+
+Style:
+	Haskell generally uses camelCase for names, not snake_case (smooth_perms)
+	Your prune function is a bit indirect, you could also deconstruct the list
+	element and filter using that, but it works.
+
+2.9.1
+=====
+Your proof seems to be correct, although mathematicians will prefer to start
+with known facts and arrive at your conclusion, while you start with the
+conclusion and show how to get there from known facts. We were a bit confused
+by this, but it still checks out.
+
+Please mention in lemma 2 that you are starting from the induction hypothesis,
+since that is not a "known fact" per se.
+
+It is more common to write the two cases in induction as one lemma, since
+whatever you want to prove is only one fact.
+
+Conclusion
+==========
+Everything you did is correct, but you missed one exercise. Moreover we feel
+the style can be improved, both in code and the theorem. Therefore, we give you
+a 8.5 out of 10.
