@@ -54,6 +54,16 @@ Please submit the following exercises before **Monday, Feb 27**.
 
 Further assignments will be announced in due course.
 
+#### Assignment 3
+
+Please submit the following exercises before **Tuesday, March 7**.
+
+* 2.2.1 Tail recursion
+* 2.2.3 Fix
+* 2.4.1 -2.4.3 Nested types
+* 2.5.3 Evidence translation
+
+
 
 
 
