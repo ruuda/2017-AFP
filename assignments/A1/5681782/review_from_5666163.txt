@@ -1,0 +1,38 @@
+*** cabal ***
+cabal install works, package looks good
+
+*** unfoldr ***
+unfold for list uses a case instead of a where clause, this is a matter of taste
+and i will not deduct any points for that.
+
+balanced helper function does not have an error case for negative numbers. It is
+important to have one because that will trigger an error rather than loop
+infinitely.
+-5 points
+
+*** count ***
+
+Count is not the same as in the solution but it uses list length instead of an
+integer to encode the amount of arguments passed to the count function. I'd say
+that the approach is similar but the encoding is equivalent.
+
+*** permutations ***
+
+Two data types for the same tree is a bit odd. The top level could be just a
+list.
+-2 points
+
+pruning is a bit bulky, the solution uses a list comprehension which is nicer to
+read and performs better.
+-10 points
+
+
+Getting the paths uses concat . map (or concatMap) instead of list monad bind
+(which is equivalent, but bind is nicer).
+-5 points
+
+*** proof ***
+proofs are equivalent
+
+100 - 22 = 78 points left over.
+final grade 7.8

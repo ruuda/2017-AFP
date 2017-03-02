@@ -1,0 +1,56 @@
+2.2.2
+=====
+
+We import the Prelude hiding the functions we want to define, the reference
+doesn't and therefore will cause issues in namespacing.
+Our iterate and map are ηβ-equivalent to the reference, so no worries there.
+balanced is also almost the same.
+sized is not the same as the reference, as our labels are not sequential, but
+we have QuickCheck cases that tell us they work.
+
+Style:
+	hlint fully accepts the code with no hints
+	We use Haddock documentation strings instead of just -- comments
+
+2.2.5
+=====
+
+We use the same amount of functions but they are otherwise no different,
+we start the induction with count inside the typeclass,
+but the reference uses a function count outside the typeclass.
+(Of course, it has been tested to work!)
+
+We think the solutions are equally good.
+
+Style:
+	ok, nothing to remark
+
+2.7.1
+=====
+
+We special-cased permsTree with [] and (x:xs), but this second pattern could
+also be just written as xs.
+We use a list comprehension to implement paths, which we think looks nicer.
+prune: The reference implementation has a useless use of let, we don't.
+smoothPerms': the reference implementation starts a lot of let bindings, we don't.
+
+Otherwise, our implementation is exactly the same.
+
+Style:
+	We honestly think our implementation has better style than the reference.
+
+2.9.1
+=====
+
+We checked our proof in Idris so it correct. Less importantly, it is basically
+the same as the reference proof.
+
+Style:
+	Every proof should have a LaTeX and an Idris edition.
+
+Conclusion
+==========
+
+We did find a very small style issue, but we don't think it is important enough
+to subtract points. Everything works, is nicely tested and corresponds to the
+reference. Therefore, we give ourselves 10 out of 10 points.

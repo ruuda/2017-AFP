@@ -1,0 +1,44 @@
+# Cabal (20%)
+
+The Cabal file is present and has all required fields. Nice to see that tests
+are included too.
+
+Points: 1.0/1.0
+
+# Unfold (20%)
+
+Implementations are similar to the reference implementations, besides `sized`.
+The given solutions is more complicated and therefore harder to understand. (-0.1)
+
+Points: 0.9/1.0
+
+# Count (15%)
+
+Implementation is similar to the reference implementation, with only a single
+small difference: it uses the length of a list instead of an integer. Performance
+wise this shouldn matter, but I can imagine that this could result in excessive
+memory usage where it could have been avoided. The solution is, just like the
+remark above, a bit more complicated than needed. (-0.1)
+
+Points: 0.9/1.0
+
+# Permutations (20%)
+
+The given implementation is similar to the reference solution, it only differs
+in the `prune` function. The code is pleasant to read, even though it is a bit
+more complicated than the 4 lines of code in the reference solution.
+
+Points: 1.0/1.0
+
+# Proofs (25%)
+
+We discussed this before, and as we both have followed the Program Semantics &
+Verification course past semester, it is nice to see a formal proof assistant
+being used for another course. Might be more difficult to set up for people
+whom are not familiar with suchs systems, but it guarantees correctness.
+
+Points: 1.0/1.0
+
+# Final Grade
+
+9.7/10

@@ -1,0 +1,36 @@
+Reflection
+Marinus Oosters (3370798), assignment 1
+Result: 1.8 + 1.4 + 1.35 + 1.6 + 2.0 = 8.15
+---------
+
+2.1.1 Cabal - 9 * 0.2 = 1.8
+
+I have a Cabal file, and it works. (installs, can then be used). 
+
+2.2.2 Unfold - 7 * 0.2 = 1.4
+
+My solutions for iterate and map are equal to the model solution, so I'm going
+to assume them optimal. `balanced` has no error checking to see if the
+argument is negative but is otherwise equal. (10, 10, 8)
+
+`sized` is doing something else entirely, creating a tree of N nodes rather 
+than a tree of depth N. (This is how I had interpreted "generates any tree
+with the given number of nodes", but I'll not give myself points for it.)
+
+(10 + 10 + 8 + 0) / 4 = 7
+
+2.2.5 Count - 9 * 0.15 = 1.35
+
+Both versions are implemented, using only one typeclass that generalizes the
+underlying pattern for both. I think I deserve a style point for that.
+
+2.7.1 Permutation - 8 * 0.2 = 1.6
+
+My solution is written in a different way from the solution set, but does
+work, and it builds and prunes the tree lazily (i.e. `smooth_perms 1 [1..100]`
+runs in about a second on my machine and gives the right answer, so it can't
+be doing it strictly).
+
+2.9.1 Proofs - 8 * 0.25 = 2.0
+
+The proofs seem to mostly match up. The `length` one is slightly different.`
