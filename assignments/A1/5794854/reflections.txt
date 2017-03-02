@@ -1,0 +1,16 @@
+2.1.1: Nothing to comment, pretty straightforward 20/20
+
+2.2.2: I think that my solution is more clear in the way I get unique
+       labels for the nodes in the sized function. 20/20
+
+2.2.5: Matches the model solution 20/20
+
+2.7.1: In my solution I model the tree as a pure Rose tree with only Nodes
+      where the Leaf is just a Node with a value and an empty list. The rest
+      modulo renaming of functions is moreless the same. 20/20
+
+2.9.1: My proof very much matches the one given in the model solution. 25/25
+
+
+(20 + 20 + 15 + 20 + 25)/100 = 10
+
