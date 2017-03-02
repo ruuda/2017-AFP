@@ -1,0 +1,44 @@
+From: 5597250
+To: 5666163
+Grade: 9.3
+
+2.1.1 
+
+I dont have any remarks. So I grade it with the full points.
+2/2
+
+-------------------------------------------------------------------------------------------
+
+Assignment 2.2.2
+For the functor of tree I would not use `fmap`, I would use either <$> or fmap without the quotes.
+
+For the sized and balanced I would not use () in the case. I think it is better to use a where in this case. Also, you forgot to add a negative case for the balanced function.
+But overall is seems to work. I will grade this exercise with 1.8/2.0.
+
+
+-------------------------------------------------------------------------------------------
+
+--Assignment 2.2.5
+You dont really need to have to have two seperate class methods. You could also write it is with one class method. But this also works.
+
+Grade: 1.5/1.5
+
+-------------------------------------------------------------------------------------------
+
+2.7.1 
+
+I think it is a matter of taste, but I think you are sometimes overusing the <$> operator. In some cases it makes more sense to use fmap. Also, I dont really like the nested lets. The generating of the tree could be smaller by using the split function defined by the exercise. I dont think the show instance is required. You could also just write deriving Show after the Tree.  But overal it seems to work. 
+
+Grade: 1.5/2 
+
+-------------------------------------------------------------------------------------------
+
+Assignment 2.9.1 | Proofs
+
+It seems to be correct.
+
+25/25
+
+-------------------------------------------------------------------------------------------
+
+So overal I grade this with a 9.3
