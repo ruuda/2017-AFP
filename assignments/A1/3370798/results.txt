@@ -14,7 +14,7 @@ Everything is as it is supposed to be, no remarks about this part.
 
 # Count (15%)
 
-Solution works and uses no language extensions. Style note, could be simpler with XXXX
+Solution works and uses no language extensions. 
 
 1/1.
 
@@ -26,13 +26,13 @@ Solution works and the code is well structured and easy to understand.
 
 # Proof (25%)
 
-XXXX <-------- LOPES
+Proof of lemma and auxiliary operators are correct,
+and methodically and clearly explained.
 
 1/1.
 
 # General remarks
 
- * Assignment folder strucure is a bit of a mess, and contains a lot of (unnecessary?) files
  * You zipped up your .swp files 
 
 # Final grade

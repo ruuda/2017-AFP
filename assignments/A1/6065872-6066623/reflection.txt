@@ -1,17 +1,11 @@
 # Assignment 1
 
-We feel that our work and the result of our assignement is of worse quality than we would have liked.
-The assignments were not overly complicated, but our inexperience with writting Haskell was a
-determining factor of the quality of our solutions.
-
-We didn't encounter too many obstacles while doing the Cabal and Unfold exercises.
-However, the necessary context switch from an imperative way of thinking to a functional way of thinking
-hindered us from performing as we would have liked on the Count and Permutations exercises.
-
 Overall, the code is: Unclear and Unoptimized.
 There are no comments accompanying the code of any of the exercises. 
 Furthermore, the code from the Permutations exercise is badly formated.
 and the solution is not only wrong but also uses a magic value to solve implementation issues. 
+
+We grade ourselves as 8/10.
 
 
 
