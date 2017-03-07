@@ -1,0 +1,34 @@
+Results
+Marinus Oosters (3370798), for Jasper Robeer (3802337), assignment 1
+Result: 2 + 1.8 + 1.2 + 1.6 + 2.5 = 9.1
+-------------
+
+2.1.1 Cabal - 10 * 0.2 = 2
+
+There is a cabal file, it installs and works. Style points for having
+organized the answers in separate modules.
+
+2.2.2 Unfold - 9 * 0.2 = 1.8
+
+`iterate` is the exact solution given in the solution set. (10)
+`map` is also the exact solution given in the solution set. (10)
+`balanced` lacks the error checking but otherwise works. (8)
+`sized` does the same thing as in the solution set. However, you could
+have used the built-in `splitAt` rather than writing your own. (8)
+
+(10 + 10 + 8 + 8) / 4 = 9
+
+2.2.5 Count - 8 * 0.15 = 1.2
+
+Both versions are present and they work. They are defined in a slightly
+roundabout way, and one of them was commented out.
+
+2.7.1 Permutation - 8 * 0.2 = 1.6
+
+The solution is written in a different way from the solution set, but it
+does work. `smoothPermutations 1 [1..100]` also works, so it is obvious that 
+the tree is built lazily.
+
+2.9.1 Proofs - 10 * 0.25 = 2.5
+
+The proofs seem to match up. They have also been nicely typeset.

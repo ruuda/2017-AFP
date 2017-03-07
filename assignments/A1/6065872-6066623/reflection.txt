@@ -1,0 +1,12 @@
+# Assignment 1
+
+Overall, the code is: Unclear and Unoptimized.
+There are no comments accompanying the code of any of the exercises. 
+Furthermore, the code from the Permutations exercise is badly formated.
+and the solution is not only wrong but also uses a magic value to solve implementation issues. 
+
+We grade ourselves as 8/10.
+
+
+
+

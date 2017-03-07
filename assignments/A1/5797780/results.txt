@@ -1,0 +1,31 @@
+2.1.1: Nothing to comment, pretty straightforward 20/20
+
+2.2.2: I like the way used to solve the uniquness of labels
+       in the sized function, very clean. 20/20
+
+2.2.5: The way it combines both count and synth in the same class
+       makes it useless to define an auxiliary function such as in
+       the model solution. 15/15
+
+2.7.1:
+       + In the definition of cursors instead of pattern matching on
+         the list argument xs it calls the auxiliar function with head xs
+         and tail xs. I don't know why this is and can't find a proper reason.
+
+       + To generate the permutation trees from the list, I think that an
+        easier solution would have been to use the split function from the
+        original instead of using the function cursors as in permTrees with
+        permsWith that incur in extra complexity by using ++ on the lists
+        to make a node.
+
+       + In general I get a lot of linting warnings regarding an excessive
+         use of parenthesis.
+
+       16/20
+
+2.9.1: Very mathematical oriented proof, building up from reflexivity
+       up to the required proof. I really like this approach bottom up
+       instead of the usual top down style of proof I'm used to. 25/25
+
+
+(20 + 20 + 15 + 16 + 25)/100 = 9.6

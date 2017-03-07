@@ -1,0 +1,40 @@
+# Cabal (20%)
+
+Everything is as it is supposed to be, no remarks about this part.
+
+1/1.
+
+# Unfold (20%)
+
+`iterate`, `map`, `balanced` are correct and written in a nice easy-to-read style.
+
+`sized` is well explained in comments, good use of a state type.
+
+1/1.
+
+# Count (15%)
+
+Solution works and uses no language extensions. 
+
+1/1.
+
+# Permutations (20%)
+
+Solution works and the code is well structured and easy to understand.
+
+1/1.
+
+# Proof (25%)
+
+Proof of lemma and auxiliary operators are correct,
+and methodically and clearly explained.
+
+1/1.
+
+# General remarks
+
+ * You zipped up your .swp files 
+
+# Final grade
+
+10 / 10.
