@@ -1,0 +1,74 @@
+First of all, we noticed everything is one big file. Dependencies like containers and mtl should be defined in a cabal file for easier reviewing, but at least one of us has them installed.
+
+Second tip: run hlint before submitting. There were some small style issues that hlint discovered (and that we agreed with).
+
+2.3
+===
+
+We tested your implementation against our own test suite.
+
+Feature 1.
+
+There is a bug in your implementation on the following example: 
+	flip runStateMonadPlus () $ do
+		annotate "1" $ pure 37
+		message <- annotate "2" diagnostics
+		annotate "3" $ fail message
+		annotate "4" $ pure "B"
+We expect the annotation "2" to also appear, but here it doesn't:
+	Left "1           1\n>>=         1\ndiagnostics 1\npure        1\n"
+If we remove the line with `fail` in it, and then take the diagnostics, the right annotations are returned.
+
+Feature 2.
+Failure works.
+
+Feature 3.
+Saving history works. Also empty stack popping gives a good error.
+
+
+You implemented both pure and return, in newer versions of Haskell this is unnecessary: return is just pure with a more restricted type.
+The definition (<*>) = ap works as long as you have the monad instance: declaration order doesn't matter in Haskell.
+
+You implement annotate after the Monad instance, but you already annotate in the instance declaration, which leads to a bit of duplication. We preferred to use annotate in the definition of >>= and so on. This also avoids the bug we found above, where the order of annotation seems broken.
+
+Nice pretty-printer, we didn't really test it but the output looks fine!
+
+So in conclusion: code looks fine, just unfortunate that it didn't work as expected.
+
+No bonus answers.
+
+3.3
+---
+
+To be really pedantic, you should also give a default implementation of fold = foldMap id.
+
+Otherwise, code is really good: readable and works correctly.
+
+2.2.8
+-----
+
+We used the monad instance of GP to write our programs, which is a little bit neater. However, solving the exercise in the indicated order doesn't allow you to do this.
+
+Your simulate returns the unconsumed input values, not the output values of the program. This is not as specified, but also makes it harder to test your programs.
+
+The expressions pure x = End x and (\x -> End x) can be eta-reduced to just End.
+
+We didn't understand your remark about the behaviour: we believe that the essential difference is that doing a put and then a get in the State monad will return the value that you put, but there it can read any value from the terminal.
+
+2.2.9
+-----
+
+Nice use of GADTs! You implemented a stack that can only contain ints, while we used a GADT-less stack which stores arbitrary types in a type-safe way: represent an empty stack as () and a value on the stack as (a, stack).
+
+The code is fine, we did some things differently but that is nothing to worry about.
+
+
+Final grades
+============
+
+2.3: 30 / 35
+3.3: 30 / 30
+2.2.8: 15 / 25
+2.2.9: 10 / 10
+
+Total: 85 / 100
