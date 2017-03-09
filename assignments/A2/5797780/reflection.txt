@@ -1,0 +1,23 @@
+2.3:   Clean implementation of the features implemented. Record type for
+       diagnostics is type safe but hard to extend to arbitrary annotations.
+
+       Implemented features include proper tests. Annotations, failure, and
+       history are not implemented.
+
+       Score: 10/35.
+
+3.3.3: Simple implementation without superfluous usage of mempty.
+
+       Score: 10/10.
+
+3.3.4: Missing. I should have done it as it was trivial. Score: 0/10.
+
+3.3.5: Missing. Score: 0/10.
+
+2.2.8: Works as expected, tests are included.
+
+       Score: 25/25.
+
+2.2.9: Missing. Score: 0/10.
+
+       Total score: 45/100.
