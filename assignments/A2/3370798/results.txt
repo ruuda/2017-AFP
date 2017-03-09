@@ -32,7 +32,8 @@
 
          prints "Out of input", whereas it should print 6.
 
-         The monad and functor instances do work.
+         The monad and functor instances do work. DeriveFunctor could have been
+         used to implement the Functor instance.
 
          Score: 13/25.
 
