@@ -1,0 +1,31 @@
+2.3
+---
+
+We used do notation for manipulating Either in the functor and applicative instances, this could also just be `fmap` and <*>. (Of course, with applicative do this distinction doesn't matter.)
+
+We did answer the bonus questions.
+
+3.3
+---
+
+We should have seen that fold (fmap fold xs) is just foldMap fold xs!
+
+2.2.8
+-----
+
+We implemented the potentially erroring simulate function in terms of a pure simulate' function, which makes everything easier to test.
+
+2.2.9
+-----
+
+We allow the part of the stack that is not used in computing to be any type, but the start and stop functions restrict it enough. The interface is not entirely honest without using 'start' and 'stop', but type checking still applies.
+
+
+Final grade
+===========
+
+2.3: 40 / 35
+3.3: 25 / 30
+2.2.8: 25 / 25
+2.2.9: 10 / 10
+Total: 100 / 100
