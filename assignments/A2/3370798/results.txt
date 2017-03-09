@@ -1,0 +1,54 @@
+2.3:     QuickCheck properties are defined, but a test harness to execute them
+         is missing. Using underscores in names is a bit ugly.
+
+         Diagnostics look ok, example works.
+         Annotations look ok, example works.
+         Failure looks ok, no example provided.
+         History looks ok, example works.
+
+         Score: 35/35.
+
+3.3.3:   The implementation is a valid implementation. The traversal order could
+         be counter-intuitive for a non-commutative or non-associative monoid
+         though: rather than linearizing all leaves and folding the monad
+         operation over that, the implementation folds over pieces and combines
+         those. There was no clear requirement in the assignment.
+
+         Score: 10/10.
+
+3.3.4:   No shit. Score: 10/10.
+
+3.3.5:   Elegant solution to define wrapper monoids and to then define
+         fsum/fproduct in terms of those.
+
+         Score: 10/10.
+
+2.2.8:   Underscores in function names are ugly.
+
+         Sum program looks ok.
+         Accum program does not work as expected:
+
+           Ass2.simulate Ass2.accumGP [1, 2, 3, 0, 4]
+
+         prints "Out of input", whereas it should print 6.
+
+         The monad and functor instances do work.
+
+         Score: 13/25.
+
+2.2.9:   Programs work as expected. The type safe version is indeed rejected.
+
+         Score: 10/10.
+
+Overall: Interesting module structure at the top of the file, I hadn't seen
+         something like this before.
+
+         I was able to compile the file after some manual work
+
+             cabal sandbox init
+             cabal install mtl
+             cabal exec -- ghc 2420.3370798.ass2.hs
+         
+         A Cabal file would have been nice.
+
+         Total score: 88/100.
