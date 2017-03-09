@@ -63,6 +63,19 @@ Please submit the following exercises before **Tuesday, March 7**.
 * 2.4.1 -2.4.3 Nested types
 * 2.5.3 Evidence translation
 
+#### Assignment 4
+
+Please submit the following exercises before **Friday, March 17**.
+
+* 2.10.5-2.10.7 (10%) Unsafe I/O
+
+* 2.2.4 (15%) Tries
+
+* 2.11.2 (25%) Generics
+
+* 2.2.6 (25%) Partiality monad
+
+* 2.6.1 (25%) Contracts
 
 
 
