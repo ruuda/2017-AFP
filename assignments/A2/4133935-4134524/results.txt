@@ -1,0 +1,31 @@
+2.3
+---
+
+The monad is implemented completely from scratch. It could have been a bit cleaner by using
+the State monad under the hood (you are then able to use all monad stuff for free).
+
+The implementation has useful comments and the bonus questions have been answered.
+
+3.3
+---
+
+The implementation is correct and has useful comments.
+
+2.2.8
+-----
+
+The implementation is correct and has useful comments.
+
+2.2.9
+-----
+
+The implementation is correct and has useful comments.
+
+Final grade
+===========
+
+2.3: 35 / 35
+3.3: 30 / 30
+2.2.8: 25 / 25
+2.2.9: 10 / 10
+Total: 100 / 100
