@@ -1,0 +1,28 @@
+# 2.3
+
+We used monad transformers to avoid reinventing the wheel. Our monad uses StateT and ExceptT
+under the hood. We also answered the bonus questions.
+
+# 3.3
+
+The implementatoin is concise and straightforward.
+
+# 2.2.8
+
+Only the first task is implemented. It seems that we forgot to implement the rest
+
+🤦 (facepalm)
+
+# 2.2.9
+
+Two versions of the stack are provided: one that fails at runtime and one that fails at
+compile time.
+
+# Final Grade
+
+2.3: 45/35
+3.3: 30/30
+2.2.8: 5/25
+2.2.9: 10/10
+
+Final grade: 90/100
