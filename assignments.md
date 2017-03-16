@@ -77,7 +77,11 @@ Please submit the following exercises before **Friday, March 17**.
 
 * 2.6.1 (25%) Contracts
 
+#### Assignment 5
 
+I've uploaded a set of [Agda exercises](doc/Exercise.agda) for you to
+complete.
 
+Please submit this last set of exercises no later than **Friday, March 31**.
 
 
