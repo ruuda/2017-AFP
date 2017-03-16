@@ -1,0 +1,26 @@
+3.3.{3,4,5}: Everything is correct.
+
+Points: 30/30
+
+2.2.8: Everything is correct.
+
+Points: 25/25
+
+2.2.9: I like the Haskell type-level capabilities to write an Agda style
+correct by construction stack machine where all computations are well formed.
+
+Points: 10/10
+
+2.3: In this exercise I implemented all the subtasks including the bonus
+exercises. This exercise allowed me to learn about the reverse state monad
+where the state is not carried top-down through the computation but in a
+bottom-up manner. With this it was really straightforward to implement
+futureDiagnostics. The only drawback that I had was to implement step by step the
+MonadStatePlus (State, Error handling, Diagnostics) instead of already do all of
+them at once because it was really tedious to change the definitions and bind
+in every step. Probably this is the reason we just use Monad transformer stacks
+instead of implementing this kind of things by ourselves.
+
+Points: 35/35
+
+Total 10.0
