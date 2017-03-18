@@ -1,0 +1,52 @@
+In general there are many exercises left undone but those that are completed
+are correct.
+
+As a remark, running `cabal sdist` will compress the source as a .tar.gz leaving
+out any object file. Much better than just zipping the full folder.
+
+3.3.3: The instances for Foldable and Functor for Rose are perfect.
+
+Points: 10/10
+
+3.3.4: foldMap can be written in a more point-free style as:
+
+  foldMap :: Monoid m => (a -> m) -> f a -> m
+  foldMap f = fold . fmap f
+
+But the solution is perfectly correct.
+
+Points: 10/10
+
+3.3.5: In the definition of the method (<>) for Product and Sum is
+a little bit weird that is used in prefix notation. It can be rewritten
+as:
+
+  (Product x) <> (Product y) = Product (x * y)
+
+Also the functions fsum and fproduct can be rewritten in a more point-free
+style such as:
+
+ fsum = getSum . fold (fmap Sum)
+
+But everything is correct nevertheless.
+
+Points: 10/10
+
+2.2.8 Teletype:
+
+Task 1:
+
+The function run is well-defined. "putStrLn $ show n" is equivalent in Haskell
+to "print n".
+
+5/5
+
+Task 2:
+
+The program effectively performs what is intended.
+
+5/5
+
+Points: 10/25
+
+Total: (10 + 10 + 10 + 10)/10 = 4.0
