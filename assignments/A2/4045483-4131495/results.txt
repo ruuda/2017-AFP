@@ -1,0 +1,29 @@
+# Monads (35%)
+
+Concise implementation using StateT and ExceptT, very well done. Answered the
+bonus questions too (+0.5/bonus question).
+
+Points: 1.2/1.0
+
+# Foldable (30%)
+
+Concise and straightforward implementation, looks good and is easy to read.
+
+Points: 1.0/1.0
+
+# Teletype IO (25%)
+
+Only one out of the five questions answered (-0.8).
+
+Points: 0.2/1.0
+
+# Stacks (10%)
+
+Both versions of the stack are implemented (error on run-time, error on compile-
+time). Both are working as expected.
+
+Points: 1.0/1.0
+
+# Final Grade
+
+8.7/10

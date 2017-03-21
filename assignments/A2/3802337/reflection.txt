@@ -1,0 +1,36 @@
+# Monads (35%)
+
+All required functions are implemented and working according to the
+specifications. A couple of bonus questions are answered, but not all.
+
+Points: 1.0/1.0
+
+# Foldable (30%)
+
+All functions are implemented and work as expected.
+
+Points: 1.0/1.0
+
+# Teletype IO (25%)
+
+All functions are implemented and work as expected. The instances for Applicative
+is required by the newer GHC compilers, and could have been implemented nicer
+when it is just the 1-on-1 equivalence of the default applicative.
+
+Points: 1.0/1.0
+
+# Stacks (10%)
+
+Concise implementation using continuations. Works as expected and is well
+documented overall.
+
+Points: 1.0/1.0
+
+# Final Grade
+
+Unit testing really helps implementation according to the specifications.
+Furthermore, it provides an easy entry point for myself and others to see that
+it works when reviewing the code. As we do not have to rewrite the specifications
+provided in the assignments
+
+10/10
