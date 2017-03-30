@@ -1,0 +1,41 @@
+# Unsafe IO (10%)
+
+Complete solution, working according to the given specifications. Implementing
+a segmentation fault by doing a null-pointer dereference is very clever.
+
+Points: 1.0/1.0
+
+# Tries (15%)
+
+Complete solution, working according to the given specifications. The implementations of `insert` and `delete` could have been much shorter.
+In case of `insert`, the implementation can be simplified by using
+`Map.findWithDefault` instead of `Map.lookup`.
+In case of `delete` by using `Map.update`.
+
+Points: 1.0/1.0
+
+# Generics (25%)
+
+Answers to the exercise are missing.
+
+Points: 0.0/1.0
+
+# Partiality Monad (25%)
+
+Complete solution, working according to the given specifications. The solution
+to an unfair merge is very well found.
+
+Points: 1.0/1.0
+
+# Contracts (25%)
+
+Complete solution, working according to the given specifications.
+
+Points: 1.0/1.0
+
+# Final Grade
+
+The provided test cases make it more pleasant to grade your work! Keep up the
+good job!
+
+7.5/10

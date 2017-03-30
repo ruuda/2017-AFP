@@ -1,0 +1,27 @@
+# Tail Recursion (25%)
+
+Complete and well documented solution.
+
+Points: 1.0/1.0
+
+# Fix (25%)
+
+Correct solution.
+
+Points: 1.0/1.0
+
+# Nested Types (25%)
+
+All tasks but the last one are completed (4/5).
+
+Points: 0.8/1.0
+
+# Evidence Translation (25%)
+
+Missing implemenation for this exercise.
+
+Points: 0.0/1.0
+
+# Final Grade
+
+7.0/10

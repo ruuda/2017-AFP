@@ -1,0 +1,30 @@
+# Tail Recursion (25%)
+
+Working tail recursive implementation.
+
+Points: 1.0/1.0
+
+# Fix (25%)
+
+Working fixed-point implementation. Accumulating parameter could have been
+implemented without a tuple, and therefore without needing the call to `snd`
+to get the result.
+
+Points: 1.0/1.0
+
+# Nested Types (25%)
+
+Working implementation. The compile error is expected. All questions answered.
+
+Points: 1.0/1.0
+
+# Evidence Translation (25%)
+
+As far as I can see all required tasks are present in the code. I (Jasper) find
+this hard to check, as I wasn't able to complete the assignment myself.
+
+Points: 1.0/1.0
+
+# Final Grade
+
+10/10
