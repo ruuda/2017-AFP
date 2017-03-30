@@ -1,0 +1,7039 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+><head
+  ><title
+    >Demo2</title
+    ><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"
+     /><meta http-equiv="Content-Style-Type" content="text/css"
+     /><link href="Agda.css" rel="stylesheet" type="text/css"
+     /></head
+  ><body
+  ><pre
+    ><a name="1"
+      >
+
+</a
+      ><a name="3" class="Keyword"
+      >module</a
+      ><a name="9"
+      > </a
+      ><a name="10" href="Demo2.html#1" class="Module"
+      >Demo2</a
+      ><a name="15"
+      > </a
+      ><a name="16" class="Keyword"
+      >where</a
+      ><a name="21"
+      >
+
+</a
+      ><a name="23" class="Keyword"
+      >data</a
+      ><a name="27"
+      > </a
+      ><a name="28" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="32"
+      > </a
+      ><a name="33" class="Symbol"
+      >:</a
+      ><a name="34"
+      > </a
+      ><a name="35" class="PrimitiveType"
+      >Set</a
+      ><a name="38"
+      > </a
+      ><a name="39" class="Keyword"
+      >where</a
+      ><a name="44"
+      >
+  </a
+      ><a name="47" href="Demo2.html#47" class="InductiveConstructor"
+      >True</a
+      ><a name="51"
+      > </a
+      ><a name="52" class="Symbol"
+      >:</a
+      ><a name="53"
+      > </a
+      ><a name="54" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="58"
+      >
+  </a
+      ><a name="61" href="Demo2.html#61" class="InductiveConstructor"
+      >False</a
+      ><a name="66"
+      > </a
+      ><a name="67" class="Symbol"
+      >:</a
+      ><a name="68"
+      > </a
+      ><a name="69" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="73"
+      >
+
+
+</a
+      ><a name="76" href="Demo2.html#76" class="Function"
+      >not</a
+      ><a name="79"
+      > </a
+      ><a name="80" class="Symbol"
+      >:</a
+      ><a name="81"
+      > </a
+      ><a name="82" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="86"
+      > </a
+      ><a name="87" class="Symbol"
+      >-&gt;</a
+      ><a name="89"
+      > </a
+      ><a name="90" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="94"
+      >
+</a
+      ><a name="95" href="Demo2.html#76" class="Function"
+      >not</a
+      ><a name="98"
+      > </a
+      ><a name="99" href="Demo2.html#61" class="InductiveConstructor"
+      >False</a
+      ><a name="104"
+      > </a
+      ><a name="105" class="Symbol"
+      >=</a
+      ><a name="106"
+      > </a
+      ><a name="107" href="Demo2.html#47" class="InductiveConstructor"
+      >True</a
+      ><a name="111"
+      >
+
+</a
+      ><a name="113" href="Demo2.html#76" class="Function"
+      >not</a
+      ><a name="116"
+      > </a
+      ><a name="117" href="Demo2.html#47" class="InductiveConstructor"
+      >True</a
+      ><a name="121"
+      > </a
+      ><a name="122" class="Symbol"
+      >=</a
+      ><a name="123"
+      > </a
+      ><a name="124" href="Demo2.html#61" class="InductiveConstructor"
+      >False</a
+      ><a name="129"
+      >
+</a
+      ><a name="130" href="Demo2.html#130" class="Function"
+      >idBool</a
+      ><a name="136"
+      > </a
+      ><a name="137" class="Symbol"
+      >:</a
+      ><a name="138"
+      > </a
+      ><a name="139" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="143"
+      > </a
+      ><a name="144" class="Symbol"
+      >&#8594;</a
+      ><a name="145"
+      > </a
+      ><a name="146" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="150"
+      >
+</a
+      ><a name="151" href="Demo2.html#130" class="Function"
+      >idBool</a
+      ><a name="157"
+      > </a
+      ><a name="158" class="Symbol"
+      >=</a
+      ><a name="159"
+      > </a
+      ><a name="160" class="Symbol"
+      >&#955;</a
+      ><a name="161"
+      > </a
+      ><a name="162" href="Demo2.html#162" class="Bound"
+      >b</a
+      ><a name="163"
+      > </a
+      ><a name="164" class="Symbol"
+      >&#8594;</a
+      ><a name="165"
+      > </a
+      ><a name="166" href="Demo2.html#162" class="Bound"
+      >b</a
+      ><a name="167"
+      >
+
+</a
+      ><a name="169" href="Demo2.html#169" class="Function"
+      >cond</a
+      ><a name="173"
+      > </a
+      ><a name="174" class="Symbol"
+      >:</a
+      ><a name="175"
+      > </a
+      ><a name="176" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="180"
+      > </a
+      ><a name="181" class="Symbol"
+      >-&gt;</a
+      ><a name="183"
+      > </a
+      ><a name="184" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="188"
+      > </a
+      ><a name="189" class="Symbol"
+      >-&gt;</a
+      ><a name="191"
+      > </a
+      ><a name="192" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="196"
+      > </a
+      ><a name="197" class="Symbol"
+      >-&gt;</a
+      ><a name="199"
+      > </a
+      ><a name="200" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="204"
+      >
+</a
+      ><a name="205" href="Demo2.html#169" class="Function"
+      >cond</a
+      ><a name="209"
+      > </a
+      ><a name="210" href="Demo2.html#61" class="InductiveConstructor"
+      >False</a
+      ><a name="215"
+      > </a
+      ><a name="216" href="Demo2.html#216" class="Bound"
+      >t</a
+      ><a name="217"
+      > </a
+      ><a name="218" href="Demo2.html#218" class="Bound"
+      >e</a
+      ><a name="219"
+      > </a
+      ><a name="220" class="Symbol"
+      >=</a
+      ><a name="221"
+      > </a
+      ><a name="222" href="Demo2.html#218" class="Bound"
+      >e</a
+      ><a name="223"
+      >
+</a
+      ><a name="224" href="Demo2.html#169" class="Function"
+      >cond</a
+      ><a name="228"
+      > </a
+      ><a name="229" href="Demo2.html#47" class="InductiveConstructor"
+      >True</a
+      ><a name="233"
+      > </a
+      ><a name="234" href="Demo2.html#234" class="Bound"
+      >t</a
+      ><a name="235"
+      > </a
+      ><a name="236" href="Demo2.html#236" class="Bound"
+      >e</a
+      ><a name="237"
+      > </a
+      ><a name="238" class="Symbol"
+      >=</a
+      ><a name="239"
+      > </a
+      ><a name="240" href="Demo2.html#234" class="Bound"
+      >t</a
+      ><a name="241"
+      >
+
+</a
+      ><a name="243" href="Demo2.html#243" class="Function Operator"
+      >if_then_else_</a
+      ><a name="256"
+      > </a
+      ><a name="257" class="Symbol"
+      >:</a
+      ><a name="258"
+      > </a
+      ><a name="259" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="263"
+      > </a
+      ><a name="264" class="Symbol"
+      >-&gt;</a
+      ><a name="266"
+      > </a
+      ><a name="267" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="271"
+      > </a
+      ><a name="272" class="Symbol"
+      >-&gt;</a
+      ><a name="274"
+      > </a
+      ><a name="275" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="279"
+      > </a
+      ><a name="280" class="Symbol"
+      >-&gt;</a
+      ><a name="282"
+      > </a
+      ><a name="283" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="287"
+      >
+</a
+      ><a name="288" href="Demo2.html#243" class="Function Operator"
+      >if</a
+      ><a name="290"
+      > </a
+      ><a name="291" href="Demo2.html#61" class="InductiveConstructor"
+      >False</a
+      ><a name="296"
+      > </a
+      ><a name="297" href="Demo2.html#243" class="Function Operator"
+      >then</a
+      ><a name="301"
+      > </a
+      ><a name="302" href="Demo2.html#302" class="Bound"
+      >t</a
+      ><a name="303"
+      > </a
+      ><a name="304" href="Demo2.html#243" class="Function Operator"
+      >else</a
+      ><a name="308"
+      > </a
+      ><a name="309" href="Demo2.html#309" class="Bound"
+      >e</a
+      ><a name="310"
+      > </a
+      ><a name="311" class="Symbol"
+      >=</a
+      ><a name="312"
+      > </a
+      ><a name="313" href="Demo2.html#309" class="Bound"
+      >e</a
+      ><a name="314"
+      >
+</a
+      ><a name="315" href="Demo2.html#243" class="Function Operator"
+      >if</a
+      ><a name="317"
+      > </a
+      ><a name="318" href="Demo2.html#47" class="InductiveConstructor"
+      >True</a
+      ><a name="322"
+      > </a
+      ><a name="323" href="Demo2.html#243" class="Function Operator"
+      >then</a
+      ><a name="327"
+      > </a
+      ><a name="328" href="Demo2.html#328" class="Bound"
+      >t</a
+      ><a name="329"
+      > </a
+      ><a name="330" href="Demo2.html#243" class="Function Operator"
+      >else</a
+      ><a name="334"
+      > </a
+      ><a name="335" href="Demo2.html#335" class="Bound"
+      >e</a
+      ><a name="336"
+      > </a
+      ><a name="337" class="Symbol"
+      >=</a
+      ><a name="338"
+      > </a
+      ><a name="339" href="Demo2.html#328" class="Bound"
+      >t</a
+      ><a name="340"
+      >
+
+</a
+      ><a name="342" href="Demo2.html#342" class="Function"
+      >test</a
+      ><a name="346"
+      > </a
+      ><a name="347" class="Symbol"
+      >:</a
+      ><a name="348"
+      > </a
+      ><a name="349" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="353"
+      >
+</a
+      ><a name="354" href="Demo2.html#342" class="Function"
+      >test</a
+      ><a name="358"
+      > </a
+      ><a name="359" class="Symbol"
+      >=</a
+      ><a name="360"
+      > </a
+      ><a name="361" href="Demo2.html#243" class="Function Operator"
+      >if</a
+      ><a name="363"
+      > </a
+      ><a name="364" href="Demo2.html#47" class="InductiveConstructor"
+      >True</a
+      ><a name="368"
+      > </a
+      ><a name="369" href="Demo2.html#243" class="Function Operator"
+      >then</a
+      ><a name="373"
+      > </a
+      ><a name="374" href="Demo2.html#61" class="InductiveConstructor"
+      >False</a
+      ><a name="379"
+      > </a
+      ><a name="380" href="Demo2.html#243" class="Function Operator"
+      >else</a
+      ><a name="384"
+      > </a
+      ><a name="385" href="Demo2.html#47" class="InductiveConstructor"
+      >True</a
+      ><a name="389"
+      >
+
+</a
+      ><a name="391" class="Keyword"
+      >data</a
+      ><a name="395"
+      > </a
+      ><a name="396" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="397"
+      > </a
+      ><a name="398" class="Symbol"
+      >:</a
+      ><a name="399"
+      > </a
+      ><a name="400" class="PrimitiveType"
+      >Set</a
+      ><a name="403"
+      > </a
+      ><a name="404" class="Keyword"
+      >where</a
+      ><a name="409"
+      >
+  </a
+      ><a name="412" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="416"
+      > </a
+      ><a name="417" class="Symbol"
+      >:</a
+      ><a name="418"
+      > </a
+      ><a name="419" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="420"
+      >
+  </a
+      ><a name="423" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="427"
+      > </a
+      ><a name="428" class="Symbol"
+      >:</a
+      ><a name="429"
+      > </a
+      ><a name="430" class="Symbol"
+      >(</a
+      ><a name="431" href="Demo2.html#431" class="Bound"
+      >k</a
+      ><a name="432"
+      > </a
+      ><a name="433" class="Symbol"
+      >:</a
+      ><a name="434"
+      > </a
+      ><a name="435" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="436" class="Symbol"
+      >)</a
+      ><a name="437"
+      > </a
+      ><a name="438" class="Symbol"
+      >-&gt;</a
+      ><a name="440"
+      > </a
+      ><a name="441" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="442"
+      >
+
+</a
+      ><a name="444" href="Demo2.html#444" class="Function"
+      >two</a
+      ><a name="447"
+      > </a
+      ><a name="448" class="Symbol"
+      >=</a
+      ><a name="449"
+      > </a
+      ><a name="450" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="454"
+      > </a
+      ><a name="455" class="Symbol"
+      >(</a
+      ><a name="456" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="460"
+      > </a
+      ><a name="461" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="465" class="Symbol"
+      >)</a
+      ><a name="466"
+      >
+
+</a
+      ><a name="468" class="Symbol"
+      >{-#</a
+      ><a name="471"
+      > </a
+      ><a name="472" class="Keyword"
+      >BUILTIN</a
+      ><a name="479"
+      > NATURAL </a
+      ><a name="488" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="489"
+      > </a
+      ><a name="490" class="Symbol"
+      >#-}</a
+      ><a name="493"
+      >
+
+</a
+      ><a name="495" href="Demo2.html#495" class="Function"
+      >three</a
+      ><a name="500"
+      > </a
+      ><a name="501" class="Symbol"
+      >=</a
+      ><a name="502"
+      > </a
+      ><a name="503" class="Number"
+      >3</a
+      ><a name="504"
+      >
+
+
+</a
+      ><a name="507" href="Demo2.html#507" class="Function"
+      >id</a
+      ><a name="509"
+      > </a
+      ><a name="510" class="Symbol"
+      >:</a
+      ><a name="511"
+      > </a
+      ><a name="512" class="Symbol"
+      >{</a
+      ><a name="513" href="Demo2.html#513" class="Bound"
+      >a</a
+      ><a name="514"
+      > </a
+      ><a name="515" class="Symbol"
+      >:</a
+      ><a name="516"
+      > </a
+      ><a name="517" class="PrimitiveType"
+      >Set</a
+      ><a name="520" class="Symbol"
+      >}</a
+      ><a name="521"
+      > </a
+      ><a name="522" class="Symbol"
+      >-&gt;</a
+      ><a name="524"
+      > </a
+      ><a name="525" href="Demo2.html#513" class="Bound"
+      >a</a
+      ><a name="526"
+      > </a
+      ><a name="527" class="Symbol"
+      >-&gt;</a
+      ><a name="529"
+      > </a
+      ><a name="530" href="Demo2.html#513" class="Bound"
+      >a</a
+      ><a name="531"
+      > 
+</a
+      ><a name="533" href="Demo2.html#507" class="Function"
+      >id</a
+      ><a name="535"
+      > </a
+      ><a name="536" class="Symbol"
+      >{</a
+      ><a name="537" href="Demo2.html#537" class="Bound"
+      >a</a
+      ><a name="538" class="Symbol"
+      >}</a
+      ><a name="539"
+      > </a
+      ><a name="540" href="Demo2.html#540" class="Bound"
+      >x</a
+      ><a name="541"
+      > </a
+      ><a name="542" class="Symbol"
+      >=</a
+      ><a name="543"
+      > </a
+      ><a name="544" href="Demo2.html#540" class="Bound"
+      >x</a
+      ><a name="545"
+      >
+
+</a
+      ><a name="547" href="Demo2.html#547" class="Function"
+      >idTrue</a
+      ><a name="553"
+      > </a
+      ><a name="554" class="Symbol"
+      >=</a
+      ><a name="555"
+      > </a
+      ><a name="556" href="Demo2.html#507" class="Function"
+      >id</a
+      ><a name="558"
+      > </a
+      ><a name="559" href="Demo2.html#47" class="InductiveConstructor"
+      >True</a
+      ><a name="563"
+      >
+</a
+      ><a name="564" href="Demo2.html#564" class="Function"
+      >idThree</a
+      ><a name="571"
+      > </a
+      ><a name="572" class="Symbol"
+      >=</a
+      ><a name="573"
+      > </a
+      ><a name="574" href="Demo2.html#507" class="Function"
+      >id</a
+      ><a name="576"
+      > </a
+      ><a name="577" class="Symbol"
+      >{</a
+      ><a name="578" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="579" class="Symbol"
+      >}</a
+      ><a name="580"
+      > </a
+      ><a name="581" href="Demo2.html#495" class="Function"
+      >three</a
+      ><a name="586"
+      >
+
+</a
+      ><a name="588" class="Keyword"
+      >data</a
+      ><a name="592"
+      > </a
+      ><a name="593" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="597"
+      > </a
+      ><a name="598" class="Symbol"
+      >(</a
+      ><a name="599" href="Demo2.html#599" class="Bound"
+      >a</a
+      ><a name="600"
+      > </a
+      ><a name="601" class="Symbol"
+      >:</a
+      ><a name="602"
+      > </a
+      ><a name="603" class="PrimitiveType"
+      >Set</a
+      ><a name="606" class="Symbol"
+      >)</a
+      ><a name="607"
+      > </a
+      ><a name="608" class="Symbol"
+      >:</a
+      ><a name="609"
+      > </a
+      ><a name="610" class="PrimitiveType"
+      >Set</a
+      ><a name="613"
+      > </a
+      ><a name="614" class="Keyword"
+      >where</a
+      ><a name="619"
+      >
+  </a
+      ><a name="622" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="625"
+      > </a
+      ><a name="626" class="Symbol"
+      >:</a
+      ><a name="627"
+      > </a
+      ><a name="628" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="632"
+      > </a
+      ><a name="633" href="Demo2.html#599" class="Bound"
+      >a</a
+      ><a name="634"
+      >
+  </a
+      ><a name="637" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="641"
+      > </a
+      ><a name="642" class="Symbol"
+      >:</a
+      ><a name="643"
+      > </a
+      ><a name="644" href="Demo2.html#599" class="Bound"
+      >a</a
+      ><a name="645"
+      > </a
+      ><a name="646" class="Symbol"
+      >-&gt;</a
+      ><a name="648"
+      > </a
+      ><a name="649" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="653"
+      > </a
+      ><a name="654" href="Demo2.html#599" class="Bound"
+      >a</a
+      ><a name="655"
+      > </a
+      ><a name="656" class="Symbol"
+      >-&gt;</a
+      ><a name="658"
+      > </a
+      ><a name="659" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="663"
+      > </a
+      ><a name="664" href="Demo2.html#599" class="Bound"
+      >a</a
+      ><a name="665"
+      >
+
+</a
+      ><a name="667" class="Comment"
+      >{-
+data List :: * -&gt; * where
+  Nil : List a
+  Cons : a -&gt; List a -&gt; List a
+-}</a
+      ><a name="744"
+      >
+
+</a
+      ><a name="746" href="Demo2.html#746" class="Function"
+      >length</a
+      ><a name="752"
+      > </a
+      ><a name="753" class="Symbol"
+      >:</a
+      ><a name="754"
+      > </a
+      ><a name="755" class="Symbol"
+      >{</a
+      ><a name="756" href="Demo2.html#756" class="Bound"
+      >a</a
+      ><a name="757"
+      > </a
+      ><a name="758" class="Symbol"
+      >:</a
+      ><a name="759"
+      > </a
+      ><a name="760" class="PrimitiveType"
+      >Set</a
+      ><a name="763" class="Symbol"
+      >}</a
+      ><a name="764"
+      > </a
+      ><a name="765" class="Symbol"
+      >-&gt;</a
+      ><a name="767"
+      > </a
+      ><a name="768" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="772"
+      > </a
+      ><a name="773" href="Demo2.html#756" class="Bound"
+      >a</a
+      ><a name="774"
+      > </a
+      ><a name="775" class="Symbol"
+      >-&gt;</a
+      ><a name="777"
+      > </a
+      ><a name="778" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="779"
+      >
+</a
+      ><a name="780" href="Demo2.html#746" class="Function"
+      >length</a
+      ><a name="786"
+      > </a
+      ><a name="787" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="790"
+      > </a
+      ><a name="791" class="Symbol"
+      >=</a
+      ><a name="792"
+      > </a
+      ><a name="793" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="797"
+      >
+</a
+      ><a name="798" href="Demo2.html#746" class="Function"
+      >length</a
+      ><a name="804"
+      > </a
+      ><a name="805" class="Symbol"
+      >(</a
+      ><a name="806" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="810"
+      > </a
+      ><a name="811" href="Demo2.html#811" class="Bound"
+      >x</a
+      ><a name="812"
+      > </a
+      ><a name="813" href="Demo2.html#813" class="Bound"
+      >xs</a
+      ><a name="815" class="Symbol"
+      >)</a
+      ><a name="816"
+      > </a
+      ><a name="817" class="Symbol"
+      >=</a
+      ><a name="818"
+      > </a
+      ><a name="819" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="823"
+      > </a
+      ><a name="824" class="Symbol"
+      >(</a
+      ><a name="825" href="Demo2.html#746" class="Function"
+      >length</a
+      ><a name="831"
+      > </a
+      ><a name="832" href="Demo2.html#813" class="Bound"
+      >xs</a
+      ><a name="834" class="Symbol"
+      >)</a
+      ><a name="835"
+      >
+
+</a
+      ><a name="837" href="Demo2.html#837" class="Function Operator"
+      >_++_</a
+      ><a name="841"
+      > </a
+      ><a name="842" class="Symbol"
+      >:</a
+      ><a name="843"
+      > </a
+      ><a name="844" class="Symbol"
+      >{</a
+      ><a name="845" href="Demo2.html#845" class="Bound"
+      >a</a
+      ><a name="846"
+      > </a
+      ><a name="847" class="Symbol"
+      >:</a
+      ><a name="848"
+      > </a
+      ><a name="849" class="PrimitiveType"
+      >Set</a
+      ><a name="852" class="Symbol"
+      >}</a
+      ><a name="853"
+      > </a
+      ><a name="854" class="Symbol"
+      >-&gt;</a
+      ><a name="856"
+      > </a
+      ><a name="857" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="861"
+      > </a
+      ><a name="862" href="Demo2.html#845" class="Bound"
+      >a</a
+      ><a name="863"
+      > </a
+      ><a name="864" class="Symbol"
+      >-&gt;</a
+      ><a name="866"
+      > </a
+      ><a name="867" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="871"
+      > </a
+      ><a name="872" href="Demo2.html#845" class="Bound"
+      >a</a
+      ><a name="873"
+      > </a
+      ><a name="874" class="Symbol"
+      >-&gt;</a
+      ><a name="876"
+      > </a
+      ><a name="877" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="881"
+      > </a
+      ><a name="882" href="Demo2.html#845" class="Bound"
+      >a</a
+      ><a name="883"
+      >
+</a
+      ><a name="884" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="887"
+      > </a
+      ><a name="888" href="Demo2.html#837" class="Function Operator"
+      >++</a
+      ><a name="890"
+      > </a
+      ><a name="891" href="Demo2.html#891" class="Bound"
+      >ys</a
+      ><a name="893"
+      > </a
+      ><a name="894" class="Symbol"
+      >=</a
+      ><a name="895"
+      > </a
+      ><a name="896" href="Demo2.html#891" class="Bound"
+      >ys</a
+      ><a name="898"
+      >
+</a
+      ><a name="899" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="903"
+      > </a
+      ><a name="904" href="Demo2.html#904" class="Bound"
+      >x</a
+      ><a name="905"
+      > </a
+      ><a name="906" href="Demo2.html#906" class="Bound"
+      >xs</a
+      ><a name="908"
+      > </a
+      ><a name="909" href="Demo2.html#837" class="Function Operator"
+      >++</a
+      ><a name="911"
+      > </a
+      ><a name="912" href="Demo2.html#912" class="Bound"
+      >ys</a
+      ><a name="914"
+      > </a
+      ><a name="915" class="Symbol"
+      >=</a
+      ><a name="916"
+      > </a
+      ><a name="917" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="921"
+      > </a
+      ><a name="922" href="Demo2.html#904" class="Bound"
+      >x</a
+      ><a name="923"
+      > </a
+      ><a name="924" class="Symbol"
+      >(</a
+      ><a name="925" href="Demo2.html#906" class="Bound"
+      >xs</a
+      ><a name="927"
+      > </a
+      ><a name="928" href="Demo2.html#837" class="Function Operator"
+      >++</a
+      ><a name="930"
+      > </a
+      ><a name="931" href="Demo2.html#912" class="Bound"
+      >ys</a
+      ><a name="933" class="Symbol"
+      >)</a
+      ><a name="934"
+      >
+
+</a
+      ><a name="936" href="Demo2.html#936" class="Function"
+      >head</a
+      ><a name="940"
+      > </a
+      ><a name="941" class="Symbol"
+      >:</a
+      ><a name="942"
+      > </a
+      ><a name="943" class="Symbol"
+      >{</a
+      ><a name="944" href="Demo2.html#944" class="Bound"
+      >a</a
+      ><a name="945"
+      > </a
+      ><a name="946" class="Symbol"
+      >:</a
+      ><a name="947"
+      > </a
+      ><a name="948" class="PrimitiveType"
+      >Set</a
+      ><a name="951" class="Symbol"
+      >}</a
+      ><a name="952"
+      > </a
+      ><a name="953" class="Symbol"
+      >-&gt;</a
+      ><a name="955"
+      > </a
+      ><a name="956" href="Demo2.html#944" class="Bound"
+      >a</a
+      ><a name="957"
+      > </a
+      ><a name="958" class="Symbol"
+      >-&gt;</a
+      ><a name="960"
+      > </a
+      ><a name="961" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="965"
+      > </a
+      ><a name="966" href="Demo2.html#944" class="Bound"
+      >a</a
+      ><a name="967"
+      > </a
+      ><a name="968" class="Symbol"
+      >-&gt;</a
+      ><a name="970"
+      > </a
+      ><a name="971" href="Demo2.html#944" class="Bound"
+      >a</a
+      ><a name="972"
+      >
+</a
+      ><a name="973" href="Demo2.html#936" class="Function"
+      >head</a
+      ><a name="977"
+      > </a
+      ><a name="978" href="Demo2.html#978" class="Bound"
+      >default</a
+      ><a name="985"
+      > </a
+      ><a name="986" class="Symbol"
+      >(</a
+      ><a name="987" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="990" class="Symbol"
+      >)</a
+      ><a name="991"
+      > </a
+      ><a name="992" class="Symbol"
+      >=</a
+      ><a name="993"
+      > </a
+      ><a name="994" href="Demo2.html#978" class="Bound"
+      >default</a
+      ><a name="1001"
+      >
+</a
+      ><a name="1002" href="Demo2.html#936" class="Function"
+      >head</a
+      ><a name="1006"
+      > </a
+      ><a name="1007" href="Demo2.html#1007" class="Bound"
+      >default</a
+      ><a name="1014"
+      > </a
+      ><a name="1015" class="Symbol"
+      >(</a
+      ><a name="1016" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="1020"
+      > </a
+      ><a name="1021" href="Demo2.html#1021" class="Bound"
+      >x</a
+      ><a name="1022"
+      > </a
+      ><a name="1023" href="Demo2.html#1023" class="Bound"
+      >xs</a
+      ><a name="1025" class="Symbol"
+      >)</a
+      ><a name="1026"
+      > </a
+      ><a name="1027" class="Symbol"
+      >=</a
+      ><a name="1028"
+      > </a
+      ><a name="1029" href="Demo2.html#1021" class="Bound"
+      >x</a
+      ><a name="1030"
+      >
+
+</a
+      ><a name="1032" class="Keyword"
+      >data</a
+      ><a name="1036"
+      > </a
+      ><a name="1037" href="Demo2.html#1037" class="Datatype"
+      >Vec</a
+      ><a name="1040"
+      > </a
+      ><a name="1041" class="Symbol"
+      >(</a
+      ><a name="1042" href="Demo2.html#1042" class="Bound"
+      >a</a
+      ><a name="1043"
+      > </a
+      ><a name="1044" class="Symbol"
+      >:</a
+      ><a name="1045"
+      > </a
+      ><a name="1046" class="PrimitiveType"
+      >Set</a
+      ><a name="1049" class="Symbol"
+      >)</a
+      ><a name="1050"
+      > </a
+      ><a name="1051" class="Symbol"
+      >:</a
+      ><a name="1052"
+      > </a
+      ><a name="1053" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="1054"
+      > </a
+      ><a name="1055" class="Symbol"
+      >-&gt;</a
+      ><a name="1057"
+      > </a
+      ><a name="1058" class="PrimitiveType"
+      >Set</a
+      ><a name="1061"
+      > </a
+      ><a name="1062" class="Keyword"
+      >where</a
+      ><a name="1067"
+      >
+  </a
+      ><a name="1070" href="Demo2.html#1070" class="InductiveConstructor"
+      >Nil</a
+      ><a name="1073"
+      >  </a
+      ><a name="1075" class="Symbol"
+      >:</a
+      ><a name="1076"
+      > </a
+      ><a name="1077" href="Demo2.html#1037" class="Datatype"
+      >Vec</a
+      ><a name="1080"
+      > </a
+      ><a name="1081" href="Demo2.html#1042" class="Bound"
+      >a</a
+      ><a name="1082"
+      > </a
+      ><a name="1083" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="1087"
+      >
+  </a
+      ><a name="1090" href="Demo2.html#1090" class="InductiveConstructor"
+      >Cons</a
+      ><a name="1094"
+      > </a
+      ><a name="1095" class="Symbol"
+      >:</a
+      ><a name="1096"
+      > </a
+      ><a name="1097" class="Symbol"
+      >{</a
+      ><a name="1098" href="Demo2.html#1098" class="Bound"
+      >n</a
+      ><a name="1099"
+      > </a
+      ><a name="1100" class="Symbol"
+      >:</a
+      ><a name="1101"
+      > </a
+      ><a name="1102" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="1103" class="Symbol"
+      >}</a
+      ><a name="1104"
+      > </a
+      ><a name="1105" class="Symbol"
+      >-&gt;</a
+      ><a name="1107"
+      > </a
+      ><a name="1108" href="Demo2.html#1042" class="Bound"
+      >a</a
+      ><a name="1109"
+      > </a
+      ><a name="1110" class="Symbol"
+      >-&gt;</a
+      ><a name="1112"
+      > </a
+      ><a name="1113" href="Demo2.html#1037" class="Datatype"
+      >Vec</a
+      ><a name="1116"
+      > </a
+      ><a name="1117" href="Demo2.html#1042" class="Bound"
+      >a</a
+      ><a name="1118"
+      > </a
+      ><a name="1119" href="Demo2.html#1098" class="Bound"
+      >n</a
+      ><a name="1120"
+      > </a
+      ><a name="1121" class="Symbol"
+      >-&gt;</a
+      ><a name="1123"
+      > </a
+      ><a name="1124" href="Demo2.html#1037" class="Datatype"
+      >Vec</a
+      ><a name="1127"
+      > </a
+      ><a name="1128" href="Demo2.html#1042" class="Bound"
+      >a</a
+      ><a name="1129"
+      > </a
+      ><a name="1130" class="Symbol"
+      >(</a
+      ><a name="1131" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="1135"
+      > </a
+      ><a name="1136" href="Demo2.html#1098" class="Bound"
+      >n</a
+      ><a name="1137" class="Symbol"
+      >)</a
+      ><a name="1138"
+      >
+
+</a
+      ><a name="1140" href="Demo2.html#1140" class="Function"
+      >vhead</a
+      ><a name="1145"
+      > </a
+      ><a name="1146" class="Symbol"
+      >:</a
+      ><a name="1147"
+      > </a
+      ><a name="1148" class="Symbol"
+      >&#8704;</a
+      ><a name="1149"
+      > </a
+      ><a name="1150" class="Symbol"
+      >{</a
+      ><a name="1151" href="Demo2.html#1151" class="Bound"
+      >a</a
+      ><a name="1152"
+      > </a
+      ><a name="1153" href="Demo2.html#1153" class="Bound"
+      >n</a
+      ><a name="1154" class="Symbol"
+      >}</a
+      ><a name="1155"
+      > </a
+      ><a name="1156" class="Symbol"
+      >-&gt;</a
+      ><a name="1158"
+      > </a
+      ><a name="1159" href="Demo2.html#1037" class="Datatype"
+      >Vec</a
+      ><a name="1162"
+      > </a
+      ><a name="1163" href="Demo2.html#1151" class="Bound"
+      >a</a
+      ><a name="1164"
+      > </a
+      ><a name="1165" class="Symbol"
+      >(</a
+      ><a name="1166" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="1170"
+      > </a
+      ><a name="1171" href="Demo2.html#1153" class="Bound"
+      >n</a
+      ><a name="1172" class="Symbol"
+      >)</a
+      ><a name="1173"
+      > </a
+      ><a name="1174" class="Symbol"
+      >-&gt;</a
+      ><a name="1176"
+      > </a
+      ><a name="1177" href="Demo2.html#1151" class="Bound"
+      >a</a
+      ><a name="1178"
+      >
+</a
+      ><a name="1179" href="Demo2.html#1140" class="Function"
+      >vhead</a
+      ><a name="1184"
+      > </a
+      ><a name="1185" class="Symbol"
+      >(</a
+      ><a name="1186" href="Demo2.html#1090" class="InductiveConstructor"
+      >Cons</a
+      ><a name="1190"
+      > </a
+      ><a name="1191" href="Demo2.html#1191" class="Bound"
+      >x</a
+      ><a name="1192"
+      > </a
+      ><a name="1193" href="Demo2.html#1193" class="Bound"
+      >xs</a
+      ><a name="1195" class="Symbol"
+      >)</a
+      ><a name="1196"
+      > </a
+      ><a name="1197" class="Symbol"
+      >=</a
+      ><a name="1198"
+      > </a
+      ><a name="1199" href="Demo2.html#1191" class="Bound"
+      >x</a
+      ><a name="1200"
+      >
+
+</a
+      ><a name="1202" href="Demo2.html#1202" class="Function Operator"
+      >_+_</a
+      ><a name="1205"
+      > </a
+      ><a name="1206" class="Symbol"
+      >:</a
+      ><a name="1207"
+      > </a
+      ><a name="1208" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="1209"
+      > </a
+      ><a name="1210" class="Symbol"
+      >&#8594;</a
+      ><a name="1211"
+      > </a
+      ><a name="1212" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="1213"
+      > </a
+      ><a name="1214" class="Symbol"
+      >&#8594;</a
+      ><a name="1215"
+      > </a
+      ><a name="1216" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="1217"
+      >
+</a
+      ><a name="1218" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="1222"
+      > </a
+      ><a name="1223" href="Demo2.html#1202" class="Function Operator"
+      >+</a
+      ><a name="1224"
+      > </a
+      ><a name="1225" href="Demo2.html#1225" class="Bound"
+      >n</a
+      ><a name="1226"
+      > </a
+      ><a name="1227" class="Symbol"
+      >=</a
+      ><a name="1228"
+      > </a
+      ><a name="1229" href="Demo2.html#1225" class="Bound"
+      >n</a
+      ><a name="1230"
+      >
+</a
+      ><a name="1231" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="1235"
+      > </a
+      ><a name="1236" href="Demo2.html#1236" class="Bound"
+      >m</a
+      ><a name="1237"
+      > </a
+      ><a name="1238" href="Demo2.html#1202" class="Function Operator"
+      >+</a
+      ><a name="1239"
+      > </a
+      ><a name="1240" href="Demo2.html#1240" class="Bound"
+      >n</a
+      ><a name="1241"
+      > </a
+      ><a name="1242" class="Symbol"
+      >=</a
+      ><a name="1243"
+      > </a
+      ><a name="1244" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="1248"
+      > </a
+      ><a name="1249" class="Symbol"
+      >(</a
+      ><a name="1250" href="Demo2.html#1236" class="Bound"
+      >m</a
+      ><a name="1251"
+      > </a
+      ><a name="1252" href="Demo2.html#1202" class="Function Operator"
+      >+</a
+      ><a name="1253"
+      > </a
+      ><a name="1254" href="Demo2.html#1240" class="Bound"
+      >n</a
+      ><a name="1255" class="Symbol"
+      >)</a
+      ><a name="1256"
+      >
+
+</a
+      ><a name="1258" href="Demo2.html#1258" class="Function"
+      >vappend</a
+      ><a name="1265"
+      > </a
+      ><a name="1266" class="Symbol"
+      >:</a
+      ><a name="1267"
+      > </a
+      ><a name="1268" class="Symbol"
+      >&#8704;</a
+      ><a name="1269"
+      > </a
+      ><a name="1270" class="Symbol"
+      >{</a
+      ><a name="1271" href="Demo2.html#1271" class="Bound"
+      >n</a
+      ><a name="1272"
+      > </a
+      ><a name="1273" href="Demo2.html#1273" class="Bound"
+      >m</a
+      ><a name="1274"
+      > </a
+      ><a name="1275" href="Demo2.html#1275" class="Bound"
+      >a</a
+      ><a name="1276" class="Symbol"
+      >}</a
+      ><a name="1277"
+      > </a
+      ><a name="1278" class="Symbol"
+      >-&gt;</a
+      ><a name="1280"
+      > </a
+      ><a name="1281" href="Demo2.html#1037" class="Datatype"
+      >Vec</a
+      ><a name="1284"
+      > </a
+      ><a name="1285" href="Demo2.html#1275" class="Bound"
+      >a</a
+      ><a name="1286"
+      > </a
+      ><a name="1287" href="Demo2.html#1271" class="Bound"
+      >n</a
+      ><a name="1288"
+      > </a
+      ><a name="1289" class="Symbol"
+      >-&gt;</a
+      ><a name="1291"
+      > </a
+      ><a name="1292" href="Demo2.html#1037" class="Datatype"
+      >Vec</a
+      ><a name="1295"
+      > </a
+      ><a name="1296" href="Demo2.html#1275" class="Bound"
+      >a</a
+      ><a name="1297"
+      > </a
+      ><a name="1298" href="Demo2.html#1273" class="Bound"
+      >m</a
+      ><a name="1299"
+      > </a
+      ><a name="1300" class="Symbol"
+      >-&gt;</a
+      ><a name="1302"
+      > </a
+      ><a name="1303" href="Demo2.html#1037" class="Datatype"
+      >Vec</a
+      ><a name="1306"
+      > </a
+      ><a name="1307" href="Demo2.html#1275" class="Bound"
+      >a</a
+      ><a name="1308"
+      > </a
+      ><a name="1309" class="Symbol"
+      >(</a
+      ><a name="1310" href="Demo2.html#1271" class="Bound"
+      >n</a
+      ><a name="1311"
+      > </a
+      ><a name="1312" href="Demo2.html#1202" class="Function Operator"
+      >+</a
+      ><a name="1313"
+      > </a
+      ><a name="1314" href="Demo2.html#1273" class="Bound"
+      >m</a
+      ><a name="1315" class="Symbol"
+      >)</a
+      ><a name="1316"
+      >
+</a
+      ><a name="1317" href="Demo2.html#1258" class="Function"
+      >vappend</a
+      ><a name="1324"
+      > </a
+      ><a name="1325" class="Symbol"
+      >{</a
+      ><a name="1326" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="1330" class="Symbol"
+      >}</a
+      ><a name="1331"
+      > </a
+      ><a name="1332" href="Demo2.html#1070" class="InductiveConstructor"
+      >Nil</a
+      ><a name="1335"
+      > </a
+      ><a name="1336" href="Demo2.html#1336" class="Bound"
+      >ys</a
+      ><a name="1338"
+      > </a
+      ><a name="1339" class="Symbol"
+      >=</a
+      ><a name="1340"
+      > </a
+      ><a name="1341" href="Demo2.html#1336" class="Bound"
+      >ys</a
+      ><a name="1343"
+      >
+</a
+      ><a name="1344" href="Demo2.html#1258" class="Function"
+      >vappend</a
+      ><a name="1351"
+      > </a
+      ><a name="1352" class="Symbol"
+      >{</a
+      ><a name="1353" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="1357"
+      > </a
+      ><a name="1358" href="Demo2.html#1358" class="Bound"
+      >n</a
+      ><a name="1359" class="Symbol"
+      >}</a
+      ><a name="1360"
+      > </a
+      ><a name="1361" class="Symbol"
+      >(</a
+      ><a name="1362" href="Demo2.html#1090" class="InductiveConstructor"
+      >Cons</a
+      ><a name="1366"
+      > </a
+      ><a name="1367" href="Demo2.html#1367" class="Bound"
+      >x</a
+      ><a name="1368"
+      > </a
+      ><a name="1369" href="Demo2.html#1369" class="Bound"
+      >xs</a
+      ><a name="1371" class="Symbol"
+      >)</a
+      ><a name="1372"
+      > </a
+      ><a name="1373" href="Demo2.html#1373" class="Bound"
+      >ys</a
+      ><a name="1375"
+      > </a
+      ><a name="1376" class="Symbol"
+      >=</a
+      ><a name="1377"
+      > </a
+      ><a name="1378" href="Demo2.html#1090" class="InductiveConstructor"
+      >Cons</a
+      ><a name="1382"
+      > </a
+      ><a name="1383" href="Demo2.html#1367" class="Bound"
+      >x</a
+      ><a name="1384"
+      > </a
+      ><a name="1385" class="Symbol"
+      >(</a
+      ><a name="1386" href="Demo2.html#1258" class="Function"
+      >vappend</a
+      ><a name="1393"
+      > </a
+      ><a name="1394" href="Demo2.html#1369" class="Bound"
+      >xs</a
+      ><a name="1396"
+      > </a
+      ><a name="1397" href="Demo2.html#1373" class="Bound"
+      >ys</a
+      ><a name="1399" class="Symbol"
+      >)</a
+      ><a name="1400"
+      >
+
+</a
+      ><a name="1402" class="Comment"
+      >--foo : &#8704; {a n} -&gt; Vec a (baz n) -&gt; a</a
+      ><a name="1439"
+      >
+</a
+      ><a name="1440" class="Comment"
+      >--foo xs = {!xs!}</a
+      ><a name="1457"
+      >
+
+</a
+      ><a name="1459" class="Comment"
+      >-- lookup : &#8704; {a} -&gt; List a -&gt; &#8469; -&gt; a</a
+      ><a name="1496"
+      >
+</a
+      ><a name="1497" class="Comment"
+      >-- lookup Nil Zero = {!?!}</a
+      ><a name="1523"
+      >
+</a
+      ><a name="1524" class="Comment"
+      >-- lookup (Cons x xs) Zero = x</a
+      ><a name="1554"
+      >
+</a
+      ><a name="1555" class="Comment"
+      >-- lookup Nil (Succ n) = {!?!}</a
+      ><a name="1585"
+      >
+</a
+      ><a name="1586" class="Comment"
+      >-- lookup (Cons x xs) (Succ n) = lookup xs n</a
+      ><a name="1630"
+      >
+
+</a
+      ><a name="1632" class="Keyword"
+      >data</a
+      ><a name="1636"
+      > </a
+      ><a name="1637" href="Demo2.html#1637" class="Datatype Operator"
+      >_&lt;_</a
+      ><a name="1640"
+      > </a
+      ><a name="1641" class="Symbol"
+      >:</a
+      ><a name="1642"
+      > </a
+      ><a name="1643" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="1644"
+      > </a
+      ><a name="1645" class="Symbol"
+      >-&gt;</a
+      ><a name="1647"
+      > </a
+      ><a name="1648" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="1649"
+      > </a
+      ><a name="1650" class="Symbol"
+      >-&gt;</a
+      ><a name="1652"
+      > </a
+      ><a name="1653" class="PrimitiveType"
+      >Set</a
+      ><a name="1656"
+      > </a
+      ><a name="1657" class="Keyword"
+      >where</a
+      ><a name="1662"
+      >
+  </a
+      ><a name="1665" href="Demo2.html#1665" class="InductiveConstructor"
+      >Base</a
+      ><a name="1669"
+      > </a
+      ><a name="1670" class="Symbol"
+      >:</a
+      ><a name="1671"
+      > </a
+      ><a name="1672" class="Symbol"
+      >forall</a
+      ><a name="1678"
+      > </a
+      ><a name="1679" class="Symbol"
+      >{</a
+      ><a name="1680" href="Demo2.html#1680" class="Bound"
+      >n</a
+      ><a name="1681" class="Symbol"
+      >}</a
+      ><a name="1682"
+      > </a
+      ><a name="1683" class="Symbol"
+      >-&gt;</a
+      ><a name="1685"
+      > </a
+      ><a name="1686" class="Number"
+      >0</a
+      ><a name="1687"
+      > </a
+      ><a name="1688" href="Demo2.html#1637" class="Datatype Operator"
+      >&lt;</a
+      ><a name="1689"
+      > </a
+      ><a name="1690" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="1694"
+      > </a
+      ><a name="1695" href="Demo2.html#1680" class="Bound"
+      >n</a
+      ><a name="1696"
+      >
+  </a
+      ><a name="1699" href="Demo2.html#1699" class="InductiveConstructor"
+      >Step</a
+      ><a name="1703"
+      > </a
+      ><a name="1704" class="Symbol"
+      >:</a
+      ><a name="1705"
+      > </a
+      ><a name="1706" class="Symbol"
+      >forall</a
+      ><a name="1712"
+      > </a
+      ><a name="1713" class="Symbol"
+      >{</a
+      ><a name="1714" href="Demo2.html#1714" class="Bound"
+      >n</a
+      ><a name="1715"
+      > </a
+      ><a name="1716" href="Demo2.html#1716" class="Bound"
+      >m</a
+      ><a name="1717" class="Symbol"
+      >}</a
+      ><a name="1718"
+      > </a
+      ><a name="1719" class="Symbol"
+      >-&gt;</a
+      ><a name="1721"
+      > </a
+      ><a name="1722" href="Demo2.html#1714" class="Bound"
+      >n</a
+      ><a name="1723"
+      > </a
+      ><a name="1724" href="Demo2.html#1637" class="Datatype Operator"
+      >&lt;</a
+      ><a name="1725"
+      > </a
+      ><a name="1726" href="Demo2.html#1716" class="Bound"
+      >m</a
+      ><a name="1727"
+      > </a
+      ><a name="1728" class="Symbol"
+      >-&gt;</a
+      ><a name="1730"
+      > </a
+      ><a name="1731" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="1735"
+      > </a
+      ><a name="1736" href="Demo2.html#1714" class="Bound"
+      >n</a
+      ><a name="1737"
+      > </a
+      ><a name="1738" href="Demo2.html#1637" class="Datatype Operator"
+      >&lt;</a
+      ><a name="1739"
+      > </a
+      ><a name="1740" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="1744"
+      > </a
+      ><a name="1745" href="Demo2.html#1716" class="Bound"
+      >m</a
+      ><a name="1746"
+      >
+
+</a
+      ><a name="1748" href="Demo2.html#1748" class="Function"
+      >testLT</a
+      ><a name="1754"
+      > </a
+      ><a name="1755" class="Symbol"
+      >:</a
+      ><a name="1756"
+      > </a
+      ><a name="1757" class="Number"
+      >3</a
+      ><a name="1758"
+      > </a
+      ><a name="1759" href="Demo2.html#1637" class="Datatype Operator"
+      >&lt;</a
+      ><a name="1760"
+      > </a
+      ><a name="1761" class="Number"
+      >5</a
+      ><a name="1762"
+      >
+</a
+      ><a name="1763" href="Demo2.html#1748" class="Function"
+      >testLT</a
+      ><a name="1769"
+      > </a
+      ><a name="1770" class="Symbol"
+      >=</a
+      ><a name="1771"
+      > </a
+      ><a name="1772" href="Demo2.html#1699" class="InductiveConstructor"
+      >Step</a
+      ><a name="1776"
+      > </a
+      ><a name="1777" class="Symbol"
+      >(</a
+      ><a name="1778" href="Demo2.html#1699" class="InductiveConstructor"
+      >Step</a
+      ><a name="1782"
+      > </a
+      ><a name="1783" class="Symbol"
+      >(</a
+      ><a name="1784" href="Demo2.html#1699" class="InductiveConstructor"
+      >Step</a
+      ><a name="1788"
+      > </a
+      ><a name="1789" href="Demo2.html#1665" class="InductiveConstructor"
+      >Base</a
+      ><a name="1793" class="Symbol"
+      >))</a
+      ><a name="1795"
+      >
+
+</a
+      ><a name="1797" href="Demo2.html#1797" class="Function"
+      >vlookup</a
+      ><a name="1804"
+      > </a
+      ><a name="1805" class="Symbol"
+      >:</a
+      ><a name="1806"
+      > </a
+      ><a name="1807" class="Symbol"
+      >forall</a
+      ><a name="1813"
+      > </a
+      ><a name="1814" class="Symbol"
+      >{</a
+      ><a name="1815" href="Demo2.html#1815" class="Bound"
+      >a</a
+      ><a name="1816"
+      > </a
+      ><a name="1817" href="Demo2.html#1817" class="Bound"
+      >m</a
+      ><a name="1818" class="Symbol"
+      >}</a
+      ><a name="1819"
+      > </a
+      ><a name="1820" class="Symbol"
+      >-&gt;</a
+      ><a name="1822"
+      > </a
+      ><a name="1823" href="Demo2.html#1037" class="Datatype"
+      >Vec</a
+      ><a name="1826"
+      > </a
+      ><a name="1827" href="Demo2.html#1815" class="Bound"
+      >a</a
+      ><a name="1828"
+      > </a
+      ><a name="1829" href="Demo2.html#1817" class="Bound"
+      >m</a
+      ><a name="1830"
+      > </a
+      ><a name="1831" class="Symbol"
+      >-&gt;</a
+      ><a name="1833"
+      > </a
+      ><a name="1834" class="Symbol"
+      >(</a
+      ><a name="1835" href="Demo2.html#1835" class="Bound"
+      >n</a
+      ><a name="1836"
+      > </a
+      ><a name="1837" class="Symbol"
+      >:</a
+      ><a name="1838"
+      > </a
+      ><a name="1839" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="1840" class="Symbol"
+      >)</a
+      ><a name="1841"
+      > </a
+      ><a name="1842" class="Symbol"
+      >-&gt;</a
+      ><a name="1844"
+      > </a
+      ><a name="1845" href="Demo2.html#1835" class="Bound"
+      >n</a
+      ><a name="1846"
+      > </a
+      ><a name="1847" href="Demo2.html#1637" class="Datatype Operator"
+      >&lt;</a
+      ><a name="1848"
+      > </a
+      ><a name="1849" href="Demo2.html#1817" class="Bound"
+      >m</a
+      ><a name="1850"
+      > </a
+      ><a name="1851" class="Symbol"
+      >-&gt;</a
+      ><a name="1853"
+      > </a
+      ><a name="1854" href="Demo2.html#1815" class="Bound"
+      >a</a
+      ><a name="1855"
+      >
+</a
+      ><a name="1856" href="Demo2.html#1797" class="Function"
+      >vlookup</a
+      ><a name="1863"
+      > </a
+      ><a name="1864" class="Symbol"
+      >(</a
+      ><a name="1865" href="Demo2.html#1090" class="InductiveConstructor"
+      >Cons</a
+      ><a name="1869"
+      > </a
+      ><a name="1870" href="Demo2.html#1870" class="Bound"
+      >x</a
+      ><a name="1871"
+      > </a
+      ><a name="1872" href="Demo2.html#1872" class="Bound"
+      >xs</a
+      ><a name="1874" class="Symbol"
+      >)</a
+      ><a name="1875"
+      > </a
+      ><a name="1876" class="DottedPattern Symbol"
+      >.</a
+      ><a name="1877" class="DottedPattern Number"
+      >0</a
+      ><a name="1878"
+      > </a
+      ><a name="1879" href="Demo2.html#1665" class="InductiveConstructor"
+      >Base</a
+      ><a name="1883"
+      > </a
+      ><a name="1884" class="Symbol"
+      >=</a
+      ><a name="1885"
+      > </a
+      ><a name="1886" href="Demo2.html#1870" class="Bound"
+      >x</a
+      ><a name="1887"
+      >
+</a
+      ><a name="1888" href="Demo2.html#1797" class="Function"
+      >vlookup</a
+      ><a name="1895"
+      > </a
+      ><a name="1896" class="Symbol"
+      >(</a
+      ><a name="1897" href="Demo2.html#1090" class="InductiveConstructor"
+      >Cons</a
+      ><a name="1901"
+      > </a
+      ><a name="1902" href="Demo2.html#1902" class="Bound"
+      >x</a
+      ><a name="1903"
+      > </a
+      ><a name="1904" href="Demo2.html#1904" class="Bound"
+      >xs</a
+      ><a name="1906" class="Symbol"
+      >)</a
+      ><a name="1907"
+      > </a
+      ><a name="1908" class="DottedPattern Symbol"
+      >.(</a
+      ><a name="1910" href="Demo2.html#423" class="DottedPattern InductiveConstructor"
+      >Succ</a
+      ><a name="1914"
+      > </a
+      ><a name="1915" href="Demo2.html#1925" class="DottedPattern Bound"
+      >n</a
+      ><a name="1916" class="DottedPattern Symbol"
+      >)</a
+      ><a name="1917"
+      > </a
+      ><a name="1918" class="Symbol"
+      >(</a
+      ><a name="1919" href="Demo2.html#1699" class="InductiveConstructor"
+      >Step</a
+      ><a name="1923"
+      > </a
+      ><a name="1924" class="Symbol"
+      >{</a
+      ><a name="1925" href="Demo2.html#1925" class="Bound"
+      >n</a
+      ><a name="1926" class="Symbol"
+      >}</a
+      ><a name="1927"
+      > </a
+      ><a name="1928" class="Symbol"
+      >{</a
+      ><a name="1929" href="Demo2.html#1929" class="Bound"
+      >m</a
+      ><a name="1930" class="Symbol"
+      >}</a
+      ><a name="1931"
+      > </a
+      ><a name="1932" href="Demo2.html#1932" class="Bound"
+      >p</a
+      ><a name="1933" class="Symbol"
+      >)</a
+      ><a name="1934"
+      > </a
+      ><a name="1935" class="Symbol"
+      >=</a
+      ><a name="1936"
+      > </a
+      ><a name="1937" href="Demo2.html#1797" class="Function"
+      >vlookup</a
+      ><a name="1944"
+      > </a
+      ><a name="1945" href="Demo2.html#1904" class="Bound"
+      >xs</a
+      ><a name="1947"
+      > </a
+      ><a name="1948" href="Demo2.html#1925" class="Bound"
+      >n</a
+      ><a name="1949"
+      > </a
+      ><a name="1950" href="Demo2.html#1932" class="Bound"
+      >p</a
+      ><a name="1951"
+      >
+
+</a
+      ><a name="1953" class="Keyword"
+      >data</a
+      ><a name="1957"
+      > </a
+      ><a name="1958" href="Demo2.html#1958" class="Datatype"
+      >Fin</a
+      ><a name="1961"
+      > </a
+      ><a name="1962" class="Symbol"
+      >:</a
+      ><a name="1963"
+      > </a
+      ><a name="1964" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="1965"
+      > </a
+      ><a name="1966" class="Symbol"
+      >-&gt;</a
+      ><a name="1968"
+      > </a
+      ><a name="1969" class="PrimitiveType"
+      >Set</a
+      ><a name="1972"
+      > </a
+      ><a name="1973" class="Keyword"
+      >where</a
+      ><a name="1978"
+      >
+  </a
+      ><a name="1981" href="Demo2.html#1981" class="InductiveConstructor"
+      >FZero</a
+      ><a name="1986"
+      > </a
+      ><a name="1987" class="Symbol"
+      >:</a
+      ><a name="1988"
+      > </a
+      ><a name="1989" class="Symbol"
+      >forall</a
+      ><a name="1995"
+      > </a
+      ><a name="1996" class="Symbol"
+      >{</a
+      ><a name="1997" href="Demo2.html#1997" class="Bound"
+      >n</a
+      ><a name="1998" class="Symbol"
+      >}</a
+      ><a name="1999"
+      > </a
+      ><a name="2000" class="Symbol"
+      >-&gt;</a
+      ><a name="2002"
+      > </a
+      ><a name="2003" href="Demo2.html#1958" class="Datatype"
+      >Fin</a
+      ><a name="2006"
+      > </a
+      ><a name="2007" class="Symbol"
+      >(</a
+      ><a name="2008" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="2012"
+      > </a
+      ><a name="2013" href="Demo2.html#1997" class="Bound"
+      >n</a
+      ><a name="2014" class="Symbol"
+      >)</a
+      ><a name="2015"
+      >
+  </a
+      ><a name="2018" href="Demo2.html#2018" class="InductiveConstructor"
+      >FSucc</a
+      ><a name="2023"
+      > </a
+      ><a name="2024" class="Symbol"
+      >:</a
+      ><a name="2025"
+      > </a
+      ><a name="2026" class="Symbol"
+      >forall</a
+      ><a name="2032"
+      > </a
+      ><a name="2033" class="Symbol"
+      >{</a
+      ><a name="2034" href="Demo2.html#2034" class="Bound"
+      >n</a
+      ><a name="2035" class="Symbol"
+      >}</a
+      ><a name="2036"
+      > </a
+      ><a name="2037" class="Symbol"
+      >-&gt;</a
+      ><a name="2039"
+      > </a
+      ><a name="2040" href="Demo2.html#1958" class="Datatype"
+      >Fin</a
+      ><a name="2043"
+      > </a
+      ><a name="2044" href="Demo2.html#2034" class="Bound"
+      >n</a
+      ><a name="2045"
+      > </a
+      ><a name="2046" class="Symbol"
+      >-&gt;</a
+      ><a name="2048"
+      > </a
+      ><a name="2049" href="Demo2.html#1958" class="Datatype"
+      >Fin</a
+      ><a name="2052"
+      > </a
+      ><a name="2053" class="Symbol"
+      >(</a
+      ><a name="2054" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="2058"
+      > </a
+      ><a name="2059" href="Demo2.html#2034" class="Bound"
+      >n</a
+      ><a name="2060" class="Symbol"
+      >)</a
+      ><a name="2061"
+      >
+
+
+</a
+      ><a name="2064" class="Comment"
+      >--Int32 : Set</a
+      ><a name="2077"
+      >
+</a
+      ><a name="2078" class="Comment"
+      >--Int32 = Fin (2 ^ 32)</a
+      ><a name="2100"
+      >
+
+</a
+      ><a name="2102" href="Demo2.html#2102" class="Function"
+      >finlookup</a
+      ><a name="2111"
+      > </a
+      ><a name="2112" class="Symbol"
+      >:</a
+      ><a name="2113"
+      > </a
+      ><a name="2114" class="Symbol"
+      >forall</a
+      ><a name="2120"
+      > </a
+      ><a name="2121" class="Symbol"
+      >{</a
+      ><a name="2122" href="Demo2.html#2122" class="Bound"
+      >a</a
+      ><a name="2123"
+      > </a
+      ><a name="2124" href="Demo2.html#2124" class="Bound"
+      >m</a
+      ><a name="2125" class="Symbol"
+      >}</a
+      ><a name="2126"
+      > </a
+      ><a name="2127" class="Symbol"
+      >-&gt;</a
+      ><a name="2129"
+      > </a
+      ><a name="2130" href="Demo2.html#1037" class="Datatype"
+      >Vec</a
+      ><a name="2133"
+      > </a
+      ><a name="2134" href="Demo2.html#2122" class="Bound"
+      >a</a
+      ><a name="2135"
+      > </a
+      ><a name="2136" href="Demo2.html#2124" class="Bound"
+      >m</a
+      ><a name="2137"
+      > </a
+      ><a name="2138" class="Symbol"
+      >-&gt;</a
+      ><a name="2140"
+      > </a
+      ><a name="2141" href="Demo2.html#1958" class="Datatype"
+      >Fin</a
+      ><a name="2144"
+      > </a
+      ><a name="2145" href="Demo2.html#2124" class="Bound"
+      >m</a
+      ><a name="2146"
+      > </a
+      ><a name="2147" class="Symbol"
+      >-&gt;</a
+      ><a name="2149"
+      > </a
+      ><a name="2150" href="Demo2.html#2122" class="Bound"
+      >a</a
+      ><a name="2151"
+      >
+</a
+      ><a name="2152" href="Demo2.html#2102" class="Function"
+      >finlookup</a
+      ><a name="2161"
+      > </a
+      ><a name="2162" class="Symbol"
+      >(</a
+      ><a name="2163" href="Demo2.html#1090" class="InductiveConstructor"
+      >Cons</a
+      ><a name="2167"
+      > </a
+      ><a name="2168" href="Demo2.html#2168" class="Bound"
+      >x</a
+      ><a name="2169"
+      > </a
+      ><a name="2170" href="Demo2.html#2170" class="Bound"
+      >xs</a
+      ><a name="2172" class="Symbol"
+      >)</a
+      ><a name="2173"
+      > </a
+      ><a name="2174" href="Demo2.html#1981" class="InductiveConstructor"
+      >FZero</a
+      ><a name="2179"
+      > </a
+      ><a name="2180" class="Symbol"
+      >=</a
+      ><a name="2181"
+      > </a
+      ><a name="2182" href="Demo2.html#2168" class="Bound"
+      >x</a
+      ><a name="2183"
+      >
+</a
+      ><a name="2184" href="Demo2.html#2102" class="Function"
+      >finlookup</a
+      ><a name="2193"
+      > </a
+      ><a name="2194" class="Symbol"
+      >(</a
+      ><a name="2195" href="Demo2.html#1090" class="InductiveConstructor"
+      >Cons</a
+      ><a name="2199"
+      > </a
+      ><a name="2200" href="Demo2.html#2200" class="Bound"
+      >x</a
+      ><a name="2201"
+      > </a
+      ><a name="2202" href="Demo2.html#2202" class="Bound"
+      >xs</a
+      ><a name="2204" class="Symbol"
+      >)</a
+      ><a name="2205"
+      > </a
+      ><a name="2206" class="Symbol"
+      >(</a
+      ><a name="2207" href="Demo2.html#2018" class="InductiveConstructor"
+      >FSucc</a
+      ><a name="2212"
+      > </a
+      ><a name="2213" href="Demo2.html#2213" class="Bound"
+      >i</a
+      ><a name="2214" class="Symbol"
+      >)</a
+      ><a name="2215"
+      > </a
+      ><a name="2216" class="Symbol"
+      >=</a
+      ><a name="2217"
+      > </a
+      ><a name="2218" href="Demo2.html#2102" class="Function"
+      >finlookup</a
+      ><a name="2227"
+      > </a
+      ><a name="2228" href="Demo2.html#2202" class="Bound"
+      >xs</a
+      ><a name="2230"
+      > </a
+      ><a name="2231" href="Demo2.html#2213" class="Bound"
+      >i</a
+      ><a name="2232"
+      >
+
+</a
+      ><a name="2234" class="Keyword"
+      >postulate</a
+      ><a name="2243"
+      >
+  </a
+      ><a name="2246" href="Demo2.html#2246" class="Postulate"
+      >Char</a
+      ><a name="2250"
+      > </a
+      ><a name="2251" class="Symbol"
+      >:</a
+      ><a name="2252"
+      > </a
+      ><a name="2253" class="PrimitiveType"
+      >Set</a
+      ><a name="2256"
+      >
+
+</a
+      ><a name="2258" class="Symbol"
+      >{-#</a
+      ><a name="2261"
+      > </a
+      ><a name="2262" class="Keyword"
+      >BUILTIN</a
+      ><a name="2269"
+      > CHAR </a
+      ><a name="2275" href="Demo2.html#2246" class="Postulate"
+      >Char</a
+      ><a name="2279"
+      > </a
+      ><a name="2280" class="Symbol"
+      >#-}</a
+      ><a name="2283"
+      >
+
+</a
+      ><a name="2285" href="Demo2.html#2285" class="Function"
+      >c</a
+      ><a name="2286"
+      > </a
+      ><a name="2287" class="Symbol"
+      >:</a
+      ><a name="2288"
+      > </a
+      ><a name="2289" href="Demo2.html#2246" class="Postulate"
+      >Char</a
+      ><a name="2293"
+      >
+</a
+      ><a name="2294" href="Demo2.html#2285" class="Function"
+      >c</a
+      ><a name="2295"
+      > </a
+      ><a name="2296" class="Symbol"
+      >=</a
+      ><a name="2297"
+      > </a
+      ><a name="2298" class="String"
+      >'c'</a
+      ><a name="2301"
+      >
+
+</a
+      ><a name="2303" class="Keyword"
+      >data</a
+      ><a name="2307"
+      > </a
+      ><a name="2308" href="Demo2.html#2308" class="Datatype"
+      >U</a
+      ><a name="2309"
+      > </a
+      ><a name="2310" class="Symbol"
+      >:</a
+      ><a name="2311"
+      > </a
+      ><a name="2312" class="PrimitiveType"
+      >Set</a
+      ><a name="2315"
+      > </a
+      ><a name="2316" class="Keyword"
+      >where</a
+      ><a name="2321"
+      >
+  </a
+      ><a name="2324" href="Demo2.html#2324" class="InductiveConstructor"
+      >NAT</a
+      ><a name="2327"
+      > </a
+      ><a name="2328" class="Symbol"
+      >:</a
+      ><a name="2329"
+      > </a
+      ><a name="2330" href="Demo2.html#2308" class="Datatype"
+      >U</a
+      ><a name="2331"
+      >
+  </a
+      ><a name="2334" href="Demo2.html#2334" class="InductiveConstructor"
+      >BOOL</a
+      ><a name="2338"
+      > </a
+      ><a name="2339" class="Symbol"
+      >:</a
+      ><a name="2340"
+      > </a
+      ><a name="2341" href="Demo2.html#2308" class="Datatype"
+      >U</a
+      ><a name="2342"
+      >
+  </a
+      ><a name="2345" href="Demo2.html#2345" class="InductiveConstructor"
+      >CHAR</a
+      ><a name="2349"
+      > </a
+      ><a name="2350" class="Symbol"
+      >:</a
+      ><a name="2351"
+      > </a
+      ><a name="2352" href="Demo2.html#2308" class="Datatype"
+      >U</a
+      ><a name="2353"
+      >
+  </a
+      ><a name="2356" href="Demo2.html#2356" class="InductiveConstructor"
+      >PAIR</a
+      ><a name="2360"
+      > </a
+      ><a name="2361" class="Symbol"
+      >:</a
+      ><a name="2362"
+      > </a
+      ><a name="2363" href="Demo2.html#2308" class="Datatype"
+      >U</a
+      ><a name="2364"
+      > </a
+      ><a name="2365" class="Symbol"
+      >-&gt;</a
+      ><a name="2367"
+      > </a
+      ><a name="2368" href="Demo2.html#2308" class="Datatype"
+      >U</a
+      ><a name="2369"
+      > </a
+      ><a name="2370" class="Symbol"
+      >-&gt;</a
+      ><a name="2372"
+      > </a
+      ><a name="2373" href="Demo2.html#2308" class="Datatype"
+      >U</a
+      ><a name="2374"
+      >
+
+</a
+      ><a name="2376" class="Keyword"
+      >data</a
+      ><a name="2380"
+      > </a
+      ><a name="2381" href="Demo2.html#2381" class="Datatype"
+      >Pair</a
+      ><a name="2385"
+      > </a
+      ><a name="2386" class="Symbol"
+      >(</a
+      ><a name="2387" href="Demo2.html#2387" class="Bound"
+      >a</a
+      ><a name="2388"
+      > </a
+      ><a name="2389" href="Demo2.html#2389" class="Bound"
+      >b</a
+      ><a name="2390"
+      > </a
+      ><a name="2391" class="Symbol"
+      >:</a
+      ><a name="2392"
+      > </a
+      ><a name="2393" class="PrimitiveType"
+      >Set</a
+      ><a name="2396" class="Symbol"
+      >)</a
+      ><a name="2397"
+      > </a
+      ><a name="2398" class="Symbol"
+      >:</a
+      ><a name="2399"
+      > </a
+      ><a name="2400" class="PrimitiveType"
+      >Set</a
+      ><a name="2403"
+      > </a
+      ><a name="2404" class="Keyword"
+      >where</a
+      ><a name="2409"
+      >
+  </a
+      ><a name="2412" href="Demo2.html#2412" class="InductiveConstructor Operator"
+      >_,_</a
+      ><a name="2415"
+      > </a
+      ><a name="2416" class="Symbol"
+      >:</a
+      ><a name="2417"
+      > </a
+      ><a name="2418" href="Demo2.html#2387" class="Bound"
+      >a</a
+      ><a name="2419"
+      > </a
+      ><a name="2420" class="Symbol"
+      >-&gt;</a
+      ><a name="2422"
+      > </a
+      ><a name="2423" href="Demo2.html#2389" class="Bound"
+      >b</a
+      ><a name="2424"
+      > </a
+      ><a name="2425" class="Symbol"
+      >-&gt;</a
+      ><a name="2427"
+      > </a
+      ><a name="2428" href="Demo2.html#2381" class="Datatype"
+      >Pair</a
+      ><a name="2432"
+      > </a
+      ><a name="2433" href="Demo2.html#2387" class="Bound"
+      >a</a
+      ><a name="2434"
+      > </a
+      ><a name="2435" href="Demo2.html#2389" class="Bound"
+      >b</a
+      ><a name="2436"
+      >
+
+</a
+      ><a name="2438" href="Demo2.html#2438" class="Function"
+      >el</a
+      ><a name="2440"
+      > </a
+      ><a name="2441" class="Symbol"
+      >:</a
+      ><a name="2442"
+      > </a
+      ><a name="2443" href="Demo2.html#2308" class="Datatype"
+      >U</a
+      ><a name="2444"
+      > </a
+      ><a name="2445" class="Symbol"
+      >-&gt;</a
+      ><a name="2447"
+      > </a
+      ><a name="2448" class="PrimitiveType"
+      >Set</a
+      ><a name="2451"
+      >
+</a
+      ><a name="2452" href="Demo2.html#2438" class="Function"
+      >el</a
+      ><a name="2454"
+      > </a
+      ><a name="2455" href="Demo2.html#2324" class="InductiveConstructor"
+      >NAT</a
+      ><a name="2458"
+      > </a
+      ><a name="2459" class="Symbol"
+      >=</a
+      ><a name="2460"
+      > </a
+      ><a name="2461" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="2462"
+      >
+</a
+      ><a name="2463" href="Demo2.html#2438" class="Function"
+      >el</a
+      ><a name="2465"
+      > </a
+      ><a name="2466" href="Demo2.html#2334" class="InductiveConstructor"
+      >BOOL</a
+      ><a name="2470"
+      > </a
+      ><a name="2471" class="Symbol"
+      >=</a
+      ><a name="2472"
+      > </a
+      ><a name="2473" href="Demo2.html#28" class="Datatype"
+      >Bool</a
+      ><a name="2477"
+      >
+</a
+      ><a name="2478" href="Demo2.html#2438" class="Function"
+      >el</a
+      ><a name="2480"
+      > </a
+      ><a name="2481" href="Demo2.html#2345" class="InductiveConstructor"
+      >CHAR</a
+      ><a name="2485"
+      > </a
+      ><a name="2486" class="Symbol"
+      >=</a
+      ><a name="2487"
+      > </a
+      ><a name="2488" href="Demo2.html#2246" class="Postulate"
+      >Char</a
+      ><a name="2492"
+      >
+</a
+      ><a name="2493" href="Demo2.html#2438" class="Function"
+      >el</a
+      ><a name="2495"
+      > </a
+      ><a name="2496" class="Symbol"
+      >(</a
+      ><a name="2497" href="Demo2.html#2356" class="InductiveConstructor"
+      >PAIR</a
+      ><a name="2501"
+      > </a
+      ><a name="2502" href="Demo2.html#2502" class="Bound"
+      >x</a
+      ><a name="2503"
+      > </a
+      ><a name="2504" href="Demo2.html#2504" class="Bound"
+      >y</a
+      ><a name="2505" class="Symbol"
+      >)</a
+      ><a name="2506"
+      > </a
+      ><a name="2507" class="Symbol"
+      >=</a
+      ><a name="2508"
+      > </a
+      ><a name="2509" href="Demo2.html#2381" class="Datatype"
+      >Pair</a
+      ><a name="2513"
+      > </a
+      ><a name="2514" class="Symbol"
+      >(</a
+      ><a name="2515" href="Demo2.html#2438" class="Function"
+      >el</a
+      ><a name="2517"
+      > </a
+      ><a name="2518" href="Demo2.html#2502" class="Bound"
+      >x</a
+      ><a name="2519" class="Symbol"
+      >)</a
+      ><a name="2520"
+      > </a
+      ><a name="2521" class="Symbol"
+      >(</a
+      ><a name="2522" href="Demo2.html#2438" class="Function"
+      >el</a
+      ><a name="2524"
+      > </a
+      ><a name="2525" href="Demo2.html#2504" class="Bound"
+      >y</a
+      ><a name="2526" class="Symbol"
+      >)</a
+      ><a name="2527"
+      >
+
+</a
+      ><a name="2529" href="Demo2.html#2529" class="Function"
+      >String</a
+      ><a name="2535"
+      > </a
+      ><a name="2536" class="Symbol"
+      >:</a
+      ><a name="2537"
+      > </a
+      ><a name="2538" class="PrimitiveType"
+      >Set</a
+      ><a name="2541"
+      >
+</a
+      ><a name="2542" href="Demo2.html#2529" class="Function"
+      >String</a
+      ><a name="2548"
+      > </a
+      ><a name="2549" class="Symbol"
+      >=</a
+      ><a name="2550"
+      > </a
+      ><a name="2551" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="2555"
+      > </a
+      ><a name="2556" href="Demo2.html#2246" class="Postulate"
+      >Char</a
+      ><a name="2560"
+      >
+
+</a
+      ><a name="2562" href="Demo2.html#2562" class="Function"
+      >showU</a
+      ><a name="2567"
+      > </a
+      ><a name="2568" class="Symbol"
+      >:</a
+      ><a name="2569"
+      > </a
+      ><a name="2570" class="Symbol"
+      >{</a
+      ><a name="2571" href="Demo2.html#2571" class="Bound"
+      >u</a
+      ><a name="2572"
+      > </a
+      ><a name="2573" class="Symbol"
+      >:</a
+      ><a name="2574"
+      > </a
+      ><a name="2575" href="Demo2.html#2308" class="Datatype"
+      >U</a
+      ><a name="2576" class="Symbol"
+      >}</a
+      ><a name="2577"
+      > </a
+      ><a name="2578" class="Symbol"
+      >-&gt;</a
+      ><a name="2580"
+      > </a
+      ><a name="2581" href="Demo2.html#2438" class="Function"
+      >el</a
+      ><a name="2583"
+      > </a
+      ><a name="2584" href="Demo2.html#2571" class="Bound"
+      >u</a
+      ><a name="2585"
+      > </a
+      ><a name="2586" class="Symbol"
+      >-&gt;</a
+      ><a name="2588"
+      > </a
+      ><a name="2589" href="Demo2.html#2529" class="Function"
+      >String</a
+      ><a name="2595"
+      >
+</a
+      ><a name="2596" href="Demo2.html#2562" class="Function"
+      >showU</a
+      ><a name="2601"
+      > </a
+      ><a name="2602" class="Symbol"
+      >{</a
+      ><a name="2603" href="Demo2.html#2324" class="InductiveConstructor"
+      >NAT</a
+      ><a name="2606" class="Symbol"
+      >}</a
+      ><a name="2607"
+      > </a
+      ><a name="2608" href="Demo2.html#2608" class="Bound"
+      >x</a
+      ><a name="2609"
+      > </a
+      ><a name="2610" class="Symbol"
+      >=</a
+      ><a name="2611"
+      > </a
+      ><a name="2612" class="Symbol"
+      >{!!}</a
+      ><a name="2616"
+      >
+</a
+      ><a name="2617" href="Demo2.html#2562" class="Function"
+      >showU</a
+      ><a name="2622"
+      > </a
+      ><a name="2623" class="Symbol"
+      >{</a
+      ><a name="2624" href="Demo2.html#2334" class="InductiveConstructor"
+      >BOOL</a
+      ><a name="2628" class="Symbol"
+      >}</a
+      ><a name="2629"
+      > </a
+      ><a name="2630" href="Demo2.html#47" class="InductiveConstructor"
+      >True</a
+      ><a name="2634"
+      > </a
+      ><a name="2635" class="Symbol"
+      >=</a
+      ><a name="2636"
+      > </a
+      ><a name="2637" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="2641"
+      > </a
+      ><a name="2642" class="String"
+      >'T'</a
+      ><a name="2645"
+      > </a
+      ><a name="2646" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="2649"
+      > 
+</a
+      ><a name="2651" href="Demo2.html#2562" class="Function"
+      >showU</a
+      ><a name="2656"
+      > </a
+      ><a name="2657" class="Symbol"
+      >{</a
+      ><a name="2658" href="Demo2.html#2334" class="InductiveConstructor"
+      >BOOL</a
+      ><a name="2662" class="Symbol"
+      >}</a
+      ><a name="2663"
+      > </a
+      ><a name="2664" href="Demo2.html#61" class="InductiveConstructor"
+      >False</a
+      ><a name="2669"
+      > </a
+      ><a name="2670" class="Symbol"
+      >=</a
+      ><a name="2671"
+      > </a
+      ><a name="2672" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="2676"
+      > </a
+      ><a name="2677" class="String"
+      >'F'</a
+      ><a name="2680"
+      > </a
+      ><a name="2681" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="2684"
+      >
+</a
+      ><a name="2685" href="Demo2.html#2562" class="Function"
+      >showU</a
+      ><a name="2690"
+      > </a
+      ><a name="2691" class="Symbol"
+      >{</a
+      ><a name="2692" href="Demo2.html#2345" class="InductiveConstructor"
+      >CHAR</a
+      ><a name="2696" class="Symbol"
+      >}</a
+      ><a name="2697"
+      > </a
+      ><a name="2698" href="Demo2.html#2698" class="Bound"
+      >x</a
+      ><a name="2699"
+      > </a
+      ><a name="2700" class="Symbol"
+      >=</a
+      ><a name="2701"
+      > </a
+      ><a name="2702" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="2706"
+      > </a
+      ><a name="2707" href="Demo2.html#2698" class="Bound"
+      >x</a
+      ><a name="2708"
+      > </a
+      ><a name="2709" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="2712"
+      >
+</a
+      ><a name="2713" href="Demo2.html#2562" class="Function"
+      >showU</a
+      ><a name="2718"
+      > </a
+      ><a name="2719" class="Symbol"
+      >{</a
+      ><a name="2720" href="Demo2.html#2356" class="InductiveConstructor"
+      >PAIR</a
+      ><a name="2724"
+      > </a
+      ><a name="2725" href="Demo2.html#2725" class="Bound"
+      >u</a
+      ><a name="2726"
+      > </a
+      ><a name="2727" href="Demo2.html#2727" class="Bound"
+      >u&#8321;</a
+      ><a name="2729" class="Symbol"
+      >}</a
+      ><a name="2730"
+      > </a
+      ><a name="2731" href="Demo2.html#2731" class="Bound"
+      >x</a
+      ><a name="2732"
+      > </a
+      ><a name="2733" class="Symbol"
+      >=</a
+      ><a name="2734"
+      > </a
+      ><a name="2735" class="Symbol"
+      >{!!}</a
+      ><a name="2739"
+      >
+
+</a
+      ><a name="2741" href="Demo2.html#2741" class="Function"
+      >example1</a
+      ><a name="2749"
+      > </a
+      ><a name="2750" class="Symbol"
+      >:</a
+      ><a name="2751"
+      > </a
+      ><a name="2752" href="Demo2.html#2529" class="Function"
+      >String</a
+      ><a name="2758"
+      >
+</a
+      ><a name="2759" href="Demo2.html#2741" class="Function"
+      >example1</a
+      ><a name="2767"
+      > </a
+      ><a name="2768" class="Symbol"
+      >=</a
+      ><a name="2769"
+      > </a
+      ><a name="2770" href="Demo2.html#2562" class="Function"
+      >showU</a
+      ><a name="2775"
+      > </a
+      ><a name="2776" href="Demo2.html#47" class="InductiveConstructor"
+      >True</a
+      ><a name="2780"
+      >
+
+</a
+      ><a name="2782" href="Demo2.html#2782" class="Function"
+      >example2</a
+      ><a name="2790"
+      > </a
+      ><a name="2791" class="Symbol"
+      >:</a
+      ><a name="2792"
+      > </a
+      ><a name="2793" href="Demo2.html#2529" class="Function"
+      >String</a
+      ><a name="2799"
+      >
+</a
+      ><a name="2800" href="Demo2.html#2782" class="Function"
+      >example2</a
+      ><a name="2808"
+      > </a
+      ><a name="2809" class="Symbol"
+      >=</a
+      ><a name="2810"
+      > </a
+      ><a name="2811" href="Demo2.html#2562" class="Function"
+      >showU</a
+      ><a name="2816"
+      > </a
+      ><a name="2817" class="String"
+      >'c'</a
+      ><a name="2820"
+      >
+
+</a
+      ><a name="2822" class="Keyword"
+      >data</a
+      ><a name="2826"
+      > </a
+      ><a name="2827" href="Demo2.html#2827" class="Datatype"
+      >Unit</a
+      ><a name="2831"
+      > </a
+      ><a name="2832" class="Symbol"
+      >:</a
+      ><a name="2833"
+      > </a
+      ><a name="2834" class="PrimitiveType"
+      >Set</a
+      ><a name="2837"
+      > </a
+      ><a name="2838" class="Keyword"
+      >where</a
+      ><a name="2843"
+      >
+  </a
+      ><a name="2846" href="Demo2.html#2846" class="InductiveConstructor"
+      >tt</a
+      ><a name="2848"
+      > </a
+      ><a name="2849" class="Symbol"
+      >:</a
+      ><a name="2850"
+      > </a
+      ><a name="2851" href="Demo2.html#2827" class="Datatype"
+      >Unit</a
+      ><a name="2855"
+      >
+
+
+</a
+      ><a name="2858" class="Keyword"
+      >postulate</a
+      ><a name="2867"
+      >
+  </a
+      ><a name="2870" href="Demo2.html#2870" class="Postulate"
+      >IO</a
+      ><a name="2872"
+      > </a
+      ><a name="2873" class="Symbol"
+      >:</a
+      ><a name="2874"
+      > </a
+      ><a name="2875" class="PrimitiveType"
+      >Set</a
+      ><a name="2878"
+      > </a
+      ><a name="2879" class="Symbol"
+      >-&gt;</a
+      ><a name="2881"
+      > </a
+      ><a name="2882" class="PrimitiveType"
+      >Set</a
+      ><a name="2885"
+      >
+  </a
+      ><a name="2888" href="Demo2.html#2888" class="Postulate"
+      >putChar</a
+      ><a name="2895"
+      > </a
+      ><a name="2896" class="Symbol"
+      >:</a
+      ><a name="2897"
+      > </a
+      ><a name="2898" href="Demo2.html#2246" class="Postulate"
+      >Char</a
+      ><a name="2902"
+      > </a
+      ><a name="2903" class="Symbol"
+      >-&gt;</a
+      ><a name="2905"
+      > </a
+      ><a name="2906" href="Demo2.html#2870" class="Postulate"
+      >IO</a
+      ><a name="2908"
+      > </a
+      ><a name="2909" href="Demo2.html#2827" class="Datatype"
+      >Unit</a
+      ><a name="2913"
+      >
+  </a
+      ><a name="2916" href="Demo2.html#2916" class="Postulate"
+      >return</a
+      ><a name="2922"
+      > </a
+      ><a name="2923" class="Symbol"
+      >:</a
+      ><a name="2924"
+      > </a
+      ><a name="2925" class="Symbol"
+      >{</a
+      ><a name="2926" href="Demo2.html#2926" class="Bound"
+      >a</a
+      ><a name="2927"
+      > </a
+      ><a name="2928" class="Symbol"
+      >:</a
+      ><a name="2929"
+      > </a
+      ><a name="2930" class="PrimitiveType"
+      >Set</a
+      ><a name="2933" class="Symbol"
+      >}</a
+      ><a name="2934"
+      > </a
+      ><a name="2935" class="Symbol"
+      >-&gt;</a
+      ><a name="2937"
+      > </a
+      ><a name="2938" href="Demo2.html#2926" class="Bound"
+      >a</a
+      ><a name="2939"
+      > </a
+      ><a name="2940" class="Symbol"
+      >-&gt;</a
+      ><a name="2942"
+      > </a
+      ><a name="2943" href="Demo2.html#2870" class="Postulate"
+      >IO</a
+      ><a name="2945"
+      > </a
+      ><a name="2946" href="Demo2.html#2926" class="Bound"
+      >a</a
+      ><a name="2947"
+      >
+  </a
+      ><a name="2950" href="Demo2.html#2950" class="Postulate"
+      >printString</a
+      ><a name="2961"
+      > </a
+      ><a name="2962" class="Symbol"
+      >:</a
+      ><a name="2963"
+      > </a
+      ><a name="2964" href="Demo2.html#2529" class="Function"
+      >String</a
+      ><a name="2970"
+      > </a
+      ><a name="2971" class="Symbol"
+      >-&gt;</a
+      ><a name="2973"
+      > </a
+      ><a name="2974" href="Demo2.html#2870" class="Postulate"
+      >IO</a
+      ><a name="2976"
+      > </a
+      ><a name="2977" href="Demo2.html#2827" class="Datatype"
+      >Unit</a
+      ><a name="2981"
+      >
+  </a
+      ><a name="2984" href="Demo2.html#2984" class="Postulate Operator"
+      >_&gt;&gt;_</a
+      ><a name="2988"
+      > </a
+      ><a name="2989" class="Symbol"
+      >:</a
+      ><a name="2990"
+      > </a
+      ><a name="2991" class="Symbol"
+      >{</a
+      ><a name="2992" href="Demo2.html#2992" class="Bound"
+      >a</a
+      ><a name="2993"
+      > </a
+      ><a name="2994" href="Demo2.html#2994" class="Bound"
+      >b</a
+      ><a name="2995"
+      > </a
+      ><a name="2996" class="Symbol"
+      >:</a
+      ><a name="2997"
+      > </a
+      ><a name="2998" class="PrimitiveType"
+      >Set</a
+      ><a name="3001" class="Symbol"
+      >}</a
+      ><a name="3002"
+      > </a
+      ><a name="3003" class="Symbol"
+      >-&gt;</a
+      ><a name="3005"
+      > </a
+      ><a name="3006" href="Demo2.html#2870" class="Postulate"
+      >IO</a
+      ><a name="3008"
+      > </a
+      ><a name="3009" href="Demo2.html#2992" class="Bound"
+      >a</a
+      ><a name="3010"
+      > </a
+      ><a name="3011" class="Symbol"
+      >-&gt;</a
+      ><a name="3013"
+      > </a
+      ><a name="3014" href="Demo2.html#2870" class="Postulate"
+      >IO</a
+      ><a name="3016"
+      > </a
+      ><a name="3017" href="Demo2.html#2994" class="Bound"
+      >b</a
+      ><a name="3018"
+      > </a
+      ><a name="3019" class="Symbol"
+      >-&gt;</a
+      ><a name="3021"
+      > </a
+      ><a name="3022" href="Demo2.html#2870" class="Postulate"
+      >IO</a
+      ><a name="3024"
+      > </a
+      ><a name="3025" href="Demo2.html#2994" class="Bound"
+      >b</a
+      ><a name="3026"
+      >
+  
+</a
+      ><a name="3030" class="Comment"
+      >-- printfType : String -&gt; Set -&gt; Set</a
+      ><a name="3066"
+      >
+</a
+      ><a name="3067" class="Comment"
+      >-- printfType Nil = IO Unit</a
+      ><a name="3094"
+      >
+</a
+      ><a name="3095" class="Comment"
+      >-- printfType (Cons x Nil) = IO Unit</a
+      ><a name="3131"
+      >
+</a
+      ><a name="3132" class="Comment"
+      >-- printfType (Cons '%' (Cons 'd' s)) = &#8469; -&gt; printfType s</a
+      ><a name="3189"
+      >
+</a
+      ><a name="3190" class="Comment"
+      >-- printfType (Cons '%' (Cons 's' s)) = String -&gt; printfType s</a
+      ><a name="3252"
+      >
+</a
+      ><a name="3253" class="Comment"
+      >-- printfType (Cons x (Cons x&#8321; s)) = printfType (Cons x&#8321; s)</a
+      ><a name="3312"
+      >
+
+
+</a
+      ><a name="3315" class="Comment"
+      >-- printf : (s : String) -&gt; printfType s </a
+      ><a name="3356"
+      >
+</a
+      ><a name="3357" class="Comment"
+      >-- printf Nil = return tt</a
+      ><a name="3382"
+      >
+</a
+      ><a name="3383" class="Comment"
+      >-- printf (Cons x Nil) = putChar x</a
+      ><a name="3417"
+      >
+</a
+      ><a name="3418" class="Comment"
+      >-- printf (Cons '%' (Cons 'd' string)) = \n -&gt; printf string </a
+      ><a name="3479"
+      >
+</a
+      ><a name="3480" class="Comment"
+      >-- printf (Cons '%' (Cons 's' string)) = {!!}</a
+      ><a name="3525"
+      >
+</a
+      ><a name="3526" class="Comment"
+      >-- printf (Cons x (Cons x&#8321; string)) = {!!}</a
+      ><a name="3568"
+      >
+
+
+</a
+      ><a name="3571" class="Keyword"
+      >data</a
+      ><a name="3575"
+      > </a
+      ><a name="3576" href="Demo2.html#3576" class="Datatype"
+      >Either</a
+      ><a name="3582"
+      > </a
+      ><a name="3583" class="Symbol"
+      >(</a
+      ><a name="3584" href="Demo2.html#3584" class="Bound"
+      >a</a
+      ><a name="3585"
+      > </a
+      ><a name="3586" href="Demo2.html#3586" class="Bound"
+      >b</a
+      ><a name="3587"
+      > </a
+      ><a name="3588" class="Symbol"
+      >:</a
+      ><a name="3589"
+      > </a
+      ><a name="3590" class="PrimitiveType"
+      >Set</a
+      ><a name="3593" class="Symbol"
+      >)</a
+      ><a name="3594"
+      > </a
+      ><a name="3595" class="Symbol"
+      >:</a
+      ><a name="3596"
+      > </a
+      ><a name="3597" class="PrimitiveType"
+      >Set</a
+      ><a name="3600"
+      > </a
+      ><a name="3601" class="Keyword"
+      >where</a
+      ><a name="3606"
+      >
+  </a
+      ><a name="3609" href="Demo2.html#3609" class="InductiveConstructor"
+      >Inl</a
+      ><a name="3612"
+      > </a
+      ><a name="3613" class="Symbol"
+      >:</a
+      ><a name="3614"
+      > </a
+      ><a name="3615" href="Demo2.html#3584" class="Bound"
+      >a</a
+      ><a name="3616"
+      > </a
+      ><a name="3617" class="Symbol"
+      >-&gt;</a
+      ><a name="3619"
+      > </a
+      ><a name="3620" href="Demo2.html#3576" class="Datatype"
+      >Either</a
+      ><a name="3626"
+      > </a
+      ><a name="3627" href="Demo2.html#3584" class="Bound"
+      >a</a
+      ><a name="3628"
+      > </a
+      ><a name="3629" href="Demo2.html#3586" class="Bound"
+      >b</a
+      ><a name="3630"
+      >
+  </a
+      ><a name="3633" href="Demo2.html#3633" class="InductiveConstructor"
+      >Inr</a
+      ><a name="3636"
+      > </a
+      ><a name="3637" class="Symbol"
+      >:</a
+      ><a name="3638"
+      > </a
+      ><a name="3639" href="Demo2.html#3586" class="Bound"
+      >b</a
+      ><a name="3640"
+      > </a
+      ><a name="3641" class="Symbol"
+      >-&gt;</a
+      ><a name="3643"
+      > </a
+      ><a name="3644" href="Demo2.html#3576" class="Datatype"
+      >Either</a
+      ><a name="3650"
+      > </a
+      ><a name="3651" href="Demo2.html#3584" class="Bound"
+      >a</a
+      ><a name="3652"
+      > </a
+      ><a name="3653" href="Demo2.html#3586" class="Bound"
+      >b</a
+      ><a name="3654"
+      >
+
+</a
+      ><a name="3656" class="Keyword"
+      >data</a
+      ><a name="3660"
+      > </a
+      ><a name="3661" href="Demo2.html#3661" class="Datatype"
+      >Regular</a
+      ><a name="3668"
+      > </a
+      ><a name="3669" class="Symbol"
+      >:</a
+      ><a name="3670"
+      > </a
+      ><a name="3671" class="PrimitiveType"
+      >Set</a
+      ><a name="3674"
+      > </a
+      ><a name="3675" class="Keyword"
+      >where</a
+      ><a name="3680"
+      >
+  </a
+      ><a name="3683" href="Demo2.html#3683" class="InductiveConstructor"
+      >Id</a
+      ><a name="3685"
+      > </a
+      ><a name="3686" class="Symbol"
+      >:</a
+      ><a name="3687"
+      > </a
+      ><a name="3688" href="Demo2.html#3661" class="Datatype"
+      >Regular</a
+      ><a name="3695"
+      >
+  </a
+      ><a name="3698" href="Demo2.html#3698" class="InductiveConstructor Operator"
+      >_|+|_</a
+      ><a name="3703"
+      > </a
+      ><a name="3704" class="Symbol"
+      >:</a
+      ><a name="3705"
+      > </a
+      ><a name="3706" href="Demo2.html#3661" class="Datatype"
+      >Regular</a
+      ><a name="3713"
+      > </a
+      ><a name="3714" class="Symbol"
+      >-&gt;</a
+      ><a name="3716"
+      > </a
+      ><a name="3717" href="Demo2.html#3661" class="Datatype"
+      >Regular</a
+      ><a name="3724"
+      > </a
+      ><a name="3725" class="Symbol"
+      >-&gt;</a
+      ><a name="3727"
+      > </a
+      ><a name="3728" href="Demo2.html#3661" class="Datatype"
+      >Regular</a
+      ><a name="3735"
+      >
+  </a
+      ><a name="3738" href="Demo2.html#3738" class="InductiveConstructor Operator"
+      >_|*|_</a
+      ><a name="3743"
+      > </a
+      ><a name="3744" class="Symbol"
+      >:</a
+      ><a name="3745"
+      > </a
+      ><a name="3746" href="Demo2.html#3661" class="Datatype"
+      >Regular</a
+      ><a name="3753"
+      > </a
+      ><a name="3754" class="Symbol"
+      >-&gt;</a
+      ><a name="3756"
+      > </a
+      ><a name="3757" href="Demo2.html#3661" class="Datatype"
+      >Regular</a
+      ><a name="3764"
+      > </a
+      ><a name="3765" class="Symbol"
+      >-&gt;</a
+      ><a name="3767"
+      > </a
+      ><a name="3768" href="Demo2.html#3661" class="Datatype"
+      >Regular</a
+      ><a name="3775"
+      >
+  </a
+      ><a name="3778" href="Demo2.html#3778" class="InductiveConstructor"
+      >K</a
+      ><a name="3779"
+      > </a
+      ><a name="3780" class="Symbol"
+      >:</a
+      ><a name="3781"
+      > </a
+      ><a name="3782" href="Demo2.html#2308" class="Datatype"
+      >U</a
+      ><a name="3783"
+      > </a
+      ><a name="3784" class="Symbol"
+      >-&gt;</a
+      ><a name="3786"
+      > </a
+      ><a name="3787" href="Demo2.html#3661" class="Datatype"
+      >Regular</a
+      ><a name="3794"
+      >
+
+</a
+      ><a name="3796" href="Demo2.html#3796" class="Function"
+      >elRegular</a
+      ><a name="3805"
+      > </a
+      ><a name="3806" class="Symbol"
+      >:</a
+      ><a name="3807"
+      > </a
+      ><a name="3808" href="Demo2.html#3661" class="Datatype"
+      >Regular</a
+      ><a name="3815"
+      > </a
+      ><a name="3816" class="Symbol"
+      >-&gt;</a
+      ><a name="3818"
+      > </a
+      ><a name="3819" class="PrimitiveType"
+      >Set</a
+      ><a name="3822"
+      > </a
+      ><a name="3823" class="Symbol"
+      >-&gt;</a
+      ><a name="3825"
+      > </a
+      ><a name="3826" class="PrimitiveType"
+      >Set</a
+      ><a name="3829"
+      >
+</a
+      ><a name="3830" href="Demo2.html#3796" class="Function"
+      >elRegular</a
+      ><a name="3839"
+      > </a
+      ><a name="3840" href="Demo2.html#3683" class="InductiveConstructor"
+      >Id</a
+      ><a name="3842"
+      > </a
+      ><a name="3843" href="Demo2.html#3843" class="Bound"
+      >x</a
+      ><a name="3844"
+      > </a
+      ><a name="3845" class="Symbol"
+      >=</a
+      ><a name="3846"
+      > </a
+      ><a name="3847" href="Demo2.html#3843" class="Bound"
+      >x</a
+      ><a name="3848"
+      >
+</a
+      ><a name="3849" href="Demo2.html#3796" class="Function"
+      >elRegular</a
+      ><a name="3858"
+      > </a
+      ><a name="3859" class="Symbol"
+      >(</a
+      ><a name="3860" href="Demo2.html#3860" class="Bound"
+      >r</a
+      ><a name="3861"
+      > </a
+      ><a name="3862" href="Demo2.html#3698" class="InductiveConstructor Operator"
+      >|+|</a
+      ><a name="3865"
+      > </a
+      ><a name="3866" href="Demo2.html#3866" class="Bound"
+      >r&#8321;</a
+      ><a name="3868" class="Symbol"
+      >)</a
+      ><a name="3869"
+      > </a
+      ><a name="3870" href="Demo2.html#3870" class="Bound"
+      >x</a
+      ><a name="3871"
+      > </a
+      ><a name="3872" class="Symbol"
+      >=</a
+      ><a name="3873"
+      > </a
+      ><a name="3874" href="Demo2.html#3576" class="Datatype"
+      >Either</a
+      ><a name="3880"
+      > </a
+      ><a name="3881" class="Symbol"
+      >(</a
+      ><a name="3882" href="Demo2.html#3796" class="Function"
+      >elRegular</a
+      ><a name="3891"
+      > </a
+      ><a name="3892" href="Demo2.html#3860" class="Bound"
+      >r</a
+      ><a name="3893"
+      > </a
+      ><a name="3894" href="Demo2.html#3870" class="Bound"
+      >x</a
+      ><a name="3895" class="Symbol"
+      >)</a
+      ><a name="3896"
+      > </a
+      ><a name="3897" class="Symbol"
+      >(</a
+      ><a name="3898" href="Demo2.html#3796" class="Function"
+      >elRegular</a
+      ><a name="3907"
+      > </a
+      ><a name="3908" href="Demo2.html#3866" class="Bound"
+      >r&#8321;</a
+      ><a name="3910"
+      > </a
+      ><a name="3911" href="Demo2.html#3870" class="Bound"
+      >x</a
+      ><a name="3912" class="Symbol"
+      >)</a
+      ><a name="3913"
+      >
+</a
+      ><a name="3914" href="Demo2.html#3796" class="Function"
+      >elRegular</a
+      ><a name="3923"
+      > </a
+      ><a name="3924" class="Symbol"
+      >(</a
+      ><a name="3925" href="Demo2.html#3925" class="Bound"
+      >r</a
+      ><a name="3926"
+      > </a
+      ><a name="3927" href="Demo2.html#3738" class="InductiveConstructor Operator"
+      >|*|</a
+      ><a name="3930"
+      > </a
+      ><a name="3931" href="Demo2.html#3931" class="Bound"
+      >r&#8321;</a
+      ><a name="3933" class="Symbol"
+      >)</a
+      ><a name="3934"
+      > </a
+      ><a name="3935" href="Demo2.html#3935" class="Bound"
+      >x</a
+      ><a name="3936"
+      > </a
+      ><a name="3937" class="Symbol"
+      >=</a
+      ><a name="3938"
+      > </a
+      ><a name="3939" href="Demo2.html#2381" class="Datatype"
+      >Pair</a
+      ><a name="3943"
+      > </a
+      ><a name="3944" class="Symbol"
+      >(</a
+      ><a name="3945" href="Demo2.html#3796" class="Function"
+      >elRegular</a
+      ><a name="3954"
+      > </a
+      ><a name="3955" href="Demo2.html#3925" class="Bound"
+      >r</a
+      ><a name="3956"
+      > </a
+      ><a name="3957" href="Demo2.html#3935" class="Bound"
+      >x</a
+      ><a name="3958" class="Symbol"
+      >)</a
+      ><a name="3959"
+      > </a
+      ><a name="3960" class="Symbol"
+      >(</a
+      ><a name="3961" href="Demo2.html#3796" class="Function"
+      >elRegular</a
+      ><a name="3970"
+      > </a
+      ><a name="3971" href="Demo2.html#3931" class="Bound"
+      >r&#8321;</a
+      ><a name="3973"
+      > </a
+      ><a name="3974" href="Demo2.html#3935" class="Bound"
+      >x</a
+      ><a name="3975" class="Symbol"
+      >)</a
+      ><a name="3976"
+      >
+</a
+      ><a name="3977" href="Demo2.html#3796" class="Function"
+      >elRegular</a
+      ><a name="3986"
+      > </a
+      ><a name="3987" class="Symbol"
+      >(</a
+      ><a name="3988" href="Demo2.html#3778" class="InductiveConstructor"
+      >K</a
+      ><a name="3989"
+      > </a
+      ><a name="3990" href="Demo2.html#3990" class="Bound"
+      >x</a
+      ><a name="3991" class="Symbol"
+      >)</a
+      ><a name="3992"
+      > </a
+      ><a name="3993" href="Demo2.html#3993" class="Bound"
+      >x&#8321;</a
+      ><a name="3995"
+      > </a
+      ><a name="3996" class="Symbol"
+      >=</a
+      ><a name="3997"
+      > </a
+      ><a name="3998" href="Demo2.html#2438" class="Function"
+      >el</a
+      ><a name="4000"
+      > </a
+      ><a name="4001" href="Demo2.html#3990" class="Bound"
+      >x</a
+      ><a name="4002"
+      >
+
+</a
+      ><a name="4004" class="Keyword"
+      >data</a
+      ><a name="4008"
+      > </a
+      ><a name="4009" href="Demo2.html#4009" class="Datatype"
+      >Fix</a
+      ><a name="4012"
+      > </a
+      ><a name="4013" class="Symbol"
+      >(</a
+      ><a name="4014" href="Demo2.html#4014" class="Bound"
+      >r</a
+      ><a name="4015"
+      > </a
+      ><a name="4016" class="Symbol"
+      >:</a
+      ><a name="4017"
+      > </a
+      ><a name="4018" href="Demo2.html#3661" class="Datatype"
+      >Regular</a
+      ><a name="4025" class="Symbol"
+      >)</a
+      ><a name="4026"
+      > </a
+      ><a name="4027" class="Symbol"
+      >:</a
+      ><a name="4028"
+      > </a
+      ><a name="4029" class="PrimitiveType"
+      >Set</a
+      ><a name="4032"
+      > </a
+      ><a name="4033" class="Keyword"
+      >where</a
+      ><a name="4038"
+      >
+  </a
+      ><a name="4041" href="Demo2.html#4041" class="InductiveConstructor"
+      >In</a
+      ><a name="4043"
+      > </a
+      ><a name="4044" class="Symbol"
+      >:</a
+      ><a name="4045"
+      > </a
+      ><a name="4046" href="Demo2.html#3796" class="Function"
+      >elRegular</a
+      ><a name="4055"
+      > </a
+      ><a name="4056" href="Demo2.html#4014" class="Bound"
+      >r</a
+      ><a name="4057"
+      > </a
+      ><a name="4058" class="Symbol"
+      >(</a
+      ><a name="4059" href="Demo2.html#4009" class="Datatype"
+      >Fix</a
+      ><a name="4062"
+      > </a
+      ><a name="4063" href="Demo2.html#4014" class="Bound"
+      >r</a
+      ><a name="4064" class="Symbol"
+      >)</a
+      ><a name="4065"
+      > </a
+      ><a name="4066" class="Symbol"
+      >-&gt;</a
+      ><a name="4068"
+      > </a
+      ><a name="4069" href="Demo2.html#4009" class="Datatype"
+      >Fix</a
+      ><a name="4072"
+      > </a
+      ><a name="4073" href="Demo2.html#4014" class="Bound"
+      >r</a
+      ><a name="4074"
+      >
+
+</a
+      ><a name="4076" href="Demo2.html#4076" class="Function Operator"
+      >[_]</a
+      ><a name="4079"
+      > </a
+      ><a name="4080" class="Symbol"
+      >:</a
+      ><a name="4081"
+      > </a
+      ><a name="4082" href="Demo2.html#3661" class="Datatype"
+      >Regular</a
+      ><a name="4089"
+      > </a
+      ><a name="4090" class="Symbol"
+      >-&gt;</a
+      ><a name="4092"
+      > </a
+      ><a name="4093" class="PrimitiveType"
+      >Set</a
+      ><a name="4096"
+      > </a
+      ><a name="4097" class="Symbol"
+      >-&gt;</a
+      ><a name="4099"
+      > </a
+      ><a name="4100" class="PrimitiveType"
+      >Set</a
+      ><a name="4103"
+      >
+</a
+      ><a name="4104" href="Demo2.html#4076" class="Function Operator"
+      >[</a
+      ><a name="4105"
+      > </a
+      ><a name="4106" href="Demo2.html#4106" class="Bound"
+      >r</a
+      ><a name="4107"
+      > </a
+      ><a name="4108" href="Demo2.html#4076" class="Function Operator"
+      >]</a
+      ><a name="4109"
+      > </a
+      ><a name="4110" class="Symbol"
+      >=</a
+      ><a name="4111"
+      > </a
+      ><a name="4112" href="Demo2.html#3796" class="Function"
+      >elRegular</a
+      ><a name="4121"
+      > </a
+      ><a name="4122" href="Demo2.html#4106" class="Bound"
+      >r</a
+      ><a name="4123"
+      >
+
+</a
+      ><a name="4125" href="Demo2.html#4125" class="Function"
+      >map</a
+      ><a name="4128"
+      > </a
+      ><a name="4129" class="Symbol"
+      >:</a
+      ><a name="4130"
+      > </a
+      ><a name="4131" class="Symbol"
+      >(</a
+      ><a name="4132" href="Demo2.html#4132" class="Bound"
+      >r</a
+      ><a name="4133"
+      > </a
+      ><a name="4134" class="Symbol"
+      >:</a
+      ><a name="4135"
+      > </a
+      ><a name="4136" href="Demo2.html#3661" class="Datatype"
+      >Regular</a
+      ><a name="4143" class="Symbol"
+      >)</a
+      ><a name="4144"
+      > </a
+      ><a name="4145" class="Symbol"
+      >{</a
+      ><a name="4146" href="Demo2.html#4146" class="Bound"
+      >a</a
+      ><a name="4147"
+      > </a
+      ><a name="4148" href="Demo2.html#4148" class="Bound"
+      >b</a
+      ><a name="4149"
+      > </a
+      ><a name="4150" class="Symbol"
+      >:</a
+      ><a name="4151"
+      > </a
+      ><a name="4152" class="PrimitiveType"
+      >Set</a
+      ><a name="4155" class="Symbol"
+      >}</a
+      ><a name="4156"
+      > </a
+      ><a name="4157" class="Symbol"
+      >-&gt;</a
+      ><a name="4159"
+      > </a
+      ><a name="4160" class="Symbol"
+      >(</a
+      ><a name="4161" href="Demo2.html#4146" class="Bound"
+      >a</a
+      ><a name="4162"
+      > </a
+      ><a name="4163" class="Symbol"
+      >-&gt;</a
+      ><a name="4165"
+      > </a
+      ><a name="4166" href="Demo2.html#4148" class="Bound"
+      >b</a
+      ><a name="4167" class="Symbol"
+      >)</a
+      ><a name="4168"
+      > </a
+      ><a name="4169" class="Symbol"
+      >-&gt;</a
+      ><a name="4171"
+      > </a
+      ><a name="4172" href="Demo2.html#4076" class="Function Operator"
+      >[</a
+      ><a name="4173"
+      > </a
+      ><a name="4174" href="Demo2.html#4132" class="Bound"
+      >r</a
+      ><a name="4175"
+      > </a
+      ><a name="4176" href="Demo2.html#4076" class="Function Operator"
+      >]</a
+      ><a name="4177"
+      > </a
+      ><a name="4178" href="Demo2.html#4146" class="Bound"
+      >a</a
+      ><a name="4179"
+      > </a
+      ><a name="4180" class="Symbol"
+      >-&gt;</a
+      ><a name="4182"
+      > </a
+      ><a name="4183" href="Demo2.html#4076" class="Function Operator"
+      >[</a
+      ><a name="4184"
+      > </a
+      ><a name="4185" href="Demo2.html#4132" class="Bound"
+      >r</a
+      ><a name="4186"
+      > </a
+      ><a name="4187" href="Demo2.html#4076" class="Function Operator"
+      >]</a
+      ><a name="4188"
+      > </a
+      ><a name="4189" href="Demo2.html#4148" class="Bound"
+      >b</a
+      ><a name="4190"
+      >
+</a
+      ><a name="4191" href="Demo2.html#4125" class="Function"
+      >map</a
+      ><a name="4194"
+      > </a
+      ><a name="4195" href="Demo2.html#3683" class="InductiveConstructor"
+      >Id</a
+      ><a name="4197"
+      > </a
+      ><a name="4198" href="Demo2.html#4198" class="Bound"
+      >f</a
+      ><a name="4199"
+      > </a
+      ><a name="4200" href="Demo2.html#4200" class="Bound"
+      >x</a
+      ><a name="4201"
+      > </a
+      ><a name="4202" class="Symbol"
+      >=</a
+      ><a name="4203"
+      > </a
+      ><a name="4204" href="Demo2.html#4198" class="Bound"
+      >f</a
+      ><a name="4205"
+      > </a
+      ><a name="4206" href="Demo2.html#4200" class="Bound"
+      >x</a
+      ><a name="4207"
+      >
+</a
+      ><a name="4208" href="Demo2.html#4125" class="Function"
+      >map</a
+      ><a name="4211"
+      > </a
+      ><a name="4212" class="Symbol"
+      >(</a
+      ><a name="4213" href="Demo2.html#4213" class="Bound"
+      >r</a
+      ><a name="4214"
+      > </a
+      ><a name="4215" href="Demo2.html#3698" class="InductiveConstructor Operator"
+      >|+|</a
+      ><a name="4218"
+      > </a
+      ><a name="4219" href="Demo2.html#4219" class="Bound"
+      >r&#8321;</a
+      ><a name="4221" class="Symbol"
+      >)</a
+      ><a name="4222"
+      > </a
+      ><a name="4223" href="Demo2.html#4223" class="Bound"
+      >f</a
+      ><a name="4224"
+      > </a
+      ><a name="4225" class="Symbol"
+      >(</a
+      ><a name="4226" href="Demo2.html#3609" class="InductiveConstructor"
+      >Inl</a
+      ><a name="4229"
+      > </a
+      ><a name="4230" href="Demo2.html#4230" class="Bound"
+      >x</a
+      ><a name="4231" class="Symbol"
+      >)</a
+      ><a name="4232"
+      > </a
+      ><a name="4233" class="Symbol"
+      >=</a
+      ><a name="4234"
+      > </a
+      ><a name="4235" href="Demo2.html#3609" class="InductiveConstructor"
+      >Inl</a
+      ><a name="4238"
+      > </a
+      ><a name="4239" class="Symbol"
+      >(</a
+      ><a name="4240" href="Demo2.html#4125" class="Function"
+      >map</a
+      ><a name="4243"
+      > </a
+      ><a name="4244" href="Demo2.html#4213" class="Bound"
+      >r</a
+      ><a name="4245"
+      > </a
+      ><a name="4246" href="Demo2.html#4223" class="Bound"
+      >f</a
+      ><a name="4247"
+      > </a
+      ><a name="4248" href="Demo2.html#4230" class="Bound"
+      >x</a
+      ><a name="4249" class="Symbol"
+      >)</a
+      ><a name="4250"
+      >
+</a
+      ><a name="4251" href="Demo2.html#4125" class="Function"
+      >map</a
+      ><a name="4254"
+      > </a
+      ><a name="4255" class="Symbol"
+      >(</a
+      ><a name="4256" href="Demo2.html#4256" class="Bound"
+      >r</a
+      ><a name="4257"
+      > </a
+      ><a name="4258" href="Demo2.html#3698" class="InductiveConstructor Operator"
+      >|+|</a
+      ><a name="4261"
+      > </a
+      ><a name="4262" href="Demo2.html#4262" class="Bound"
+      >r&#8321;</a
+      ><a name="4264" class="Symbol"
+      >)</a
+      ><a name="4265"
+      > </a
+      ><a name="4266" href="Demo2.html#4266" class="Bound"
+      >f</a
+      ><a name="4267"
+      > </a
+      ><a name="4268" class="Symbol"
+      >(</a
+      ><a name="4269" href="Demo2.html#3633" class="InductiveConstructor"
+      >Inr</a
+      ><a name="4272"
+      > </a
+      ><a name="4273" href="Demo2.html#4273" class="Bound"
+      >x</a
+      ><a name="4274" class="Symbol"
+      >)</a
+      ><a name="4275"
+      > </a
+      ><a name="4276" class="Symbol"
+      >=</a
+      ><a name="4277"
+      > </a
+      ><a name="4278" href="Demo2.html#3633" class="InductiveConstructor"
+      >Inr</a
+      ><a name="4281"
+      > </a
+      ><a name="4282" class="Symbol"
+      >(</a
+      ><a name="4283" href="Demo2.html#4125" class="Function"
+      >map</a
+      ><a name="4286"
+      > </a
+      ><a name="4287" href="Demo2.html#4262" class="Bound"
+      >r&#8321;</a
+      ><a name="4289"
+      > </a
+      ><a name="4290" href="Demo2.html#4266" class="Bound"
+      >f</a
+      ><a name="4291"
+      > </a
+      ><a name="4292" href="Demo2.html#4273" class="Bound"
+      >x</a
+      ><a name="4293" class="Symbol"
+      >)</a
+      ><a name="4294"
+      >
+</a
+      ><a name="4295" href="Demo2.html#4125" class="Function"
+      >map</a
+      ><a name="4298"
+      > </a
+      ><a name="4299" class="Symbol"
+      >(</a
+      ><a name="4300" href="Demo2.html#4300" class="Bound"
+      >r</a
+      ><a name="4301"
+      > </a
+      ><a name="4302" href="Demo2.html#3738" class="InductiveConstructor Operator"
+      >|*|</a
+      ><a name="4305"
+      > </a
+      ><a name="4306" href="Demo2.html#4306" class="Bound"
+      >r&#8321;</a
+      ><a name="4308" class="Symbol"
+      >)</a
+      ><a name="4309"
+      > </a
+      ><a name="4310" href="Demo2.html#4310" class="Bound"
+      >f</a
+      ><a name="4311"
+      > </a
+      ><a name="4312" class="Symbol"
+      >(</a
+      ><a name="4313" href="Demo2.html#4313" class="Bound"
+      >x</a
+      ><a name="4314"
+      > </a
+      ><a name="4315" href="Demo2.html#2412" class="InductiveConstructor Operator"
+      >,</a
+      ><a name="4316"
+      > </a
+      ><a name="4317" href="Demo2.html#4317" class="Bound"
+      >x&#8321;</a
+      ><a name="4319" class="Symbol"
+      >)</a
+      ><a name="4320"
+      > </a
+      ><a name="4321" class="Symbol"
+      >=</a
+      ><a name="4322"
+      > </a
+      ><a name="4323" class="Symbol"
+      >(</a
+      ><a name="4324" href="Demo2.html#4125" class="Function"
+      >map</a
+      ><a name="4327"
+      > </a
+      ><a name="4328" href="Demo2.html#4300" class="Bound"
+      >r</a
+      ><a name="4329"
+      > </a
+      ><a name="4330" href="Demo2.html#4310" class="Bound"
+      >f</a
+      ><a name="4331"
+      > </a
+      ><a name="4332" href="Demo2.html#4313" class="Bound"
+      >x</a
+      ><a name="4333" class="Symbol"
+      >)</a
+      ><a name="4334"
+      > </a
+      ><a name="4335" href="Demo2.html#2412" class="InductiveConstructor Operator"
+      >,</a
+      ><a name="4336"
+      > </a
+      ><a name="4337" class="Symbol"
+      >(</a
+      ><a name="4338" href="Demo2.html#4125" class="Function"
+      >map</a
+      ><a name="4341"
+      > </a
+      ><a name="4342" href="Demo2.html#4306" class="Bound"
+      >r&#8321;</a
+      ><a name="4344"
+      > </a
+      ><a name="4345" href="Demo2.html#4310" class="Bound"
+      >f</a
+      ><a name="4346"
+      > </a
+      ><a name="4347" href="Demo2.html#4317" class="Bound"
+      >x&#8321;</a
+      ><a name="4349" class="Symbol"
+      >)</a
+      ><a name="4350"
+      >
+</a
+      ><a name="4351" href="Demo2.html#4125" class="Function"
+      >map</a
+      ><a name="4354"
+      > </a
+      ><a name="4355" class="Symbol"
+      >(</a
+      ><a name="4356" href="Demo2.html#3778" class="InductiveConstructor"
+      >K</a
+      ><a name="4357"
+      > </a
+      ><a name="4358" href="Demo2.html#4358" class="Bound"
+      >u</a
+      ><a name="4359" class="Symbol"
+      >)</a
+      ><a name="4360"
+      > </a
+      ><a name="4361" href="Demo2.html#4361" class="Bound"
+      >f</a
+      ><a name="4362"
+      > </a
+      ><a name="4363" href="Demo2.html#4363" class="Bound"
+      >x</a
+      ><a name="4364"
+      > </a
+      ><a name="4365" class="Symbol"
+      >=</a
+      ><a name="4366"
+      > </a
+      ><a name="4367" href="Demo2.html#4363" class="Bound"
+      >x</a
+      ><a name="4368"
+      >
+
+
+</a
+      ><a name="4371" href="Demo2.html#4371" class="Function"
+      >foldNat</a
+      ><a name="4378"
+      > </a
+      ><a name="4379" class="Symbol"
+      >:</a
+      ><a name="4380"
+      > </a
+      ><a name="4381" class="Symbol"
+      >{</a
+      ><a name="4382" href="Demo2.html#4382" class="Bound"
+      >a</a
+      ><a name="4383"
+      > </a
+      ><a name="4384" class="Symbol"
+      >:</a
+      ><a name="4385"
+      > </a
+      ><a name="4386" class="PrimitiveType"
+      >Set</a
+      ><a name="4389" class="Symbol"
+      >}</a
+      ><a name="4390"
+      > </a
+      ><a name="4391" class="Symbol"
+      >-&gt;</a
+      ><a name="4393"
+      > </a
+      ><a name="4394" class="Symbol"
+      >(</a
+      ><a name="4395" href="Demo2.html#4395" class="Bound"
+      >x</a
+      ><a name="4396"
+      > </a
+      ><a name="4397" class="Symbol"
+      >:</a
+      ><a name="4398"
+      > </a
+      ><a name="4399" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="4400" class="Symbol"
+      >)</a
+      ><a name="4401"
+      > </a
+      ><a name="4402" class="Symbol"
+      >-&gt;</a
+      ><a name="4404"
+      > </a
+      ><a name="4405" href="Demo2.html#4382" class="Bound"
+      >a</a
+      ><a name="4406"
+      > </a
+      ><a name="4407" class="Symbol"
+      >-&gt;</a
+      ><a name="4409"
+      > </a
+      ><a name="4410" class="Symbol"
+      >(</a
+      ><a name="4411" href="Demo2.html#4382" class="Bound"
+      >a</a
+      ><a name="4412"
+      > </a
+      ><a name="4413" class="Symbol"
+      >-&gt;</a
+      ><a name="4415"
+      > </a
+      ><a name="4416" href="Demo2.html#4382" class="Bound"
+      >a</a
+      ><a name="4417" class="Symbol"
+      >)</a
+      ><a name="4418"
+      > </a
+      ><a name="4419" class="Symbol"
+      >-&gt;</a
+      ><a name="4421"
+      > </a
+      ><a name="4422" href="Demo2.html#4382" class="Bound"
+      >a</a
+      ><a name="4423"
+      >
+</a
+      ><a name="4424" href="Demo2.html#4371" class="Function"
+      >foldNat</a
+      ><a name="4431"
+      > </a
+      ><a name="4432" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="4436"
+      > </a
+      ><a name="4437" href="Demo2.html#4437" class="Bound"
+      >zero</a
+      ><a name="4441"
+      > </a
+      ><a name="4442" href="Demo2.html#4442" class="Bound"
+      >succ</a
+      ><a name="4446"
+      > </a
+      ><a name="4447" class="Symbol"
+      >=</a
+      ><a name="4448"
+      > </a
+      ><a name="4449" href="Demo2.html#4437" class="Bound"
+      >zero</a
+      ><a name="4453"
+      >
+</a
+      ><a name="4454" href="Demo2.html#4371" class="Function"
+      >foldNat</a
+      ><a name="4461"
+      > </a
+      ><a name="4462" class="Symbol"
+      >(</a
+      ><a name="4463" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="4467"
+      > </a
+      ><a name="4468" href="Demo2.html#4468" class="Bound"
+      >x</a
+      ><a name="4469" class="Symbol"
+      >)</a
+      ><a name="4470"
+      > </a
+      ><a name="4471" href="Demo2.html#4471" class="Bound"
+      >zero</a
+      ><a name="4475"
+      > </a
+      ><a name="4476" href="Demo2.html#4476" class="Bound"
+      >succ</a
+      ><a name="4480"
+      > </a
+      ><a name="4481" class="Symbol"
+      >=</a
+      ><a name="4482"
+      > </a
+      ><a name="4483" href="Demo2.html#4476" class="Bound"
+      >succ</a
+      ><a name="4487"
+      > </a
+      ><a name="4488" class="Symbol"
+      >(</a
+      ><a name="4489" href="Demo2.html#4371" class="Function"
+      >foldNat</a
+      ><a name="4496"
+      > </a
+      ><a name="4497" href="Demo2.html#4468" class="Bound"
+      >x</a
+      ><a name="4498"
+      > </a
+      ><a name="4499" href="Demo2.html#4471" class="Bound"
+      >zero</a
+      ><a name="4503"
+      > </a
+      ><a name="4504" href="Demo2.html#4476" class="Bound"
+      >succ</a
+      ><a name="4508" class="Symbol"
+      >)</a
+      ><a name="4509"
+      >
+
+</a
+      ><a name="4511" href="Demo2.html#4511" class="Function"
+      >pred</a
+      ><a name="4515"
+      > </a
+      ><a name="4516" class="Symbol"
+      >:</a
+      ><a name="4517"
+      > </a
+      ><a name="4518" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="4519"
+      > </a
+      ><a name="4520" class="Symbol"
+      >-&gt;</a
+      ><a name="4522"
+      > </a
+      ><a name="4523" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="4524"
+      >
+</a
+      ><a name="4525" href="Demo2.html#4511" class="Function"
+      >pred</a
+      ><a name="4529"
+      > </a
+      ><a name="4530" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="4534"
+      > </a
+      ><a name="4535" class="Symbol"
+      >=</a
+      ><a name="4536"
+      > </a
+      ><a name="4537" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="4541"
+      >
+</a
+      ><a name="4542" href="Demo2.html#4511" class="Function"
+      >pred</a
+      ><a name="4546"
+      > </a
+      ><a name="4547" class="Symbol"
+      >(</a
+      ><a name="4548" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="4552"
+      > </a
+      ><a name="4553" href="Demo2.html#4553" class="Bound"
+      >n</a
+      ><a name="4554" class="Symbol"
+      >)</a
+      ><a name="4555"
+      > </a
+      ><a name="4556" class="Symbol"
+      >=</a
+      ><a name="4557"
+      > </a
+      ><a name="4558" href="Demo2.html#4553" class="Bound"
+      >n</a
+      ><a name="4559"
+      >
+
+</a
+      ><a name="4561" class="Comment"
+      >--silly : &#8469; -&gt; &#8469;</a
+      ><a name="4577"
+      >
+</a
+      ><a name="4578" class="Comment"
+      >--silly x = silly (pred x) -- silly (pred x)</a
+      ><a name="4622"
+      >
+
+</a
+      ><a name="4624" href="Demo2.html#4624" class="Function"
+      >elimNat</a
+      ><a name="4631"
+      > </a
+      ><a name="4632" class="Symbol"
+      >:</a
+      ><a name="4633"
+      > </a
+      ><a name="4634" class="Symbol"
+      >{</a
+      ><a name="4635" href="Demo2.html#4635" class="Bound"
+      >P</a
+      ><a name="4636"
+      > </a
+      ><a name="4637" class="Symbol"
+      >:</a
+      ><a name="4638"
+      > </a
+      ><a name="4639" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="4640"
+      > </a
+      ><a name="4641" class="Symbol"
+      >-&gt;</a
+      ><a name="4643"
+      > </a
+      ><a name="4644" class="PrimitiveType"
+      >Set</a
+      ><a name="4647" class="Symbol"
+      >}</a
+      ><a name="4648"
+      > </a
+      ><a name="4649" class="Symbol"
+      >-&gt;</a
+      ><a name="4651"
+      > </a
+      ><a name="4652" href="Demo2.html#4635" class="Bound"
+      >P</a
+      ><a name="4653"
+      > </a
+      ><a name="4654" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="4658"
+      > </a
+      ><a name="4659" class="Symbol"
+      >-&gt;</a
+      ><a name="4661"
+      > </a
+      ><a name="4662" class="Symbol"
+      >({</a
+      ><a name="4664" href="Demo2.html#4664" class="Bound"
+      >n</a
+      ><a name="4665"
+      > </a
+      ><a name="4666" class="Symbol"
+      >:</a
+      ><a name="4667"
+      > </a
+      ><a name="4668" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="4669" class="Symbol"
+      >}</a
+      ><a name="4670"
+      > </a
+      ><a name="4671" class="Symbol"
+      >-&gt;</a
+      ><a name="4673"
+      > </a
+      ><a name="4674" href="Demo2.html#4635" class="Bound"
+      >P</a
+      ><a name="4675"
+      > </a
+      ><a name="4676" href="Demo2.html#4664" class="Bound"
+      >n</a
+      ><a name="4677"
+      > </a
+      ><a name="4678" class="Symbol"
+      >-&gt;</a
+      ><a name="4680"
+      > </a
+      ><a name="4681" href="Demo2.html#4635" class="Bound"
+      >P</a
+      ><a name="4682"
+      > </a
+      ><a name="4683" class="Symbol"
+      >(</a
+      ><a name="4684" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="4688"
+      > </a
+      ><a name="4689" href="Demo2.html#4664" class="Bound"
+      >n</a
+      ><a name="4690" class="Symbol"
+      >))</a
+      ><a name="4692"
+      > </a
+      ><a name="4693" class="Symbol"
+      >-&gt;</a
+      ><a name="4695"
+      > </a
+      ><a name="4696" class="Symbol"
+      >(</a
+      ><a name="4697" href="Demo2.html#4697" class="Bound"
+      >n</a
+      ><a name="4698"
+      > </a
+      ><a name="4699" class="Symbol"
+      >:</a
+      ><a name="4700"
+      > </a
+      ><a name="4701" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="4702" class="Symbol"
+      >)</a
+      ><a name="4703"
+      > </a
+      ><a name="4704" class="Symbol"
+      >-&gt;</a
+      ><a name="4706"
+      > </a
+      ><a name="4707" href="Demo2.html#4635" class="Bound"
+      >P</a
+      ><a name="4708"
+      > </a
+      ><a name="4709" href="Demo2.html#4697" class="Bound"
+      >n</a
+      ><a name="4710"
+      >
+</a
+      ><a name="4711" href="Demo2.html#4624" class="Function"
+      >elimNat</a
+      ><a name="4718"
+      > </a
+      ><a name="4719" href="Demo2.html#4719" class="Bound"
+      >zero</a
+      ><a name="4723"
+      > </a
+      ><a name="4724" href="Demo2.html#4724" class="Bound"
+      >succ</a
+      ><a name="4728"
+      > </a
+      ><a name="4729" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="4733"
+      > </a
+      ><a name="4734" class="Symbol"
+      >=</a
+      ><a name="4735"
+      > </a
+      ><a name="4736" href="Demo2.html#4719" class="Bound"
+      >zero</a
+      ><a name="4740"
+      >
+</a
+      ><a name="4741" href="Demo2.html#4624" class="Function"
+      >elimNat</a
+      ><a name="4748"
+      > </a
+      ><a name="4749" class="Symbol"
+      >{</a
+      ><a name="4750" href="Demo2.html#4750" class="Bound"
+      >P</a
+      ><a name="4751" class="Symbol"
+      >}</a
+      ><a name="4752"
+      > </a
+      ><a name="4753" href="Demo2.html#4753" class="Bound"
+      >zero</a
+      ><a name="4757"
+      > </a
+      ><a name="4758" href="Demo2.html#4758" class="Bound"
+      >succ</a
+      ><a name="4762"
+      > </a
+      ><a name="4763" class="Symbol"
+      >(</a
+      ><a name="4764" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="4768"
+      > </a
+      ><a name="4769" href="Demo2.html#4769" class="Bound"
+      >k</a
+      ><a name="4770" class="Symbol"
+      >)</a
+      ><a name="4771"
+      > </a
+      ><a name="4772" class="Symbol"
+      >=</a
+      ><a name="4773"
+      > </a
+      ><a name="4774" href="Demo2.html#4758" class="Bound"
+      >succ</a
+      ><a name="4778"
+      > </a
+      ><a name="4779" class="Symbol"
+      >(</a
+      ><a name="4780" href="Demo2.html#4624" class="Function"
+      >elimNat</a
+      ><a name="4787"
+      > </a
+      ><a name="4788" class="Symbol"
+      >{</a
+      ><a name="4789" href="Demo2.html#4750" class="Bound"
+      >P</a
+      ><a name="4790" class="Symbol"
+      >}</a
+      ><a name="4791"
+      > </a
+      ><a name="4792" href="Demo2.html#4753" class="Bound"
+      >zero</a
+      ><a name="4796"
+      > </a
+      ><a name="4797" href="Demo2.html#4758" class="Bound"
+      >succ</a
+      ><a name="4801"
+      > </a
+      ><a name="4802" href="Demo2.html#4769" class="Bound"
+      >k</a
+      ><a name="4803" class="Symbol"
+      >)</a
+      ><a name="4804"
+      >
+
+</a
+      ><a name="4806" class="Keyword"
+      >data</a
+      ><a name="4810"
+      > </a
+      ><a name="4811" href="Demo2.html#4811" class="Datatype Operator"
+      >_==_</a
+      ><a name="4815"
+      > </a
+      ><a name="4816" class="Symbol"
+      >{</a
+      ><a name="4817" href="Demo2.html#4817" class="Bound"
+      >a</a
+      ><a name="4818"
+      > </a
+      ><a name="4819" class="Symbol"
+      >:</a
+      ><a name="4820"
+      > </a
+      ><a name="4821" class="PrimitiveType"
+      >Set</a
+      ><a name="4824" class="Symbol"
+      >}</a
+      ><a name="4825"
+      > </a
+      ><a name="4826" class="Symbol"
+      >:</a
+      ><a name="4827"
+      > </a
+      ><a name="4828" href="Demo2.html#4817" class="Bound"
+      >a</a
+      ><a name="4829"
+      > </a
+      ><a name="4830" class="Symbol"
+      >-&gt;</a
+      ><a name="4832"
+      > </a
+      ><a name="4833" href="Demo2.html#4817" class="Bound"
+      >a</a
+      ><a name="4834"
+      > </a
+      ><a name="4835" class="Symbol"
+      >-&gt;</a
+      ><a name="4837"
+      > </a
+      ><a name="4838" class="PrimitiveType"
+      >Set</a
+      ><a name="4841"
+      > </a
+      ><a name="4842" class="Keyword"
+      >where</a
+      ><a name="4847"
+      >
+  </a
+      ><a name="4850" href="Demo2.html#4850" class="InductiveConstructor"
+      >Refl</a
+      ><a name="4854"
+      > </a
+      ><a name="4855" class="Symbol"
+      >:</a
+      ><a name="4856"
+      > </a
+      ><a name="4857" class="Symbol"
+      >{</a
+      ><a name="4858" href="Demo2.html#4858" class="Bound"
+      >x</a
+      ><a name="4859"
+      > </a
+      ><a name="4860" class="Symbol"
+      >:</a
+      ><a name="4861"
+      > </a
+      ><a name="4862" href="Demo2.html#4817" class="Bound"
+      >a</a
+      ><a name="4863" class="Symbol"
+      >}</a
+      ><a name="4864"
+      > </a
+      ><a name="4865" class="Symbol"
+      >-&gt;</a
+      ><a name="4867"
+      > </a
+      ><a name="4868" href="Demo2.html#4858" class="Bound"
+      >x</a
+      ><a name="4869"
+      > </a
+      ><a name="4870" href="Demo2.html#4811" class="Datatype Operator"
+      >==</a
+      ><a name="4872"
+      > </a
+      ><a name="4873" href="Demo2.html#4858" class="Bound"
+      >x</a
+      ><a name="4874"
+      >
+
+</a
+      ><a name="4876" href="Demo2.html#4876" class="Function"
+      >cong</a
+      ><a name="4880"
+      > </a
+      ><a name="4881" class="Symbol"
+      >:</a
+      ><a name="4882"
+      > </a
+      ><a name="4883" class="Symbol"
+      >{</a
+      ><a name="4884" href="Demo2.html#4884" class="Bound"
+      >a</a
+      ><a name="4885"
+      > </a
+      ><a name="4886" href="Demo2.html#4886" class="Bound"
+      >b</a
+      ><a name="4887"
+      > </a
+      ><a name="4888" class="Symbol"
+      >:</a
+      ><a name="4889"
+      > </a
+      ><a name="4890" class="PrimitiveType"
+      >Set</a
+      ><a name="4893" class="Symbol"
+      >}</a
+      ><a name="4894"
+      > </a
+      ><a name="4895" class="Symbol"
+      >{</a
+      ><a name="4896" href="Demo2.html#4896" class="Bound"
+      >x</a
+      ><a name="4897"
+      > </a
+      ><a name="4898" href="Demo2.html#4898" class="Bound"
+      >y</a
+      ><a name="4899"
+      > </a
+      ><a name="4900" class="Symbol"
+      >:</a
+      ><a name="4901"
+      > </a
+      ><a name="4902" href="Demo2.html#4884" class="Bound"
+      >a</a
+      ><a name="4903" class="Symbol"
+      >}</a
+      ><a name="4904"
+      > </a
+      ><a name="4905" class="Symbol"
+      >-&gt;</a
+      ><a name="4907"
+      > </a
+      ><a name="4908" class="Symbol"
+      >(</a
+      ><a name="4909" href="Demo2.html#4909" class="Bound"
+      >f</a
+      ><a name="4910"
+      > </a
+      ><a name="4911" class="Symbol"
+      >:</a
+      ><a name="4912"
+      > </a
+      ><a name="4913" href="Demo2.html#4884" class="Bound"
+      >a</a
+      ><a name="4914"
+      > </a
+      ><a name="4915" class="Symbol"
+      >-&gt;</a
+      ><a name="4917"
+      > </a
+      ><a name="4918" href="Demo2.html#4886" class="Bound"
+      >b</a
+      ><a name="4919" class="Symbol"
+      >)</a
+      ><a name="4920"
+      > </a
+      ><a name="4921" class="Symbol"
+      >-&gt;</a
+      ><a name="4923"
+      > </a
+      ><a name="4924" href="Demo2.html#4896" class="Bound"
+      >x</a
+      ><a name="4925"
+      > </a
+      ><a name="4926" href="Demo2.html#4811" class="Datatype Operator"
+      >==</a
+      ><a name="4928"
+      > </a
+      ><a name="4929" href="Demo2.html#4898" class="Bound"
+      >y</a
+      ><a name="4930"
+      > </a
+      ><a name="4931" class="Symbol"
+      >-&gt;</a
+      ><a name="4933"
+      > </a
+      ><a name="4934" href="Demo2.html#4909" class="Bound"
+      >f</a
+      ><a name="4935"
+      > </a
+      ><a name="4936" href="Demo2.html#4896" class="Bound"
+      >x</a
+      ><a name="4937"
+      > </a
+      ><a name="4938" href="Demo2.html#4811" class="Datatype Operator"
+      >==</a
+      ><a name="4940"
+      > </a
+      ><a name="4941" href="Demo2.html#4909" class="Bound"
+      >f</a
+      ><a name="4942"
+      > </a
+      ><a name="4943" href="Demo2.html#4898" class="Bound"
+      >y</a
+      ><a name="4944"
+      >
+</a
+      ><a name="4945" href="Demo2.html#4876" class="Function"
+      >cong</a
+      ><a name="4949"
+      > </a
+      ><a name="4950" href="Demo2.html#4950" class="Bound"
+      >f</a
+      ><a name="4951"
+      > </a
+      ><a name="4952" href="Demo2.html#4850" class="InductiveConstructor"
+      >Refl</a
+      ><a name="4956"
+      > </a
+      ><a name="4957" class="Symbol"
+      >=</a
+      ><a name="4958"
+      > </a
+      ><a name="4959" href="Demo2.html#4850" class="InductiveConstructor"
+      >Refl</a
+      ><a name="4963"
+      >
+
+</a
+      ><a name="4965" href="Demo2.html#4965" class="Function"
+      >n+0</a
+      ><a name="4968"
+      > </a
+      ><a name="4969" class="Symbol"
+      >:</a
+      ><a name="4970"
+      > </a
+      ><a name="4971" class="Symbol"
+      >(</a
+      ><a name="4972" href="Demo2.html#4972" class="Bound"
+      >n</a
+      ><a name="4973"
+      > </a
+      ><a name="4974" class="Symbol"
+      >:</a
+      ><a name="4975"
+      > </a
+      ><a name="4976" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="4977" class="Symbol"
+      >)</a
+      ><a name="4978"
+      > </a
+      ><a name="4979" class="Symbol"
+      >-&gt;</a
+      ><a name="4981"
+      > </a
+      ><a name="4982" class="Symbol"
+      >(</a
+      ><a name="4983" href="Demo2.html#4972" class="Bound"
+      >n</a
+      ><a name="4984"
+      > </a
+      ><a name="4985" href="Demo2.html#1202" class="Function Operator"
+      >+</a
+      ><a name="4986"
+      > </a
+      ><a name="4987" class="Number"
+      >0</a
+      ><a name="4988" class="Symbol"
+      >)</a
+      ><a name="4989"
+      > </a
+      ><a name="4990" href="Demo2.html#4811" class="Datatype Operator"
+      >==</a
+      ><a name="4992"
+      > </a
+      ><a name="4993" href="Demo2.html#4972" class="Bound"
+      >n</a
+      ><a name="4994"
+      >
+</a
+      ><a name="4995" href="Demo2.html#4965" class="Function"
+      >n+0</a
+      ><a name="4998"
+      > </a
+      ><a name="4999" href="Demo2.html#4999" class="Bound"
+      >n</a
+      ><a name="5000"
+      > </a
+      ><a name="5001" class="Symbol"
+      >=</a
+      ><a name="5002"
+      > </a
+      ><a name="5003" href="Demo2.html#4624" class="Function"
+      >elimNat</a
+      ><a name="5010"
+      > </a
+      ><a name="5011" class="Symbol"
+      >{\</a
+      ><a name="5013" href="Demo2.html#5013" class="Bound"
+      >k</a
+      ><a name="5014"
+      > </a
+      ><a name="5015" class="Symbol"
+      >-&gt;</a
+      ><a name="5017"
+      > </a
+      ><a name="5018" class="Symbol"
+      >(</a
+      ><a name="5019" href="Demo2.html#5013" class="Bound"
+      >k</a
+      ><a name="5020"
+      > </a
+      ><a name="5021" href="Demo2.html#1202" class="Function Operator"
+      >+</a
+      ><a name="5022"
+      > </a
+      ><a name="5023" class="Number"
+      >0</a
+      ><a name="5024" class="Symbol"
+      >)</a
+      ><a name="5025"
+      > </a
+      ><a name="5026" href="Demo2.html#4811" class="Datatype Operator"
+      >==</a
+      ><a name="5028"
+      > </a
+      ><a name="5029" href="Demo2.html#5013" class="Bound"
+      >k</a
+      ><a name="5030" class="Symbol"
+      >}</a
+      ><a name="5031"
+      >  </a
+      ><a name="5033" href="Demo2.html#4850" class="InductiveConstructor"
+      >Refl</a
+      ><a name="5037"
+      > </a
+      ><a name="5038" class="Symbol"
+      >(</a
+      ><a name="5039" href="Demo2.html#4876" class="Function"
+      >cong</a
+      ><a name="5043"
+      > </a
+      ><a name="5044" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="5048" class="Symbol"
+      >)</a
+      ><a name="5049"
+      > </a
+      ><a name="5050" href="Demo2.html#4999" class="Bound"
+      >n</a
+      ><a name="5051"
+      >
+
+</a
+      ><a name="5053" href="Demo2.html#5053" class="Function"
+      >foldList</a
+      ><a name="5061"
+      > </a
+      ><a name="5062" class="Symbol"
+      >:</a
+      ><a name="5063"
+      > </a
+      ><a name="5064" class="Symbol"
+      >{</a
+      ><a name="5065" href="Demo2.html#5065" class="Bound"
+      >a</a
+      ><a name="5066"
+      > </a
+      ><a name="5067" href="Demo2.html#5067" class="Bound"
+      >b</a
+      ><a name="5068"
+      > </a
+      ><a name="5069" class="Symbol"
+      >:</a
+      ><a name="5070"
+      > </a
+      ><a name="5071" class="PrimitiveType"
+      >Set</a
+      ><a name="5074" class="Symbol"
+      >}</a
+      ><a name="5075"
+      > </a
+      ><a name="5076" class="Symbol"
+      >-&gt;</a
+      ><a name="5078"
+      > </a
+      ><a name="5079" href="Demo2.html#5067" class="Bound"
+      >b</a
+      ><a name="5080"
+      > </a
+      ><a name="5081" class="Symbol"
+      >-&gt;</a
+      ><a name="5083"
+      > </a
+      ><a name="5084" class="Symbol"
+      >(</a
+      ><a name="5085" href="Demo2.html#5065" class="Bound"
+      >a</a
+      ><a name="5086"
+      > </a
+      ><a name="5087" class="Symbol"
+      >-&gt;</a
+      ><a name="5089"
+      > </a
+      ><a name="5090" href="Demo2.html#5067" class="Bound"
+      >b</a
+      ><a name="5091"
+      > </a
+      ><a name="5092" class="Symbol"
+      >-&gt;</a
+      ><a name="5094"
+      > </a
+      ><a name="5095" href="Demo2.html#5067" class="Bound"
+      >b</a
+      ><a name="5096" class="Symbol"
+      >)</a
+      ><a name="5097"
+      > </a
+      ><a name="5098" class="Symbol"
+      >-&gt;</a
+      ><a name="5100"
+      > </a
+      ><a name="5101" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="5105"
+      > </a
+      ><a name="5106" href="Demo2.html#5065" class="Bound"
+      >a</a
+      ><a name="5107"
+      > </a
+      ><a name="5108" class="Symbol"
+      >-&gt;</a
+      ><a name="5110"
+      > </a
+      ><a name="5111" href="Demo2.html#5067" class="Bound"
+      >b</a
+      ><a name="5112"
+      >
+</a
+      ><a name="5113" href="Demo2.html#5053" class="Function"
+      >foldList</a
+      ><a name="5121"
+      > </a
+      ><a name="5122" href="Demo2.html#5122" class="Bound"
+      >nil</a
+      ><a name="5125"
+      > </a
+      ><a name="5126" href="Demo2.html#5126" class="Bound"
+      >cons</a
+      ><a name="5130"
+      > </a
+      ><a name="5131" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="5134"
+      > </a
+      ><a name="5135" class="Symbol"
+      >=</a
+      ><a name="5136"
+      > </a
+      ><a name="5137" href="Demo2.html#5122" class="Bound"
+      >nil</a
+      ><a name="5140"
+      >
+</a
+      ><a name="5141" href="Demo2.html#5053" class="Function"
+      >foldList</a
+      ><a name="5149"
+      > </a
+      ><a name="5150" href="Demo2.html#5150" class="Bound"
+      >nil</a
+      ><a name="5153"
+      > </a
+      ><a name="5154" href="Demo2.html#5154" class="Bound"
+      >cons</a
+      ><a name="5158"
+      > </a
+      ><a name="5159" class="Symbol"
+      >(</a
+      ><a name="5160" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="5164"
+      > </a
+      ><a name="5165" href="Demo2.html#5165" class="Bound"
+      >x</a
+      ><a name="5166"
+      > </a
+      ><a name="5167" href="Demo2.html#5167" class="Bound"
+      >xs</a
+      ><a name="5169" class="Symbol"
+      >)</a
+      ><a name="5170"
+      > </a
+      ><a name="5171" class="Symbol"
+      >=</a
+      ><a name="5172"
+      > </a
+      ><a name="5173" href="Demo2.html#5154" class="Bound"
+      >cons</a
+      ><a name="5177"
+      > </a
+      ><a name="5178" href="Demo2.html#5165" class="Bound"
+      >x</a
+      ><a name="5179"
+      > </a
+      ><a name="5180" class="Symbol"
+      >(</a
+      ><a name="5181" href="Demo2.html#5053" class="Function"
+      >foldList</a
+      ><a name="5189"
+      > </a
+      ><a name="5190" href="Demo2.html#5150" class="Bound"
+      >nil</a
+      ><a name="5193"
+      > </a
+      ><a name="5194" href="Demo2.html#5154" class="Bound"
+      >cons</a
+      ><a name="5198"
+      > </a
+      ><a name="5199" href="Demo2.html#5167" class="Bound"
+      >xs</a
+      ><a name="5201" class="Symbol"
+      >)</a
+      ><a name="5202"
+      >
+
+</a
+      ><a name="5204" href="Demo2.html#5204" class="Function"
+      >elimList</a
+      ><a name="5212"
+      > </a
+      ><a name="5213" class="Symbol"
+      >:</a
+      ><a name="5214"
+      > </a
+      ><a name="5215" class="Symbol"
+      >{</a
+      ><a name="5216" href="Demo2.html#5216" class="Bound"
+      >a</a
+      ><a name="5217"
+      > </a
+      ><a name="5218" class="Symbol"
+      >:</a
+      ><a name="5219"
+      > </a
+      ><a name="5220" class="PrimitiveType"
+      >Set</a
+      ><a name="5223" class="Symbol"
+      >}</a
+      ><a name="5224"
+      > </a
+      ><a name="5225" class="Symbol"
+      >{</a
+      ><a name="5226" href="Demo2.html#5226" class="Bound"
+      >P</a
+      ><a name="5227"
+      > </a
+      ><a name="5228" class="Symbol"
+      >:</a
+      ><a name="5229"
+      > </a
+      ><a name="5230" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="5234"
+      > </a
+      ><a name="5235" href="Demo2.html#5216" class="Bound"
+      >a</a
+      ><a name="5236"
+      > </a
+      ><a name="5237" class="Symbol"
+      >-&gt;</a
+      ><a name="5239"
+      > </a
+      ><a name="5240" class="PrimitiveType"
+      >Set</a
+      ><a name="5243" class="Symbol"
+      >}</a
+      ><a name="5244"
+      > </a
+      ><a name="5245" class="Symbol"
+      >-&gt;</a
+      ><a name="5247"
+      >
+  </a
+      ><a name="5250" href="Demo2.html#5226" class="Bound"
+      >P</a
+      ><a name="5251"
+      > </a
+      ><a name="5252" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="5255"
+      > </a
+      ><a name="5256" class="Symbol"
+      >-&gt;</a
+      ><a name="5258"
+      > </a
+      ><a name="5259" class="Symbol"
+      >((</a
+      ><a name="5261" href="Demo2.html#5261" class="Bound"
+      >x</a
+      ><a name="5262"
+      > </a
+      ><a name="5263" class="Symbol"
+      >:</a
+      ><a name="5264"
+      > </a
+      ><a name="5265" href="Demo2.html#5216" class="Bound"
+      >a</a
+      ><a name="5266" class="Symbol"
+      >)</a
+      ><a name="5267"
+      > </a
+      ><a name="5268" class="Symbol"
+      >-&gt;</a
+      ><a name="5270"
+      > </a
+      ><a name="5271" class="Symbol"
+      >(</a
+      ><a name="5272" href="Demo2.html#5272" class="Bound"
+      >xs</a
+      ><a name="5274"
+      > </a
+      ><a name="5275" class="Symbol"
+      >:</a
+      ><a name="5276"
+      > </a
+      ><a name="5277" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="5281"
+      > </a
+      ><a name="5282" href="Demo2.html#5216" class="Bound"
+      >a</a
+      ><a name="5283" class="Symbol"
+      >)</a
+      ><a name="5284"
+      > </a
+      ><a name="5285" class="Symbol"
+      >-&gt;</a
+      ><a name="5287"
+      > </a
+      ><a name="5288" href="Demo2.html#5226" class="Bound"
+      >P</a
+      ><a name="5289"
+      > </a
+      ><a name="5290" href="Demo2.html#5272" class="Bound"
+      >xs</a
+      ><a name="5292"
+      > </a
+      ><a name="5293" class="Symbol"
+      >-&gt;</a
+      ><a name="5295"
+      > </a
+      ><a name="5296" href="Demo2.html#5226" class="Bound"
+      >P</a
+      ><a name="5297"
+      > </a
+      ><a name="5298" class="Symbol"
+      >(</a
+      ><a name="5299" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="5303"
+      > </a
+      ><a name="5304" href="Demo2.html#5261" class="Bound"
+      >x</a
+      ><a name="5305"
+      > </a
+      ><a name="5306" href="Demo2.html#5272" class="Bound"
+      >xs</a
+      ><a name="5308" class="Symbol"
+      >))</a
+      ><a name="5310"
+      > </a
+      ><a name="5311" class="Symbol"
+      >-&gt;</a
+      ><a name="5313"
+      >
+  </a
+      ><a name="5316" class="Symbol"
+      >(</a
+      ><a name="5317" href="Demo2.html#5317" class="Bound"
+      >xs</a
+      ><a name="5319"
+      > </a
+      ><a name="5320" class="Symbol"
+      >:</a
+      ><a name="5321"
+      > </a
+      ><a name="5322" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="5326"
+      > </a
+      ><a name="5327" href="Demo2.html#5216" class="Bound"
+      >a</a
+      ><a name="5328" class="Symbol"
+      >)</a
+      ><a name="5329"
+      > </a
+      ><a name="5330" class="Symbol"
+      >-&gt;</a
+      ><a name="5332"
+      > </a
+      ><a name="5333" href="Demo2.html#5226" class="Bound"
+      >P</a
+      ><a name="5334"
+      > </a
+      ><a name="5335" href="Demo2.html#5317" class="Bound"
+      >xs</a
+      ><a name="5337"
+      >
+</a
+      ><a name="5338" href="Demo2.html#5204" class="Function"
+      >elimList</a
+      ><a name="5346"
+      > </a
+      ><a name="5347" href="Demo2.html#5347" class="Bound"
+      >nil</a
+      ><a name="5350"
+      > </a
+      ><a name="5351" href="Demo2.html#5351" class="Bound"
+      >cons</a
+      ><a name="5355"
+      > </a
+      ><a name="5356" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="5359"
+      > </a
+      ><a name="5360" class="Symbol"
+      >=</a
+      ><a name="5361"
+      > </a
+      ><a name="5362" href="Demo2.html#5347" class="Bound"
+      >nil</a
+      ><a name="5365"
+      >
+</a
+      ><a name="5366" href="Demo2.html#5204" class="Function"
+      >elimList</a
+      ><a name="5374"
+      > </a
+      ><a name="5375" href="Demo2.html#5375" class="Bound"
+      >nil</a
+      ><a name="5378"
+      > </a
+      ><a name="5379" href="Demo2.html#5379" class="Bound"
+      >cons</a
+      ><a name="5383"
+      > </a
+      ><a name="5384" class="Symbol"
+      >(</a
+      ><a name="5385" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="5389"
+      > </a
+      ><a name="5390" href="Demo2.html#5390" class="Bound"
+      >x</a
+      ><a name="5391"
+      > </a
+      ><a name="5392" href="Demo2.html#5392" class="Bound"
+      >xs</a
+      ><a name="5394" class="Symbol"
+      >)</a
+      ><a name="5395"
+      > </a
+      ><a name="5396" class="Symbol"
+      >=</a
+      ><a name="5397"
+      > </a
+      ><a name="5398" href="Demo2.html#5379" class="Bound"
+      >cons</a
+      ><a name="5402"
+      > </a
+      ><a name="5403" href="Demo2.html#5390" class="Bound"
+      >x</a
+      ><a name="5404"
+      > </a
+      ><a name="5405" href="Demo2.html#5392" class="Bound"
+      >xs</a
+      ><a name="5407"
+      > </a
+      ><a name="5408" class="Symbol"
+      >(</a
+      ><a name="5409" href="Demo2.html#5204" class="Function"
+      >elimList</a
+      ><a name="5417"
+      > </a
+      ><a name="5418" href="Demo2.html#5375" class="Bound"
+      >nil</a
+      ><a name="5421"
+      > </a
+      ><a name="5422" href="Demo2.html#5379" class="Bound"
+      >cons</a
+      ><a name="5426"
+      > </a
+      ><a name="5427" href="Demo2.html#5392" class="Bound"
+      >xs</a
+      ><a name="5429" class="Symbol"
+      >)</a
+      ><a name="5430"
+      >
+
+</a
+      ><a name="5432" href="Demo2.html#5432" class="Function"
+      >elimVec</a
+      ><a name="5439"
+      > </a
+      ><a name="5440" class="Symbol"
+      >:</a
+      ><a name="5441"
+      > </a
+      ><a name="5442" class="Symbol"
+      >{</a
+      ><a name="5443" href="Demo2.html#5443" class="Bound"
+      >a</a
+      ><a name="5444"
+      > </a
+      ><a name="5445" class="Symbol"
+      >:</a
+      ><a name="5446"
+      > </a
+      ><a name="5447" class="PrimitiveType"
+      >Set</a
+      ><a name="5450" class="Symbol"
+      >}</a
+      ><a name="5451"
+      > </a
+      ><a name="5452" class="Symbol"
+      >(</a
+      ><a name="5453" href="Demo2.html#5453" class="Bound"
+      >P</a
+      ><a name="5454"
+      > </a
+      ><a name="5455" class="Symbol"
+      >:</a
+      ><a name="5456"
+      > </a
+      ><a name="5457" class="Symbol"
+      >{</a
+      ><a name="5458" href="Demo2.html#5458" class="Bound"
+      >n</a
+      ><a name="5459"
+      > </a
+      ><a name="5460" class="Symbol"
+      >:</a
+      ><a name="5461"
+      > </a
+      ><a name="5462" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="5463" class="Symbol"
+      >}</a
+      ><a name="5464"
+      > </a
+      ><a name="5465" class="Symbol"
+      >-&gt;</a
+      ><a name="5467"
+      > </a
+      ><a name="5468" href="Demo2.html#1037" class="Datatype"
+      >Vec</a
+      ><a name="5471"
+      > </a
+      ><a name="5472" href="Demo2.html#5443" class="Bound"
+      >a</a
+      ><a name="5473"
+      > </a
+      ><a name="5474" href="Demo2.html#5458" class="Bound"
+      >n</a
+      ><a name="5475"
+      > </a
+      ><a name="5476" class="Symbol"
+      >-&gt;</a
+      ><a name="5478"
+      > </a
+      ><a name="5479" class="PrimitiveType"
+      >Set</a
+      ><a name="5482" class="Symbol"
+      >)</a
+      ><a name="5483"
+      > </a
+      ><a name="5484" class="Symbol"
+      >-&gt;</a
+      ><a name="5486"
+      >
+  </a
+      ><a name="5489" href="Demo2.html#5453" class="Bound"
+      >P</a
+      ><a name="5490"
+      > </a
+      ><a name="5491" href="Demo2.html#1070" class="InductiveConstructor"
+      >Nil</a
+      ><a name="5494"
+      > </a
+      ><a name="5495" class="Symbol"
+      >-&gt;</a
+      ><a name="5497"
+      >
+  </a
+      ><a name="5500" class="Symbol"
+      >((</a
+      ><a name="5502" href="Demo2.html#5502" class="Bound"
+      >n</a
+      ><a name="5503"
+      > </a
+      ><a name="5504" class="Symbol"
+      >:</a
+      ><a name="5505"
+      > </a
+      ><a name="5506" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="5507" class="Symbol"
+      >)</a
+      ><a name="5508"
+      > </a
+      ><a name="5509" class="Symbol"
+      >(</a
+      ><a name="5510" href="Demo2.html#5510" class="Bound"
+      >x</a
+      ><a name="5511"
+      > </a
+      ><a name="5512" class="Symbol"
+      >:</a
+      ><a name="5513"
+      > </a
+      ><a name="5514" href="Demo2.html#5443" class="Bound"
+      >a</a
+      ><a name="5515" class="Symbol"
+      >)</a
+      ><a name="5516"
+      > </a
+      ><a name="5517" class="Symbol"
+      >(</a
+      ><a name="5518" href="Demo2.html#5518" class="Bound"
+      >xs</a
+      ><a name="5520"
+      > </a
+      ><a name="5521" class="Symbol"
+      >:</a
+      ><a name="5522"
+      > </a
+      ><a name="5523" href="Demo2.html#1037" class="Datatype"
+      >Vec</a
+      ><a name="5526"
+      > </a
+      ><a name="5527" href="Demo2.html#5443" class="Bound"
+      >a</a
+      ><a name="5528"
+      > </a
+      ><a name="5529" href="Demo2.html#5502" class="Bound"
+      >n</a
+      ><a name="5530" class="Symbol"
+      >)</a
+      ><a name="5531"
+      > </a
+      ><a name="5532" class="Symbol"
+      >-&gt;</a
+      ><a name="5534"
+      > </a
+      ><a name="5535" href="Demo2.html#5453" class="Bound"
+      >P</a
+      ><a name="5536"
+      > </a
+      ><a name="5537" href="Demo2.html#5518" class="Bound"
+      >xs</a
+      ><a name="5539"
+      > </a
+      ><a name="5540" class="Symbol"
+      >-&gt;</a
+      ><a name="5542"
+      > </a
+      ><a name="5543" href="Demo2.html#5453" class="Bound"
+      >P</a
+      ><a name="5544"
+      > </a
+      ><a name="5545" class="Symbol"
+      >(</a
+      ><a name="5546" href="Demo2.html#1090" class="InductiveConstructor"
+      >Cons</a
+      ><a name="5550"
+      > </a
+      ><a name="5551" href="Demo2.html#5510" class="Bound"
+      >x</a
+      ><a name="5552"
+      > </a
+      ><a name="5553" href="Demo2.html#5518" class="Bound"
+      >xs</a
+      ><a name="5555" class="Symbol"
+      >))</a
+      ><a name="5557"
+      > </a
+      ><a name="5558" class="Symbol"
+      >-&gt;</a
+      ><a name="5560"
+      > 
+  </a
+      ><a name="5564" class="Symbol"
+      >(</a
+      ><a name="5565" href="Demo2.html#5565" class="Bound"
+      >n</a
+      ><a name="5566"
+      > </a
+      ><a name="5567" class="Symbol"
+      >:</a
+      ><a name="5568"
+      > </a
+      ><a name="5569" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="5570" class="Symbol"
+      >)</a
+      ><a name="5571"
+      > </a
+      ><a name="5572" class="Symbol"
+      >-&gt;</a
+      ><a name="5574"
+      > </a
+      ><a name="5575" class="Symbol"
+      >(</a
+      ><a name="5576" href="Demo2.html#5576" class="Bound"
+      >xs</a
+      ><a name="5578"
+      > </a
+      ><a name="5579" class="Symbol"
+      >:</a
+      ><a name="5580"
+      > </a
+      ><a name="5581" href="Demo2.html#1037" class="Datatype"
+      >Vec</a
+      ><a name="5584"
+      > </a
+      ><a name="5585" href="Demo2.html#5443" class="Bound"
+      >a</a
+      ><a name="5586"
+      > </a
+      ><a name="5587" href="Demo2.html#5565" class="Bound"
+      >n</a
+      ><a name="5588" class="Symbol"
+      >)</a
+      ><a name="5589"
+      > </a
+      ><a name="5590" class="Symbol"
+      >-&gt;</a
+      ><a name="5592"
+      > </a
+      ><a name="5593" href="Demo2.html#5453" class="Bound"
+      >P</a
+      ><a name="5594"
+      > </a
+      ><a name="5595" href="Demo2.html#5576" class="Bound"
+      >xs</a
+      ><a name="5597"
+      >
+</a
+      ><a name="5598" href="Demo2.html#5432" class="Function"
+      >elimVec</a
+      ><a name="5605"
+      > </a
+      ><a name="5606" href="Demo2.html#5606" class="Bound"
+      >P</a
+      ><a name="5607"
+      > </a
+      ><a name="5608" href="Demo2.html#5608" class="Bound"
+      >nil</a
+      ><a name="5611"
+      > </a
+      ><a name="5612" href="Demo2.html#5612" class="Bound"
+      >cons</a
+      ><a name="5616"
+      > </a
+      ><a name="5617" class="DottedPattern Symbol"
+      >.</a
+      ><a name="5618" class="DottedPattern Number"
+      >0</a
+      ><a name="5619"
+      > </a
+      ><a name="5620" href="Demo2.html#1070" class="InductiveConstructor"
+      >Nil</a
+      ><a name="5623"
+      > </a
+      ><a name="5624" class="Symbol"
+      >=</a
+      ><a name="5625"
+      > </a
+      ><a name="5626" href="Demo2.html#5608" class="Bound"
+      >nil</a
+      ><a name="5629"
+      >
+</a
+      ><a name="5630" href="Demo2.html#5432" class="Function"
+      >elimVec</a
+      ><a name="5637"
+      > </a
+      ><a name="5638" href="Demo2.html#5638" class="Bound"
+      >P</a
+      ><a name="5639"
+      > </a
+      ><a name="5640" href="Demo2.html#5640" class="Bound"
+      >nil</a
+      ><a name="5643"
+      > </a
+      ><a name="5644" href="Demo2.html#5644" class="Bound"
+      >cons</a
+      ><a name="5648"
+      > </a
+      ><a name="5649" class="Symbol"
+      >_</a
+      ><a name="5650"
+      > </a
+      ><a name="5651" class="Symbol"
+      >(</a
+      ><a name="5652" href="Demo2.html#1090" class="InductiveConstructor"
+      >Cons</a
+      ><a name="5656"
+      > </a
+      ><a name="5657" href="Demo2.html#5657" class="Bound"
+      >x</a
+      ><a name="5658"
+      > </a
+      ><a name="5659" href="Demo2.html#5659" class="Bound"
+      >xs</a
+      ><a name="5661" class="Symbol"
+      >)</a
+      ><a name="5662"
+      > </a
+      ><a name="5663" class="Symbol"
+      >=</a
+      ><a name="5664"
+      > </a
+      ><a name="5665" href="Demo2.html#5644" class="Bound"
+      >cons</a
+      ><a name="5669"
+      > </a
+      ><a name="5670" class="Symbol"
+      >_</a
+      ><a name="5671"
+      > </a
+      ><a name="5672" href="Demo2.html#5657" class="Bound"
+      >x</a
+      ><a name="5673"
+      > </a
+      ><a name="5674" href="Demo2.html#5659" class="Bound"
+      >xs</a
+      ><a name="5676"
+      > </a
+      ><a name="5677" class="Symbol"
+      >(</a
+      ><a name="5678" href="Demo2.html#5432" class="Function"
+      >elimVec</a
+      ><a name="5685"
+      > </a
+      ><a name="5686" href="Demo2.html#5638" class="Bound"
+      >P</a
+      ><a name="5687"
+      > </a
+      ><a name="5688" href="Demo2.html#5640" class="Bound"
+      >nil</a
+      ><a name="5691"
+      > </a
+      ><a name="5692" href="Demo2.html#5644" class="Bound"
+      >cons</a
+      ><a name="5696"
+      > </a
+      ><a name="5697" class="Symbol"
+      >_</a
+      ><a name="5698"
+      > </a
+      ><a name="5699" href="Demo2.html#5659" class="Bound"
+      >xs</a
+      ><a name="5701" class="Symbol"
+      >)</a
+      ><a name="5702"
+      >
+  
+
+</a
+      ><a name="5707" href="Demo2.html#5707" class="Function"
+      >double</a
+      ><a name="5713"
+      > </a
+      ><a name="5714" class="Symbol"
+      >:</a
+      ><a name="5715"
+      > </a
+      ><a name="5716" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="5717"
+      > </a
+      ><a name="5718" class="Symbol"
+      >-&gt;</a
+      ><a name="5720"
+      > </a
+      ><a name="5721" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="5722"
+      >
+</a
+      ><a name="5723" href="Demo2.html#5707" class="Function"
+      >double</a
+      ><a name="5729"
+      > </a
+      ><a name="5730" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="5734"
+      > </a
+      ><a name="5735" class="Symbol"
+      >=</a
+      ><a name="5736"
+      > </a
+      ><a name="5737" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="5741"
+      >
+</a
+      ><a name="5742" href="Demo2.html#5707" class="Function"
+      >double</a
+      ><a name="5748"
+      > </a
+      ><a name="5749" class="Symbol"
+      >(</a
+      ><a name="5750" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="5754"
+      > </a
+      ><a name="5755" href="Demo2.html#5755" class="Bound"
+      >n</a
+      ><a name="5756" class="Symbol"
+      >)</a
+      ><a name="5757"
+      > </a
+      ><a name="5758" class="Symbol"
+      >=</a
+      ><a name="5759"
+      > </a
+      ><a name="5760" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="5764"
+      > </a
+      ><a name="5765" class="Symbol"
+      >(</a
+      ><a name="5766" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="5770"
+      > </a
+      ><a name="5771" class="Symbol"
+      >(</a
+      ><a name="5772" href="Demo2.html#5707" class="Function"
+      >double</a
+      ><a name="5778"
+      > </a
+      ><a name="5779" href="Demo2.html#5755" class="Bound"
+      >n</a
+      ><a name="5780" class="Symbol"
+      >))</a
+      ><a name="5782"
+      >
+
+</a
+      ><a name="5784" class="Keyword"
+      >data</a
+      ><a name="5788"
+      > </a
+      ><a name="5789" href="Demo2.html#5789" class="Datatype"
+      >Parity</a
+      ><a name="5795"
+      > </a
+      ><a name="5796" class="Symbol"
+      >:</a
+      ><a name="5797"
+      > </a
+      ><a name="5798" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="5799"
+      > </a
+      ><a name="5800" class="Symbol"
+      >-&gt;</a
+      ><a name="5802"
+      > </a
+      ><a name="5803" class="PrimitiveType"
+      >Set</a
+      ><a name="5806"
+      > </a
+      ><a name="5807" class="Keyword"
+      >where</a
+      ><a name="5812"
+      >
+  </a
+      ><a name="5815" href="Demo2.html#5815" class="InductiveConstructor"
+      >IsOdd</a
+      ><a name="5820"
+      > </a
+      ><a name="5821" class="Symbol"
+      >:</a
+      ><a name="5822"
+      > </a
+      ><a name="5823" class="Symbol"
+      >(</a
+      ><a name="5824" href="Demo2.html#5824" class="Bound"
+      >k</a
+      ><a name="5825"
+      > </a
+      ><a name="5826" class="Symbol"
+      >:</a
+      ><a name="5827"
+      > </a
+      ><a name="5828" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="5829" class="Symbol"
+      >)</a
+      ><a name="5830"
+      > </a
+      ><a name="5831" class="Symbol"
+      >-&gt;</a
+      ><a name="5833"
+      > </a
+      ><a name="5834" href="Demo2.html#5789" class="Datatype"
+      >Parity</a
+      ><a name="5840"
+      > </a
+      ><a name="5841" class="Symbol"
+      >(</a
+      ><a name="5842" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="5846"
+      > </a
+      ><a name="5847" class="Symbol"
+      >(</a
+      ><a name="5848" href="Demo2.html#5707" class="Function"
+      >double</a
+      ><a name="5854"
+      > </a
+      ><a name="5855" href="Demo2.html#5824" class="Bound"
+      >k</a
+      ><a name="5856" class="Symbol"
+      >))</a
+      ><a name="5858"
+      > </a
+      ><a name="5859" class="Comment"
+      >-- n is 2 * k + 1</a
+      ><a name="5876"
+      >
+  </a
+      ><a name="5879" href="Demo2.html#5879" class="InductiveConstructor"
+      >IsEven</a
+      ><a name="5885"
+      > </a
+      ><a name="5886" class="Symbol"
+      >:</a
+      ><a name="5887"
+      > </a
+      ><a name="5888" class="Symbol"
+      >(</a
+      ><a name="5889" href="Demo2.html#5889" class="Bound"
+      >k</a
+      ><a name="5890"
+      > </a
+      ><a name="5891" class="Symbol"
+      >:</a
+      ><a name="5892"
+      > </a
+      ><a name="5893" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="5894" class="Symbol"
+      >)</a
+      ><a name="5895"
+      > </a
+      ><a name="5896" class="Symbol"
+      >-&gt;</a
+      ><a name="5898"
+      > </a
+      ><a name="5899" href="Demo2.html#5789" class="Datatype"
+      >Parity</a
+      ><a name="5905"
+      > </a
+      ><a name="5906" class="Symbol"
+      >(</a
+      ><a name="5907" href="Demo2.html#5707" class="Function"
+      >double</a
+      ><a name="5913"
+      > </a
+      ><a name="5914" href="Demo2.html#5889" class="Bound"
+      >k</a
+      ><a name="5915" class="Symbol"
+      >)</a
+      ><a name="5916"
+      > </a
+      ><a name="5917" class="Comment"
+      >-- n  is 2 * k</a
+      ><a name="5931"
+      >
+
+</a
+      ><a name="5933" href="Demo2.html#5933" class="Function"
+      >parity?</a
+      ><a name="5940"
+      > </a
+      ><a name="5941" class="Symbol"
+      >:</a
+      ><a name="5942"
+      > </a
+      ><a name="5943" class="Symbol"
+      >(</a
+      ><a name="5944" href="Demo2.html#5944" class="Bound"
+      >n</a
+      ><a name="5945"
+      > </a
+      ><a name="5946" class="Symbol"
+      >:</a
+      ><a name="5947"
+      > </a
+      ><a name="5948" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="5949" class="Symbol"
+      >)</a
+      ><a name="5950"
+      > </a
+      ><a name="5951" class="Symbol"
+      >-&gt;</a
+      ><a name="5953"
+      > </a
+      ><a name="5954" href="Demo2.html#5789" class="Datatype"
+      >Parity</a
+      ><a name="5960"
+      > </a
+      ><a name="5961" href="Demo2.html#5944" class="Bound"
+      >n</a
+      ><a name="5962"
+      >
+</a
+      ><a name="5963" href="Demo2.html#5933" class="Function"
+      >parity?</a
+      ><a name="5970"
+      > </a
+      ><a name="5971" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="5975"
+      > </a
+      ><a name="5976" class="Symbol"
+      >=</a
+      ><a name="5977"
+      > </a
+      ><a name="5978" href="Demo2.html#5879" class="InductiveConstructor"
+      >IsEven</a
+      ><a name="5984"
+      > </a
+      ><a name="5985" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="5989"
+      >
+</a
+      ><a name="5990" href="Demo2.html#5933" class="Function"
+      >parity?</a
+      ><a name="5997"
+      > </a
+      ><a name="5998" class="Symbol"
+      >(</a
+      ><a name="5999" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="6003"
+      > </a
+      ><a name="6004" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="6008" class="Symbol"
+      >)</a
+      ><a name="6009"
+      > </a
+      ><a name="6010" class="Symbol"
+      >=</a
+      ><a name="6011"
+      > </a
+      ><a name="6012" href="Demo2.html#5815" class="InductiveConstructor"
+      >IsOdd</a
+      ><a name="6017"
+      > </a
+      ><a name="6018" href="Demo2.html#412" class="InductiveConstructor"
+      >Zero</a
+      ><a name="6022"
+      >
+</a
+      ><a name="6023" href="Demo2.html#5933" class="Function"
+      >parity?</a
+      ><a name="6030"
+      > </a
+      ><a name="6031" class="Symbol"
+      >(</a
+      ><a name="6032" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="6036"
+      > </a
+      ><a name="6037" class="Symbol"
+      >(</a
+      ><a name="6038" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="6042"
+      > </a
+      ><a name="6043" href="Demo2.html#6043" class="Bound"
+      >n</a
+      ><a name="6044" class="Symbol"
+      >))</a
+      ><a name="6046"
+      > </a
+      ><a name="6047" class="Keyword"
+      >with</a
+      ><a name="6051"
+      > </a
+      ><a name="6052" href="Demo2.html#5933" class="Function"
+      >parity?</a
+      ><a name="6059"
+      > </a
+      ><a name="6060" href="Demo2.html#6043" class="Bound"
+      >n</a
+      ><a name="6061"
+      >
+</a
+      ><a name="6062" href="Demo2.html#5933" class="Function"
+      >parity?</a
+      ><a name="6069"
+      > </a
+      ><a name="6070" class="Symbol"
+      >(</a
+      ><a name="6071" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="6075"
+      > </a
+      ><a name="6076" class="Symbol"
+      >(</a
+      ><a name="6077" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="6081"
+      > </a
+      ><a name="6082" class="DottedPattern Symbol"
+      >.(</a
+      ><a name="6084" href="Demo2.html#423" class="DottedPattern InductiveConstructor"
+      >Succ</a
+      ><a name="6088"
+      > </a
+      ><a name="6089" class="DottedPattern Symbol"
+      >(</a
+      ><a name="6090" href="Demo2.html#5707" class="DottedPattern Function"
+      >double</a
+      ><a name="6096"
+      > </a
+      ><a name="6097" href="Demo2.html#6111" class="DottedPattern Bound"
+      >k</a
+      ><a name="6098" class="DottedPattern Symbol"
+      >))</a
+      ><a name="6100" class="Symbol"
+      >))</a
+      ><a name="6102"
+      > </a
+      ><a name="6103" class="Symbol"
+      >|</a
+      ><a name="6104"
+      > </a
+      ><a name="6105" href="Demo2.html#5815" class="InductiveConstructor"
+      >IsOdd</a
+      ><a name="6110"
+      > </a
+      ><a name="6111" href="Demo2.html#6111" class="Bound"
+      >k</a
+      ><a name="6112"
+      > </a
+      ><a name="6113" class="Symbol"
+      >=</a
+      ><a name="6114"
+      > </a
+      ><a name="6115" href="Demo2.html#5815" class="InductiveConstructor"
+      >IsOdd</a
+      ><a name="6120"
+      > </a
+      ><a name="6121" class="Symbol"
+      >(</a
+      ><a name="6122" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="6126"
+      > </a
+      ><a name="6127" href="Demo2.html#6111" class="Bound"
+      >k</a
+      ><a name="6128" class="Symbol"
+      >)</a
+      ><a name="6129"
+      >
+</a
+      ><a name="6130" href="Demo2.html#5933" class="Function"
+      >parity?</a
+      ><a name="6137"
+      > </a
+      ><a name="6138" class="Symbol"
+      >(</a
+      ><a name="6139" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="6143"
+      > </a
+      ><a name="6144" class="Symbol"
+      >(</a
+      ><a name="6145" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="6149"
+      > </a
+      ><a name="6150" class="DottedPattern Symbol"
+      >.(</a
+      ><a name="6152" href="Demo2.html#5707" class="DottedPattern Function"
+      >double</a
+      ><a name="6158"
+      > </a
+      ><a name="6159" href="Demo2.html#6173" class="DottedPattern Bound"
+      >k</a
+      ><a name="6160" class="DottedPattern Symbol"
+      >)</a
+      ><a name="6161" class="Symbol"
+      >))</a
+      ><a name="6163"
+      > </a
+      ><a name="6164" class="Symbol"
+      >|</a
+      ><a name="6165"
+      > </a
+      ><a name="6166" href="Demo2.html#5879" class="InductiveConstructor"
+      >IsEven</a
+      ><a name="6172"
+      > </a
+      ><a name="6173" href="Demo2.html#6173" class="Bound"
+      >k</a
+      ><a name="6174"
+      > </a
+      ><a name="6175" class="Symbol"
+      >=</a
+      ><a name="6176"
+      > </a
+      ><a name="6177" href="Demo2.html#5879" class="InductiveConstructor"
+      >IsEven</a
+      ><a name="6183"
+      > </a
+      ><a name="6184" class="Symbol"
+      >(</a
+      ><a name="6185" href="Demo2.html#423" class="InductiveConstructor"
+      >Succ</a
+      ><a name="6189"
+      > </a
+      ><a name="6190" href="Demo2.html#6173" class="Bound"
+      >k</a
+      ><a name="6191" class="Symbol"
+      >)</a
+      ><a name="6192"
+      >
+
+</a
+      ><a name="6194" href="Demo2.html#6194" class="Function"
+      >useParity</a
+      ><a name="6203"
+      > </a
+      ><a name="6204" class="Symbol"
+      >:</a
+      ><a name="6205"
+      > </a
+      ><a name="6206" class="Symbol"
+      >{</a
+      ><a name="6207" href="Demo2.html#6207" class="Bound"
+      >P</a
+      ><a name="6208"
+      > </a
+      ><a name="6209" class="Symbol"
+      >:</a
+      ><a name="6210"
+      > </a
+      ><a name="6211" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="6212"
+      > </a
+      ><a name="6213" class="Symbol"
+      >-&gt;</a
+      ><a name="6215"
+      > </a
+      ><a name="6216" class="PrimitiveType"
+      >Set</a
+      ><a name="6219" class="Symbol"
+      >}</a
+      ><a name="6220"
+      > </a
+      ><a name="6221" class="Symbol"
+      >-&gt;</a
+      ><a name="6223"
+      > </a
+      ><a name="6224" class="Symbol"
+      >(</a
+      ><a name="6225" href="Demo2.html#6225" class="Bound"
+      >n</a
+      ><a name="6226"
+      > </a
+      ><a name="6227" class="Symbol"
+      >:</a
+      ><a name="6228"
+      > </a
+      ><a name="6229" href="Demo2.html#396" class="Datatype"
+      >&#8469;</a
+      ><a name="6230" class="Symbol"
+      >)</a
+      ><a name="6231"
+      > </a
+      ><a name="6232" class="Symbol"
+      >-&gt;</a
+      ><a name="6234"
+      > </a
+      ><a name="6235" href="Demo2.html#6207" class="Bound"
+      >P</a
+      ><a name="6236"
+      > </a
+      ><a name="6237" href="Demo2.html#6225" class="Bound"
+      >n</a
+      ><a name="6238"
+      >
+</a
+      ><a name="6239" href="Demo2.html#6194" class="Function"
+      >useParity</a
+      ><a name="6248"
+      > </a
+      ><a name="6249" href="Demo2.html#6249" class="Bound"
+      >n</a
+      ><a name="6250"
+      > </a
+      ><a name="6251" class="Keyword"
+      >with</a
+      ><a name="6255"
+      > </a
+      ><a name="6256" href="Demo2.html#5933" class="Function"
+      >parity?</a
+      ><a name="6263"
+      > </a
+      ><a name="6264" href="Demo2.html#6249" class="Bound"
+      >n</a
+      ><a name="6265"
+      >
+</a
+      ><a name="6266" href="Demo2.html#6194" class="Function"
+      >useParity</a
+      ><a name="6275"
+      > </a
+      ><a name="6276" class="DottedPattern Symbol"
+      >.(</a
+      ><a name="6278" href="Demo2.html#423" class="DottedPattern InductiveConstructor"
+      >Succ</a
+      ><a name="6282"
+      > </a
+      ><a name="6283" class="DottedPattern Symbol"
+      >(</a
+      ><a name="6284" href="Demo2.html#5707" class="DottedPattern Function"
+      >double</a
+      ><a name="6290"
+      > </a
+      ><a name="6291" href="Demo2.html#6303" class="DottedPattern Bound"
+      >k</a
+      ><a name="6292" class="DottedPattern Symbol"
+      >))</a
+      ><a name="6294"
+      > </a
+      ><a name="6295" class="Symbol"
+      >|</a
+      ><a name="6296"
+      > </a
+      ><a name="6297" href="Demo2.html#5815" class="InductiveConstructor"
+      >IsOdd</a
+      ><a name="6302"
+      > </a
+      ><a name="6303" href="Demo2.html#6303" class="Bound"
+      >k</a
+      ><a name="6304"
+      > </a
+      ><a name="6305" class="Symbol"
+      >=</a
+      ><a name="6306"
+      > </a
+      ><a name="6307" class="Symbol"
+      >{!!}</a
+      ><a name="6311"
+      >
+</a
+      ><a name="6312" href="Demo2.html#6194" class="Function"
+      >useParity</a
+      ><a name="6321"
+      > </a
+      ><a name="6322" class="DottedPattern Symbol"
+      >.(</a
+      ><a name="6324" href="Demo2.html#5707" class="DottedPattern Function"
+      >double</a
+      ><a name="6330"
+      > </a
+      ><a name="6331" href="Demo2.html#6343" class="DottedPattern Bound"
+      >k</a
+      ><a name="6332" class="DottedPattern Symbol"
+      >)</a
+      ><a name="6333"
+      > </a
+      ><a name="6334" class="Symbol"
+      >|</a
+      ><a name="6335"
+      > </a
+      ><a name="6336" href="Demo2.html#5879" class="InductiveConstructor"
+      >IsEven</a
+      ><a name="6342"
+      > </a
+      ><a name="6343" href="Demo2.html#6343" class="Bound"
+      >k</a
+      ><a name="6344"
+      > </a
+      ><a name="6345" class="Symbol"
+      >=</a
+      ><a name="6346"
+      > </a
+      ><a name="6347" class="Symbol"
+      >{!!}</a
+      ><a name="6351"
+      >
+
+</a
+      ><a name="6353" href="Demo2.html#6353" class="Function"
+      >snoc</a
+      ><a name="6357"
+      > </a
+      ><a name="6358" class="Symbol"
+      >:</a
+      ><a name="6359"
+      > </a
+      ><a name="6360" class="Symbol"
+      >{</a
+      ><a name="6361" href="Demo2.html#6361" class="Bound"
+      >a</a
+      ><a name="6362"
+      > </a
+      ><a name="6363" class="Symbol"
+      >:</a
+      ><a name="6364"
+      > </a
+      ><a name="6365" class="PrimitiveType"
+      >Set</a
+      ><a name="6368" class="Symbol"
+      >}</a
+      ><a name="6369"
+      > </a
+      ><a name="6370" class="Symbol"
+      >-&gt;</a
+      ><a name="6372"
+      > </a
+      ><a name="6373" class="Symbol"
+      >(</a
+      ><a name="6374" href="Demo2.html#6374" class="Bound"
+      >x</a
+      ><a name="6375"
+      > </a
+      ><a name="6376" class="Symbol"
+      >:</a
+      ><a name="6377"
+      > </a
+      ><a name="6378" href="Demo2.html#6361" class="Bound"
+      >a</a
+      ><a name="6379" class="Symbol"
+      >)</a
+      ><a name="6380"
+      > </a
+      ><a name="6381" class="Symbol"
+      >-&gt;</a
+      ><a name="6383"
+      > </a
+      ><a name="6384" class="Symbol"
+      >(</a
+      ><a name="6385" href="Demo2.html#6385" class="Bound"
+      >xs</a
+      ><a name="6387"
+      > </a
+      ><a name="6388" class="Symbol"
+      >:</a
+      ><a name="6389"
+      > </a
+      ><a name="6390" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="6394"
+      > </a
+      ><a name="6395" href="Demo2.html#6361" class="Bound"
+      >a</a
+      ><a name="6396" class="Symbol"
+      >)</a
+      ><a name="6397"
+      > </a
+      ><a name="6398" class="Symbol"
+      >-&gt;</a
+      ><a name="6400"
+      > </a
+      ><a name="6401" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="6405"
+      > </a
+      ><a name="6406" href="Demo2.html#6361" class="Bound"
+      >a</a
+      ><a name="6407"
+      >
+</a
+      ><a name="6408" href="Demo2.html#6353" class="Function"
+      >snoc</a
+      ><a name="6412"
+      > </a
+      ><a name="6413" href="Demo2.html#6413" class="Bound"
+      >x</a
+      ><a name="6414"
+      > </a
+      ><a name="6415" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="6418"
+      > </a
+      ><a name="6419" class="Symbol"
+      >=</a
+      ><a name="6420"
+      > </a
+      ><a name="6421" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="6425"
+      > </a
+      ><a name="6426" href="Demo2.html#6413" class="Bound"
+      >x</a
+      ><a name="6427"
+      > </a
+      ><a name="6428" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="6431"
+      >
+</a
+      ><a name="6432" href="Demo2.html#6353" class="Function"
+      >snoc</a
+      ><a name="6436"
+      > </a
+      ><a name="6437" href="Demo2.html#6437" class="Bound"
+      >x</a
+      ><a name="6438"
+      > </a
+      ><a name="6439" class="Symbol"
+      >(</a
+      ><a name="6440" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="6444"
+      > </a
+      ><a name="6445" href="Demo2.html#6445" class="Bound"
+      >x&#8321;</a
+      ><a name="6447"
+      > </a
+      ><a name="6448" href="Demo2.html#6448" class="Bound"
+      >xs</a
+      ><a name="6450" class="Symbol"
+      >)</a
+      ><a name="6451"
+      > </a
+      ><a name="6452" class="Symbol"
+      >=</a
+      ><a name="6453"
+      > </a
+      ><a name="6454" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="6458"
+      > </a
+      ><a name="6459" href="Demo2.html#6445" class="Bound"
+      >x&#8321;</a
+      ><a name="6461"
+      > </a
+      ><a name="6462" class="Symbol"
+      >(</a
+      ><a name="6463" href="Demo2.html#6353" class="Function"
+      >snoc</a
+      ><a name="6467"
+      > </a
+      ><a name="6468" href="Demo2.html#6437" class="Bound"
+      >x</a
+      ><a name="6469"
+      > </a
+      ><a name="6470" href="Demo2.html#6448" class="Bound"
+      >xs</a
+      ><a name="6472" class="Symbol"
+      >)</a
+      ><a name="6473"
+      >
+
+</a
+      ><a name="6475" class="Keyword"
+      >data</a
+      ><a name="6479"
+      > </a
+      ><a name="6480" href="Demo2.html#6480" class="Datatype"
+      >SnocView</a
+      ><a name="6488"
+      > </a
+      ><a name="6489" class="Symbol"
+      >{</a
+      ><a name="6490" href="Demo2.html#6490" class="Bound"
+      >a</a
+      ><a name="6491"
+      > </a
+      ><a name="6492" class="Symbol"
+      >:</a
+      ><a name="6493"
+      > </a
+      ><a name="6494" class="PrimitiveType"
+      >Set</a
+      ><a name="6497" class="Symbol"
+      >}</a
+      ><a name="6498"
+      > </a
+      ><a name="6499" class="Symbol"
+      >:</a
+      ><a name="6500"
+      > </a
+      ><a name="6501" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="6505"
+      > </a
+      ><a name="6506" href="Demo2.html#6490" class="Bound"
+      >a</a
+      ><a name="6507"
+      > </a
+      ><a name="6508" class="Symbol"
+      >-&gt;</a
+      ><a name="6510"
+      > </a
+      ><a name="6511" class="PrimitiveType"
+      >Set</a
+      ><a name="6514"
+      > </a
+      ><a name="6515" class="Keyword"
+      >where</a
+      ><a name="6520"
+      >
+  </a
+      ><a name="6523" href="Demo2.html#6523" class="InductiveConstructor"
+      >Nil</a
+      ><a name="6526"
+      > </a
+      ><a name="6527" class="Symbol"
+      >:</a
+      ><a name="6528"
+      > </a
+      ><a name="6529" href="Demo2.html#6480" class="Datatype"
+      >SnocView</a
+      ><a name="6537"
+      > </a
+      ><a name="6538" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="6541"
+      >
+  </a
+      ><a name="6544" href="Demo2.html#6544" class="InductiveConstructor"
+      >Snoc</a
+      ><a name="6548"
+      > </a
+      ><a name="6549" class="Symbol"
+      >:</a
+      ><a name="6550"
+      > </a
+      ><a name="6551" class="Symbol"
+      >(</a
+      ><a name="6552" href="Demo2.html#6552" class="Bound"
+      >x</a
+      ><a name="6553"
+      > </a
+      ><a name="6554" class="Symbol"
+      >:</a
+      ><a name="6555"
+      > </a
+      ><a name="6556" href="Demo2.html#6490" class="Bound"
+      >a</a
+      ><a name="6557" class="Symbol"
+      >)</a
+      ><a name="6558"
+      > </a
+      ><a name="6559" class="Symbol"
+      >-&gt;</a
+      ><a name="6561"
+      > </a
+      ><a name="6562" class="Symbol"
+      >(</a
+      ><a name="6563" href="Demo2.html#6563" class="Bound"
+      >xs</a
+      ><a name="6565"
+      > </a
+      ><a name="6566" class="Symbol"
+      >:</a
+      ><a name="6567"
+      > </a
+      ><a name="6568" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="6572"
+      > </a
+      ><a name="6573" href="Demo2.html#6490" class="Bound"
+      >a</a
+      ><a name="6574" class="Symbol"
+      >)</a
+      ><a name="6575"
+      > </a
+      ><a name="6576" class="Symbol"
+      >-&gt;</a
+      ><a name="6578"
+      > </a
+      ><a name="6579" href="Demo2.html#6480" class="Datatype"
+      >SnocView</a
+      ><a name="6587"
+      > </a
+      ><a name="6588" class="Symbol"
+      >(</a
+      ><a name="6589" href="Demo2.html#6353" class="Function"
+      >snoc</a
+      ><a name="6593"
+      > </a
+      ><a name="6594" href="Demo2.html#6552" class="Bound"
+      >x</a
+      ><a name="6595"
+      > </a
+      ><a name="6596" href="Demo2.html#6563" class="Bound"
+      >xs</a
+      ><a name="6598" class="Symbol"
+      >)</a
+      ><a name="6599"
+      >
+
+</a
+      ><a name="6601" href="Demo2.html#6601" class="Function"
+      >snocview?</a
+      ><a name="6610"
+      > </a
+      ><a name="6611" class="Symbol"
+      >:</a
+      ><a name="6612"
+      > </a
+      ><a name="6613" class="Symbol"
+      >{</a
+      ><a name="6614" href="Demo2.html#6614" class="Bound"
+      >a</a
+      ><a name="6615"
+      > </a
+      ><a name="6616" class="Symbol"
+      >:</a
+      ><a name="6617"
+      > </a
+      ><a name="6618" class="PrimitiveType"
+      >Set</a
+      ><a name="6621" class="Symbol"
+      >}</a
+      ><a name="6622"
+      > </a
+      ><a name="6623" class="Symbol"
+      >-&gt;</a
+      ><a name="6625"
+      > </a
+      ><a name="6626" class="Symbol"
+      >(</a
+      ><a name="6627" href="Demo2.html#6627" class="Bound"
+      >xs</a
+      ><a name="6629"
+      > </a
+      ><a name="6630" class="Symbol"
+      >:</a
+      ><a name="6631"
+      > </a
+      ><a name="6632" href="Demo2.html#593" class="Datatype"
+      >List</a
+      ><a name="6636"
+      > </a
+      ><a name="6637" href="Demo2.html#6614" class="Bound"
+      >a</a
+      ><a name="6638" class="Symbol"
+      >)</a
+      ><a name="6639"
+      > </a
+      ><a name="6640" class="Symbol"
+      >-&gt;</a
+      ><a name="6642"
+      > </a
+      ><a name="6643" href="Demo2.html#6480" class="Datatype"
+      >SnocView</a
+      ><a name="6651"
+      > </a
+      ><a name="6652" href="Demo2.html#6627" class="Bound"
+      >xs</a
+      ><a name="6654"
+      >
+</a
+      ><a name="6655" href="Demo2.html#6601" class="Function"
+      >snocview?</a
+      ><a name="6664"
+      > </a
+      ><a name="6665" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="6668"
+      > </a
+      ><a name="6669" class="Symbol"
+      >=</a
+      ><a name="6670"
+      > </a
+      ><a name="6671" href="Demo2.html#6523" class="InductiveConstructor"
+      >Nil</a
+      ><a name="6674"
+      >
+</a
+      ><a name="6675" href="Demo2.html#6601" class="Function"
+      >snocview?</a
+      ><a name="6684"
+      > </a
+      ><a name="6685" class="Symbol"
+      >(</a
+      ><a name="6686" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="6690"
+      > </a
+      ><a name="6691" href="Demo2.html#6691" class="Bound"
+      >x</a
+      ><a name="6692"
+      > </a
+      ><a name="6693" href="Demo2.html#6693" class="Bound"
+      >xs</a
+      ><a name="6695" class="Symbol"
+      >)</a
+      ><a name="6696"
+      > </a
+      ><a name="6697" class="Keyword"
+      >with</a
+      ><a name="6701"
+      > </a
+      ><a name="6702" href="Demo2.html#6601" class="Function"
+      >snocview?</a
+      ><a name="6711"
+      > </a
+      ><a name="6712" href="Demo2.html#6693" class="Bound"
+      >xs</a
+      ><a name="6714"
+      >
+</a
+      ><a name="6715" href="Demo2.html#6601" class="Function"
+      >snocview?</a
+      ><a name="6724"
+      > </a
+      ><a name="6725" class="Symbol"
+      >(</a
+      ><a name="6726" class="InductiveConstructor"
+      >Cons</a
+      ><a name="6730"
+      > </a
+      ><a name="6731" href="Demo2.html#6731" class="Bound"
+      >x</a
+      ><a name="6732"
+      > </a
+      ><a name="6733" class="DottedPattern Symbol"
+      >.</a
+      ><a name="6734" href="Demo2.html#622" class="DottedPattern InductiveConstructor"
+      >Nil</a
+      ><a name="6737" class="Symbol"
+      >)</a
+      ><a name="6738"
+      > </a
+      ><a name="6739" class="Symbol"
+      >|</a
+      ><a name="6740"
+      > </a
+      ><a name="6741" href="Demo2.html#6523" class="InductiveConstructor"
+      >Nil</a
+      ><a name="6744"
+      > </a
+      ><a name="6745" class="Symbol"
+      >=</a
+      ><a name="6746"
+      > </a
+      ><a name="6747" href="Demo2.html#6544" class="InductiveConstructor"
+      >Snoc</a
+      ><a name="6751"
+      > </a
+      ><a name="6752" href="Demo2.html#6731" class="Bound"
+      >x</a
+      ><a name="6753"
+      > </a
+      ><a name="6754" href="Demo2.html#622" class="InductiveConstructor"
+      >Nil</a
+      ><a name="6757"
+      >
+</a
+      ><a name="6758" href="Demo2.html#6601" class="Function"
+      >snocview?</a
+      ><a name="6767"
+      > </a
+      ><a name="6768" class="Symbol"
+      >(</a
+      ><a name="6769" class="InductiveConstructor"
+      >Cons</a
+      ><a name="6773"
+      > </a
+      ><a name="6774" href="Demo2.html#6774" class="Bound"
+      >x&#8321;</a
+      ><a name="6776"
+      > </a
+      ><a name="6777" class="DottedPattern Symbol"
+      >.(</a
+      ><a name="6779" href="Demo2.html#6353" class="DottedPattern Function"
+      >snoc</a
+      ><a name="6783"
+      > </a
+      ><a name="6784" href="Demo2.html#6798" class="DottedPattern Bound"
+      >x</a
+      ><a name="6785"
+      > </a
+      ><a name="6786" href="Demo2.html#6800" class="DottedPattern Bound"
+      >xs</a
+      ><a name="6788" class="DottedPattern Symbol"
+      >)</a
+      ><a name="6789" class="Symbol"
+      >)</a
+      ><a name="6790"
+      > </a
+      ><a name="6791" class="Symbol"
+      >|</a
+      ><a name="6792"
+      > </a
+      ><a name="6793" href="Demo2.html#6544" class="InductiveConstructor"
+      >Snoc</a
+      ><a name="6797"
+      > </a
+      ><a name="6798" href="Demo2.html#6798" class="Bound"
+      >x</a
+      ><a name="6799"
+      > </a
+      ><a name="6800" href="Demo2.html#6800" class="Bound"
+      >xs</a
+      ><a name="6802"
+      > </a
+      ><a name="6803" class="Symbol"
+      >=</a
+      ><a name="6804"
+      > </a
+      ><a name="6805" href="Demo2.html#6544" class="InductiveConstructor"
+      >Snoc</a
+      ><a name="6809"
+      > </a
+      ><a name="6810" href="Demo2.html#6798" class="Bound"
+      >x</a
+      ><a name="6811"
+      > </a
+      ><a name="6812" class="Symbol"
+      >(</a
+      ><a name="6813" href="Demo2.html#637" class="InductiveConstructor"
+      >Cons</a
+      ><a name="6817"
+      > </a
+      ><a name="6818" href="Demo2.html#6774" class="Bound"
+      >x&#8321;</a
+      ><a name="6820"
+      > </a
+      ><a name="6821" href="Demo2.html#6800" class="Bound"
+      >xs</a
+      ><a name="6823" class="Symbol"
+      >)</a
+      ><a name="6824"
+      >
+</a
+      ></pre
+    ></body
+  ></html
+>
