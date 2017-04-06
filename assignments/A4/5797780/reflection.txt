@@ -1,0 +1,28 @@
+2.10:   Missing.
+
+        Score: 0/10.
+
+2.2.4:  Fully implemented, also with a few tests, but not very thorough.
+        Incorrect in some cases according to feedback.
+
+        Score: 12/15.
+
+2.11.2: Generic read implemented with extensive test suite, although no sensible
+        class names. These are irrelevant for the shape of the data.
+
+        Score: 25/25.
+
+2.2.6:  Implemented, but merge still runs indefinitely. According to the
+        feedback it is possible to have an associative merge, but their proposed
+        merge is not symmetric -- it delays the right hand side. Implemented
+        functions are tested properly.
+
+        Score: 20/25.
+
+2.6.1:  Index contract implemented with test suite that also tests failure.
+        Preserves works correctly according to tests. Good example of allPos vs
+        allPos' is given.
+
+        Score: 25/25.
+
+Final:  82/100.

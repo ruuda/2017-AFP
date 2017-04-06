@@ -1,0 +1,46 @@
+2.10:   Running total implemented properly. Anything: defining this function in
+        terms of undefined is cheating a bit, this is wrapping an already
+        dangerous function with more dangerous functions used in a safe-ish way,
+        but it is still undefined which is pulling the value out of thin air, at
+        compile time. Same holds for cast, pulling an IORef out of thin air
+        does not even attempt to cast something at the same memory location. But
+        then again the exercise is vague in what it expects.
+
+        Score: 8/10.
+
+2.2.4:  All functions implemented, scarily similar to mine, so they should be
+        correct =D
+
+        Score: 15/15.
+
+2.11.2: File compiles, but fails to load in GHCi. How can I validate that it
+        works? Read reads from a Syntax instead of a String. This simplifies
+        things in a sense, but now you still need a parser to build up the
+        Syntax tokens, which arguably is part of the assignment. The read
+        instance of :+: works by attempting to read both sides, and then picking
+        the one which succeeds. But this isn't right: what if I have a P :+: P?
+        Then it is impossible to tell which side was written. Instead, some kind
+        of tag must be prepended to distinguish between the sides.
+
+        Score: 10/25.
+
+2.2.6:  Fully implemented. Can be verified with GHCi. Merge is not symmetric,
+        but that was apparently the point. Examples return the expected values.
+
+        Score: 25/25.
+
+2.6.1:  The assertSafeListIndex contract does not capture that negative indices
+        are illegal. Preserves examples from assignment are not implemented, but
+        they were easily checked in GHCi, and they work as expected. Good
+        example of allPos vs allPos' is given, including a very elaborate
+        discussion in the document.
+
+        Score: 20/25.
+
+Final:  78/100.
+
+General feedback:
+
+    No Cabal file, no stack.yaml. Would be nice to be able to compile in one
+    command. Fortunately the files compile without having to pull in external
+    dependencies, so just running plain GHC works.
