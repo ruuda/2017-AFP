@@ -1,0 +1,25 @@
+2.2.1: Tail recursive function works, with tests.
+
+       Score: 16.5/16.5.
+
+2.2.3: Foldr as fixed point, with test.
+
+       Score: 16.5/16.5.
+
+2.4.1: Definition crashes the compiler, so it must be correct =D
+
+       Score: 16.5/16.5.
+
+2.4.2: Matrices defined, and they compile.
+
+       Score: 16.5/16.5.
+
+2.4.3: Eq and Functor instances defined.
+
+       Score: 16.5/16.5.
+
+2.5.3: Evidence translation implementation that compiles.
+
+       Score: 16.5/16.5.
+
+Final: 1 + (6 * 16.5) = 100/100.

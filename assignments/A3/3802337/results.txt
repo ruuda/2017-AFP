@@ -1,0 +1,30 @@
+2.2.1: Function is tail recursive, with tests.
+
+       Score: 16.5/16.5.
+
+2.2.3: Foldr as fixed point, nicely documented, with tests.
+
+       Score: 16.5/16.5.
+
+2.4.1: Definition crashes the compiler, so it must be correct =D
+
+       Score: 16.5/16.5.
+
+2.4.2: Matrices defined, and they compile.
+
+       Score: 16.5/16.5.
+
+2.4.3: Eq instance defined, but Functor instance is missing.
+
+       Score: 8.25/16.5.
+
+2.5.3: Not implemented apart from a copy of the assignment.
+
+       Score: 0.0/16.5.
+
+Final: 1 + 4 * 16.5 + 8.25 = 75.25/100.
+
+General remarks:
+
+    Builds with Stack and tests are included.
+    Works out of the box, nice!
